@@ -1,15 +1,75 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-	html {white-space: pre;}
-</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 </head>
 
 <body>
-<session id="demo"></session>
+	<session></session>
+
 	<script>
-		var requestURL = 'data.json';
+		$.getJSON( "data.json", function(record){
+			$.each(record.meeting, function(key, meeting){
+				$.each(meeting.vote, function(key, vote){
+
+					var articleClass = vote.votedate.split("/")[2]+vote.votedate.split("/")[1]+vote.votedate.split("/")[0]+vote.votetime.split(":")[0]+vote.votetime.split(":")[1]+vote.votetime.split(":")[2];
+
+					$("session").append("<article class='" + articleClass + "'>");
+					$("." + articleClass).append("<h1>" + vote.motionch+ "</h1>" + 
+												 "<p>" + vote.votedate + vote.votetime + vote.votesummary.overall.result + "</p>");
+
+
+					var ListPresent = new Array();
+					var ListYes = new Array();
+					var ListNo = new Array();
+					var ListAbsent = new Array();
+
+					$.each(vote.individualvotes.member, function(key, member){
+						if (member.vote === "Present") {
+							ListPresent.push(member.namech);
+						} else if (member.vote === "Yes") {
+							ListYes.push(member.namech);
+						} else if (member.vote === "No") {
+							ListNo.push(member.namech);
+						} else if (member.vote === "Absent") {
+							ListAbsent.push(member.namech);
+						};
+					});
+
+					$("." + articleClass).append("<h2>Present:</h2><ol class='present'>");
+					$.each(ListPresent, function (index, name){
+						$("." + articleClass +" .present").append("<li id='" + name + "'>" + name + "</li>");
+					});
+
+					$("." + articleClass).append("<h2>Yes:</h2><ol class='yes'>");
+					$.each(ListYes, function (index, name){
+						$("." + articleClass +" .yes").append("<li id='" + name + "'>" + name + "</li>");
+					});
+
+					$("." + articleClass).append("<h2>No:</h2><ol class='no'>");
+					$.each(ListNo, function (index, name){
+						$("." + articleClass +" .no").append("<li id='" + name + "'>" + name + "</li>");
+					});
+
+					$("." + articleClass).append("<h2>Absent:</h2><ol class='absent'>");
+					$.each(ListAbsent, function (index, name){
+						$("." + articleClass +" .absent").append("<li id='" + name + "'>" + name + "</li>");
+					});
+				});
+				$("#程介南, #蔡素玉, #馬力, #曾鈺成, #鍾樹根, #張國鈞, #曾鈺成, #李慧琼, #蔣麗芸, #鄭泳舜, #陳婉嫻, #陳鑑林, #黃國健, #柯創盛, #譚耀宗, #張學明, #王國興, #梁志祥, #陳恒鑌, #劉江華, #李國英, #陳克勤, #葛珮帆, #黃容根, #何俊賢, #陳榮燦, #陳國強, #王國興, #潘佩璆, #黃定光, #葉國謙, #劉國勳, #李慧琼, #周浩鼎,  #楊耀忠,  #陳鑑林,  #蔡素玉").css({"color": "Blue"});
+				$("#梁美芬, #劉皇發, #劉業強, #盧偉國, #石禮謙, #林健鋒, #梁君彥, #張華峰, #吳永嘉").css({"color": "Aqua"});
+
+			});
+		});
+
+
+
+
+
+
+
+		/*var requestURL = 'data.json';
 		var request = new XMLHttpRequest();
 		request.open('GET', requestURL);
 		request.responseType = 'text';
@@ -18,7 +78,6 @@
 		request.onload = function() {
 			var Text = request.response;
 			var data = JSON.parse(Text);
-			//document.getElementById("demo").innerHTML = data.meeting[0].vote[0].motionch
 			
 			for(var i = 0; i < data.meeting.length; i++) {
 				for(var j = 0; j < data.meeting[i].vote.length; j++) {
@@ -44,15 +103,19 @@
 						if (data.meeting[i].vote[j].individualvotes.member[k].vote === "Present") {
 							myLi.textContent = data.meeting[i].vote[j].individualvotes.member[k].namech;
 							myListPresent.appendChild(myLi);
+
 						} else if (data.meeting[i].vote[j].individualvotes.member[k].vote === "Yes") {
 							myLi.textContent = data.meeting[i].vote[j].individualvotes.member[k].namech;
 							myListYes.appendChild(myLi);
+
 						}else if (data.meeting[i].vote[j].individualvotes.member[k].vote === "No") {
 							myLi.textContent = data.meeting[i].vote[j].individualvotes.member[k].namech;
 							myListNo.appendChild(myLi);
+
 						}else if (data.meeting[i].vote[j].individualvotes.member[k].vote === "Absent") {
 							myLi.textContent = data.meeting[i].vote[j].individualvotes.member[k].namech;
 							myListAbsent.appendChild(myLi);
+							
 						}
 					}
 
@@ -70,8 +133,7 @@
 					document.getElementById("demo").appendChild(myArticle);
 				}
 			}
-		}
-
+		}*/
 	</script>
 </body>
 </html>
