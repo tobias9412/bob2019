@@ -1,0 +1,4944 @@
+{
+	"test": "success",
+	"meeting": [
+		{
+			"type": "Council Meeting",
+			"startdate": "26/06/2019",
+			"vote": [
+				{
+				"number": "1",
+				"votedate": "27/06/2019",
+				"votetime": "20:02:31",
+				"motionch": "根據《議事規則》第16(2)條動議的休會待續議案",
+				"motionen": "ADJOURNMENT MOTION UNDER RULE 16(2) OF THE RULES OF PROCEDURE",
+				"moverch": "張華峰",
+				"moveren": "Christopher CHEUNG",
+				"movertype": "Member",
+				"voteseparatemechanism": "Yes",
+				"votesummary": {
+					"functionalconstituency": {
+						"presentcount": "22",
+						"votecount": "21",
+						"yescount": "0",
+						"nocount": "4",
+						"abstaincount": "17",
+						"result": "Negatived"
+					},
+					"geographicalconstituency": {
+						"presentcount": "24",
+						"votecount": "24",
+						"yescount": "0",
+						"nocount": "13",
+						"abstaincount": "11",
+						"result": "Negatived"
+					},
+					"overall": { "result": "Negatived" }
+				},
+				"individualvotes": {
+					"member": [
+						{
+							"constituency": "Functional",
+							"nameen": "Andrew LEUNG",
+							"namech": "梁君彥",
+							"vote": "Present"
+						},
+						{
+							"constituency": "Functional",
+							"nameen": "James TO",
+							"namech": "涂謹申",
+							"vote": "Absent"
+						},
+						{
+							"constituency": "Functional",
+							"nameen": "LEUNG Yiuchung",
+							"namech": "梁耀忠",
+							"vote": "No"
+						},
+						{
+							"constituency": "Functional",
+							"nameen": "Abraham SHEK",
+							"namech": "石禮謙",
+							"vote": "Absent"
+						},
+						{
+							"constituency": "Functional",
+							"nameen": "Tommy CHEUNG",
+							"namech": "張宇人",
+							"vote": "Absent"
+						},
+						{
+							"constituency": "Functional",
+							"nameen": "Prof Joseph LEE",
+							"namech": "李國麟",
+							"vote": "Absent"
+						},
+						{
+							"constituency": "Functional",
+							"nameen": "Jeffrey LAM",
+							"namech": "林健鋒",
+							"vote": "Abstain"
+						},
+						{
+							"constituency": "Functional",
+							"nameen": "WONG Tingkwong",
+							"namech": "黃定光",
+							"vote": "Abstain"
+						},
+						{
+							"constituency": "Functional",
+							"nameen": "Starry LEE",
+							"namech": "李慧琼",
+							"vote": "Abstain"
+						},
+						{
+							"constituency": "Geographical",
+							"nameen": "CHAN Hakkan",
+							"namech": "陳克勤",
+							"vote": "Abstain"
+						},
+						{
+							"constituency": "Functional",
+							"nameen": "CHAN Kinpor",
+							"namech": "陳健波",
+							"vote": "Absent"
+						},
+						{
+							"constituency": "Geographical",
+							"nameen": "Dr Priscilla LEUNG",
+							"namech": "梁美芬",
+							"vote": "Abstain"
+						},
+						{
+							"constituency": "Geographical",
+							"nameen": "WONG Kwokkin",
+							"namech": "黃國健",
+							"vote": "Absent"
+						},
+						{
+							"constituency": "Geographical",
+							"nameen": "Mrs Regina IP",
+							"namech": "葉劉淑儀",
+							"vote": "Absent"
+						},
+						{
+							"constituency": "Geographical",
+							"nameen": "Paul TSE",
+							"namech": "謝偉俊",
+							"vote": "Absent"
+						},
+						{
+							"constituency": "Geographical",
+							"nameen": "Claudia MO",
+							"namech": "毛孟靜",
+							"vote": "No"
+						},
+						{
+							"constituency": "Geographical",
+							"nameen": "Michael TIEN",
+							"namech": "田北辰",
+							"vote": "Absent"
+						},
+						{
+							"constituency": "Functional",
+							"nameen": "Steven HO",
+							"namech": "何俊賢",
+							"vote": "Abstain"
+						},
+						{
+							"constituency": "Functional",
+							"nameen": "Frankie YICK",
+							"namech": "易志明",
+							"vote": "Absent"
+						},
+						{
+							"constituency": "Geographical",
+							"nameen": "WU Chiwai",
+							"namech": "胡志偉",
+							"vote": "No"
+						},
+						{
+							"constituency": "Functional",
+							"nameen": "YIU Siwing",
+							"namech": "姚思榮",
+							"vote": "Abstain"
+						},
+						{
+							"constituency": "Functional",
+							"nameen": "MA Fungkwok",
+							"namech": "馬逢國",
+							"vote": "Abstain"
+						},
+						{
+							"constituency": "Functional",
+							"nameen": "Charles Peter MOK",
+							"namech": "莫乃光",
+							"vote": "No"
+						},
+						{
+							"constituency": "Geographical",
+							"nameen": "CHAN Chichuen",
+							"namech": "陳志全",
+							"vote": "No"
+						},
+						{
+							"constituency": "Geographical",
+							"nameen": "CHAN Hanpan",
+							"namech": "陳恒鑌",
+							"vote": "Abstain"
+						},
+						{
+							"constituency": "Geographical",
+							"nameen": "LEUNG Checheung",
+							"namech": "梁志祥",
+							"vote": "Abstain"
+						},
+						{
+							"constituency": "Functional",
+							"nameen": "Kenneth LEUNG",
+							"namech": "梁繼昌",
+							"vote": "Absent"
+						},
+						{
+							"constituency": "Geographical",
+							"nameen": "Alice MAK",
+							"namech": "麥美娟",
+							"vote": "Abstain"
+						},
+						{
+							"constituency": "Geographical",
+							"nameen": "Dr KWOK Kaki",
+							"namech": "郭家麒",
+							"vote": "Absent"
+						},
+						{
+							"constituency": "Geographical",
+							"nameen": "KWOK Waikeung",
+							"namech": "郭偉强",
+							"vote": "Abstain"
+						},
+						{
+							"constituency": "Functional",
+							"nameen": "Dennis KWOK",
+							"namech": "郭榮鏗",
+							"vote": "Absent"
+						},
+						{
+							"constituency": "Functional",
+							"nameen": "Christopher CHEUNG",
+							"namech": "張華峰",
+							"vote": "Abstain"
+						},
+						{
+							"constituency": "Geographical",
+							"nameen": "Dr Fernando CHEUNG",
+							"namech": "張超雄",
+							"vote": "No"
+						},
+						{
+							"constituency": "Geographical",
+							"nameen": "Dr Helena WONG",
+							"namech": "黃碧雲",
+							"vote": "No"
+						},
+						{
+							"constituency": "Functional",
+							"nameen": "IP Kinyuen",
+							"namech": "葉建源",
+							"vote": "No"
+						},
+						{
+							"constituency": "Geographical",
+							"nameen": "Dr Elizabeth QUAT",
+							"namech": "葛珮帆",
+							"vote": "Abstain"
+						},
+						{
+							"constituency": "Functional",
+							"nameen": "Martin LIAO",
+							"namech": "廖長江",
+							"vote": "Abstain"
+						},
+						{
+							"constituency": "Functional",
+							"nameen": "POON Siuping",
+							"namech": "潘兆平",
+							"vote": "Abstain"
+						},
+						{
+							"constituency": "Geographical",
+							"nameen": "Dr CHIANG Laiwan",
+							"namech": "蔣麗芸",
+							"vote": "Absent"
+						},
+						{
+							"constituency": "Functional",
+							"nameen": "Ir Dr LO Waikwok",
+							"namech": "盧偉國",
+							"vote": "Abstain"
+						},
+						{
+							"constituency": "Functional",
+							"nameen": "CHUNG Kwokpan",
+							"namech": "鍾國斌",
+							"vote": "Absent"
+						},
+						{
+							"constituency": "Geographical",
+							"nameen": "Alvin YEUNG",
+							"namech": "楊岳橋",
+							"vote": "No"
+						},
+						{
+							"constituency": "Geographical",
+							"nameen": "Andrew WAN",
+							"namech": "尹兆堅",
+							"vote": "No"
+						},
+						{
+							"constituency": "Geographical",
+							"nameen": "CHU Hoidick",
+							"namech": "朱凱廸",
+							"vote": "No"
+						},
+						{
+							"constituency": "Functional",
+							"nameen": "Jimmy NG",
+							"namech": "吳永嘉",
+							"vote": "Abstain"
+						},
+						{
+							"constituency": "Geographical",
+							"nameen": "Dr Junius HO",
+							"namech": "何君堯",
+							"vote": "Absent"
+						},
+						{
+							"constituency": "Functional",
+							"nameen": "HO Kaiming",
+							"namech": "何啟明",
+							"vote": "Absent"
+						},
+						{
+							"constituency": "Geographical",
+							"nameen": "LAM Cheukting",
+							"namech": "林卓廷",
+							"vote": "No"
+						},
+						{
+							"constituency": "Functional",
+							"nameen": "Holden CHOW",
+							"namech": "周浩鼎",
+							"vote": "Abstain"
+						},
+						{
+							"constituency": "Functional",
+							"nameen": "SHIU Kafai",
+							"namech": "邵家輝",
+							"vote": "Abstain"
+						},
+						{
+							"constituency": "Functional",
+							"nameen": "SHIU Kachun",
+							"namech": "邵家臻",
+							"vote": "Absent"
+						},
+						{
+							"constituency": "Geographical",
+							"nameen": "Wilson OR",
+							"namech": "柯創盛",
+							"vote": "Abstain"
+						},
+						{
+							"constituency": "Geographical",
+							"nameen": "YUNG Hoiyan",
+							"namech": "容海恩",
+							"vote": "Absent"
+						},
+						{
+							"constituency": "Functional",
+							"nameen": "Dr Pierre CHAN",
+							"namech": "陳沛然",
+							"vote": "Absent"
+						},
+						{
+							"constituency": "Functional",
+							"nameen": "CHAN Chunying",
+							"namech": "陳振英",
+							"vote": "Abstain"
+						},
+						{
+							"constituency": "Geographical",
+							"nameen": "Tanya CHAN",
+							"namech": "陳淑莊",
+							"vote": "Absent"
+						},
+						{
+							"constituency": "Geographical",
+							"nameen": "CHEUNG Kwokkwan",
+							"namech": "張國鈞",
+							"vote": "Abstain"
+						},
+						{
+							"constituency": "Geographical",
+							"nameen": "HUI Chifung",
+							"namech": "許智峯",
+							"vote": "Absent"
+						},
+						{
+							"constituency": "Functional",
+							"nameen": "LUK Chunghung",
+							"namech": "陸頌雄",
+							"vote": "Absent"
+						},
+						{
+							"constituency": "Functional",
+							"nameen": "LAU Kwokfan",
+							"namech": "劉國勳",
+							"vote": "Abstain"
+						},
+						{
+							"constituency": "Functional",
+							"nameen": "Kenneth LAU",
+							"namech": "劉業強",
+							"vote": "Abstain"
+						},
+						{
+							"constituency": "Geographical",
+							"nameen": "Dr CHENG Chungtai",
+							"namech": "鄭松泰",
+							"vote": "No"
+						},
+						{
+							"constituency": "Functional",
+							"nameen": "KWONG Chunyu",
+							"namech": "鄺俊宇",
+							"vote": "No"
+						},
+						{
+							"constituency": "Geographical",
+							"nameen": "Jeremy TAM",
+							"namech": "譚文豪",
+							"vote": "No"
+						},
+						{
+							"constituency": "Geographical",
+							"nameen": "Gary FAN",
+							"namech": "范國威",
+							"vote": "No"
+						},
+						{
+							"constituency": "Geographical",
+							"nameen": "AU Nokhin",
+							"namech": "區諾軒",
+							"vote": "No"
+						},
+						{
+							"constituency": "Geographical",
+							"nameen": "Vincent CHENG",
+							"namech": "鄭泳舜",
+							"vote": "Abstain"
+						},
+						{
+							"constituency": "Functional",
+							"nameen": "Tony TSE",
+							"namech": "謝偉銓",
+							"vote": "Abstain"
+						},
+						{
+							"constituency": "Geographical",
+							"nameen": "CHAN Hoiyan",
+							"namech": "陳凱欣",
+							"vote": "Abstain"
+						}
+					]
+}
+}]
+},
+{
+	"type": "Council Meeting",
+	"startdate": "05/06/2019",
+	  "vote": [
+        {
+          "number": "1",
+          "votedate": "05/06/2019",
+          "votetime": "19:15:55",
+          "motionch": "何啟明議員對謝偉銓議員的「改善公務員待遇，提升施政效率及推動創意與創新」議案作出的修正案",
+          "motionen": "AMENDMENT BY HON HO KAIMING TO HON TONY TSE'S MOTION ON “IMPROVING THE EMPLOYMENT TERMS OF CIVIL SERVANTS, ENHANCING THE EFFICIENCY OF POLICY IMPLEMENTATION AND PROMOTING CREATIVITY AND INNOVATION”",
+          "moverch": "何啟明",
+          "moveren": "HO Kaiming",
+          "movertype": "Member",
+          "voteseparatemechanism": "Yes",
+          "votesummary": {
+            "functionalconstituency": {
+              "presentcount": "28",
+              "votecount": "27",
+              "yescount": "18",
+              "nocount": "0",
+              "abstaincount": "9",
+              "result": "Passed"
+            },
+            "geographicalconstituency": {
+              "presentcount": "28",
+              "votecount": "28",
+              "yescount": "28",
+              "nocount": "0",
+              "abstaincount": "0",
+              "result": "Passed"
+            },
+            "overall": { "result": "Passed" }
+          },
+          "individualvotes": {
+            "member": [
+              {
+                "namech": "梁君彥",
+                "nameen": "Andrew LEUNG",
+                "constituency": "Functional",
+                "vote": "Present"
+              },
+              {
+                "namech": "涂謹申",
+                "nameen": "James TO",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "梁耀忠",
+                "nameen": "LEUNG Yiuchung",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "石禮謙",
+                "nameen": "Abraham SHEK",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "張宇人",
+                "nameen": "Tommy CHEUNG",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "李國麟",
+                "nameen": "Prof Joseph LEE",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "林健鋒",
+                "nameen": "Jeffrey LAM",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "黃定光",
+                "nameen": "WONG Tingkwong",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "李慧琼",
+                "nameen": "Starry LEE",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "陳克勤",
+                "nameen": "CHAN Hakkan",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "陳健波",
+                "nameen": "CHAN Kinpor",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "梁美芬",
+                "nameen": "Dr Priscilla LEUNG",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "黃國健",
+                "nameen": "WONG Kwokkin",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "葉劉淑儀",
+                "nameen": "Mrs Regina IP",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "謝偉俊",
+                "nameen": "Paul TSE",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "毛孟靜",
+                "nameen": "Claudia MO",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "田北辰",
+                "nameen": "Michael TIEN",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "何俊賢",
+                "nameen": "Steven HO",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "易志明",
+                "nameen": "Frankie YICK",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "胡志偉",
+                "nameen": "WU Chiwai",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "姚思榮",
+                "nameen": "YIU Siwing",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "馬逢國",
+                "nameen": "MA Fungkwok",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "莫乃光",
+                "nameen": "Charles Peter MOK",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "陳志全",
+                "nameen": "CHAN Chichuen",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "陳恒鑌",
+                "nameen": "CHAN Hanpan",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "梁志祥",
+                "nameen": "LEUNG Checheung",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "梁繼昌",
+                "nameen": "Kenneth LEUNG",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "麥美娟",
+                "nameen": "Alice MAK",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "郭家麒",
+                "nameen": "Dr KWOK Kaki",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "郭偉强",
+                "nameen": "KWOK Waikeung",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "郭榮鏗",
+                "nameen": "Dennis KWOK",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "張華峰",
+                "nameen": "Christopher CHEUNG",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "張超雄",
+                "nameen": "Dr Fernando CHEUNG",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "黃碧雲",
+                "nameen": "Dr Helena WONG",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "葉建源",
+                "nameen": "IP Kinyuen",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "葛珮帆",
+                "nameen": "Dr Elizabeth QUAT",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "廖長江",
+                "nameen": "Martin LIAO",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "潘兆平",
+                "nameen": "POON Siuping",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "蔣麗芸",
+                "nameen": "Dr CHIANG Laiwan",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "盧偉國",
+                "nameen": "Ir Dr LO Waikwok",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "鍾國斌",
+                "nameen": "CHUNG Kwokpan",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "楊岳橋",
+                "nameen": "Alvin YEUNG",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "尹兆堅",
+                "nameen": "Andrew WAN",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "朱凱廸",
+                "nameen": "CHU Hoidick",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "吳永嘉",
+                "nameen": "Jimmy NG",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "何君堯",
+                "nameen": "Dr Junius HO",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "何啟明",
+                "nameen": "HO Kaiming",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "林卓廷",
+                "nameen": "LAM Cheukting",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "周浩鼎",
+                "nameen": "Holden CHOW",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "邵家輝",
+                "nameen": "SHIU Kafai",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "邵家臻",
+                "nameen": "SHIU Kachun",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "柯創盛",
+                "nameen": "Wilson OR",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "容海恩",
+                "nameen": "YUNG Hoiyan",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "陳沛然",
+                "nameen": "Dr Pierre CHAN",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "陳振英",
+                "nameen": "CHAN Chunying",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "陳淑莊",
+                "nameen": "Tanya CHAN",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "張國鈞",
+                "nameen": "CHEUNG Kwokkwan",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "許智峯",
+                "nameen": "HUI Chifung",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "陸頌雄",
+                "nameen": "LUK Chunghung",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "劉國勳",
+                "nameen": "LAU Kwokfan",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "劉業強",
+                "nameen": "Kenneth LAU",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "鄭松泰",
+                "nameen": "Dr CHENG Chungtai",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "鄺俊宇",
+                "nameen": "KWONG Chunyu",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "譚文豪",
+                "nameen": "Jeremy TAM",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "范國威",
+                "nameen": "Gary FAN",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "區諾軒",
+                "nameen": "AU Nokhin",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "鄭泳舜",
+                "nameen": "Vincent CHENG",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "謝偉銓",
+                "nameen": "Tony TSE",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "陳凱欣",
+                "nameen": "CHAN Hoiyan",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              }
+            ]
+          }
+        },
+        {
+          "number": "2",
+          "votedate": "05/06/2019",
+          "votetime": "19:18:52",
+          "motionch": "譚文豪議員對謝偉銓議員就「改善公務員待遇，提升施政效率及推動創意與創新」所提，經何啟明議員及莫乃光議員修正的議案，作出的修正案",
+          "motionen": "AMENDMENT BY HON JEREMY TAM TO HON TONY TSE'S MOTION ON “IMPROVING THE EMPLOYMENT TERMS OF CIVIL SERVANTS, ENHANCING THE EFFICIENCY OF POLICY IMPLEMENTATION AND PROMOTING CREATIVITY AND INNOVATION” AS AMENDED BY HON HO KAIMING AND HON CHARLES PETER MOK",
+          "moverch": "譚文豪",
+          "moveren": "Jeremy TAM",
+          "movertype": "Member",
+          "voteseparatemechanism": "Yes",
+          "votesummary": {
+            "functionalconstituency": {
+              "presentcount": "28",
+              "votecount": "27",
+              "yescount": "6",
+              "nocount": "20",
+              "abstaincount": "1",
+              "result": "Negatived"
+            },
+            "geographicalconstituency": {
+              "presentcount": "28",
+              "votecount": "28",
+              "yescount": "9",
+              "nocount": "15",
+              "abstaincount": "4",
+              "result": "Negatived"
+            },
+            "overall": { "result": "Negatived" }
+          },
+          "individualvotes": {
+            "member": [
+              {
+                "namech": "梁君彥",
+                "nameen": "Andrew LEUNG",
+                "constituency": "Functional",
+                "vote": "Present"
+              },
+              {
+                "namech": "涂謹申",
+                "nameen": "James TO",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "梁耀忠",
+                "nameen": "LEUNG Yiuchung",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "石禮謙",
+                "nameen": "Abraham SHEK",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "張宇人",
+                "nameen": "Tommy CHEUNG",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "李國麟",
+                "nameen": "Prof Joseph LEE",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "林健鋒",
+                "nameen": "Jeffrey LAM",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "黃定光",
+                "nameen": "WONG Tingkwong",
+                "constituency": "Functional",
+                "vote": "No"
+              },
+              {
+                "namech": "李慧琼",
+                "nameen": "Starry LEE",
+                "constituency": "Functional",
+                "vote": "No"
+              },
+              {
+                "namech": "陳克勤",
+                "nameen": "CHAN Hakkan",
+                "constituency": "Geographical",
+                "vote": "No"
+              },
+              {
+                "namech": "陳健波",
+                "nameen": "CHAN Kinpor",
+                "constituency": "Functional",
+                "vote": "No"
+              },
+              {
+                "namech": "梁美芬",
+                "nameen": "Dr Priscilla LEUNG",
+                "constituency": "Geographical",
+                "vote": "No"
+              },
+              {
+                "namech": "黃國健",
+                "nameen": "WONG Kwokkin",
+                "constituency": "Geographical",
+                "vote": "No"
+              },
+              {
+                "namech": "葉劉淑儀",
+                "nameen": "Mrs Regina IP",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "謝偉俊",
+                "nameen": "Paul TSE",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "毛孟靜",
+                "nameen": "Claudia MO",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "田北辰",
+                "nameen": "Michael TIEN",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "何俊賢",
+                "nameen": "Steven HO",
+                "constituency": "Functional",
+                "vote": "No"
+              },
+              {
+                "namech": "易志明",
+                "nameen": "Frankie YICK",
+                "constituency": "Functional",
+                "vote": "No"
+              },
+              {
+                "namech": "胡志偉",
+                "nameen": "WU Chiwai",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "姚思榮",
+                "nameen": "YIU Siwing",
+                "constituency": "Functional",
+                "vote": "No"
+              },
+              {
+                "namech": "馬逢國",
+                "nameen": "MA Fungkwok",
+                "constituency": "Functional",
+                "vote": "No"
+              },
+              {
+                "namech": "莫乃光",
+                "nameen": "Charles Peter MOK",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "陳志全",
+                "nameen": "CHAN Chichuen",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "陳恒鑌",
+                "nameen": "CHAN Hanpan",
+                "constituency": "Geographical",
+                "vote": "No"
+              },
+              {
+                "namech": "梁志祥",
+                "nameen": "LEUNG Checheung",
+                "constituency": "Geographical",
+                "vote": "No"
+              },
+              {
+                "namech": "梁繼昌",
+                "nameen": "Kenneth LEUNG",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "麥美娟",
+                "nameen": "Alice MAK",
+                "constituency": "Geographical",
+                "vote": "No"
+              },
+              {
+                "namech": "郭家麒",
+                "nameen": "Dr KWOK Kaki",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "郭偉强",
+                "nameen": "KWOK Waikeung",
+                "constituency": "Geographical",
+                "vote": "No"
+              },
+              {
+                "namech": "郭榮鏗",
+                "nameen": "Dennis KWOK",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "張華峰",
+                "nameen": "Christopher CHEUNG",
+                "constituency": "Functional",
+                "vote": "No"
+              },
+              {
+                "namech": "張超雄",
+                "nameen": "Dr Fernando CHEUNG",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "黃碧雲",
+                "nameen": "Dr Helena WONG",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "葉建源",
+                "nameen": "IP Kinyuen",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "葛珮帆",
+                "nameen": "Dr Elizabeth QUAT",
+                "constituency": "Geographical",
+                "vote": "No"
+              },
+              {
+                "namech": "廖長江",
+                "nameen": "Martin LIAO",
+                "constituency": "Functional",
+                "vote": "No"
+              },
+              {
+                "namech": "潘兆平",
+                "nameen": "POON Siuping",
+                "constituency": "Functional",
+                "vote": "No"
+              },
+              {
+                "namech": "蔣麗芸",
+                "nameen": "Dr CHIANG Laiwan",
+                "constituency": "Geographical",
+                "vote": "No"
+              },
+              {
+                "namech": "盧偉國",
+                "nameen": "Ir Dr LO Waikwok",
+                "constituency": "Functional",
+                "vote": "No"
+              },
+              {
+                "namech": "鍾國斌",
+                "nameen": "CHUNG Kwokpan",
+                "constituency": "Functional",
+                "vote": "No"
+              },
+              {
+                "namech": "楊岳橋",
+                "nameen": "Alvin YEUNG",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "尹兆堅",
+                "nameen": "Andrew WAN",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "朱凱廸",
+                "nameen": "CHU Hoidick",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "吳永嘉",
+                "nameen": "Jimmy NG",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "何君堯",
+                "nameen": "Dr Junius HO",
+                "constituency": "Geographical",
+                "vote": "No"
+              },
+              {
+                "namech": "何啟明",
+                "nameen": "HO Kaiming",
+                "constituency": "Functional",
+                "vote": "No"
+              },
+              {
+                "namech": "林卓廷",
+                "nameen": "LAM Cheukting",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "周浩鼎",
+                "nameen": "Holden CHOW",
+                "constituency": "Functional",
+                "vote": "No"
+              },
+              {
+                "namech": "邵家輝",
+                "nameen": "SHIU Kafai",
+                "constituency": "Functional",
+                "vote": "No"
+              },
+              {
+                "namech": "邵家臻",
+                "nameen": "SHIU Kachun",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "柯創盛",
+                "nameen": "Wilson OR",
+                "constituency": "Geographical",
+                "vote": "No"
+              },
+              {
+                "namech": "容海恩",
+                "nameen": "YUNG Hoiyan",
+                "constituency": "Geographical",
+                "vote": "No"
+              },
+              {
+                "namech": "陳沛然",
+                "nameen": "Dr Pierre CHAN",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "陳振英",
+                "nameen": "CHAN Chunying",
+                "constituency": "Functional",
+                "vote": "No"
+              },
+              {
+                "namech": "陳淑莊",
+                "nameen": "Tanya CHAN",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "張國鈞",
+                "nameen": "CHEUNG Kwokkwan",
+                "constituency": "Geographical",
+                "vote": "No"
+              },
+              {
+                "namech": "許智峯",
+                "nameen": "HUI Chifung",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "陸頌雄",
+                "nameen": "LUK Chunghung",
+                "constituency": "Functional",
+                "vote": "No"
+              },
+              {
+                "namech": "劉國勳",
+                "nameen": "LAU Kwokfan",
+                "constituency": "Functional",
+                "vote": "No"
+              },
+              {
+                "namech": "劉業強",
+                "nameen": "Kenneth LAU",
+                "constituency": "Functional",
+                "vote": "No"
+              },
+              {
+                "namech": "鄭松泰",
+                "nameen": "Dr CHENG Chungtai",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "鄺俊宇",
+                "nameen": "KWONG Chunyu",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "譚文豪",
+                "nameen": "Jeremy TAM",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "范國威",
+                "nameen": "Gary FAN",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "區諾軒",
+                "nameen": "AU Nokhin",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "鄭泳舜",
+                "nameen": "Vincent CHENG",
+                "constituency": "Geographical",
+                "vote": "No"
+              },
+              {
+                "namech": "謝偉銓",
+                "nameen": "Tony TSE",
+                "constituency": "Functional",
+                "vote": "No"
+              },
+              {
+                "namech": "陳凱欣",
+                "nameen": "CHAN Hoiyan",
+                "constituency": "Geographical",
+                "vote": "No"
+              }
+            ]
+          }
+        },
+        {
+          "number": "3",
+          "votedate": "05/06/2019",
+          "votetime": "19:20:40",
+          "motionch": "周浩鼎議員對謝偉銓議員就「改善公務員待遇，提升施政效率及推動創意與創新」所提，經何啟明議員及莫乃光議員修正的議案，作出的修正案",
+          "motionen": "AMENDMENT BY HON HOLDEN CHOW TO HON TONY TSE'S MOTION ON “IMPROVING THE EMPLOYMENT TERMS OF CIVIL SERVANTS, ENHANCING THE EFFICIENCY OF POLICY IMPLEMENTATION AND PROMOTING CREATIVITY AND INNOVATION” AS AMENDED BY HON HO KAIMING AND HON CHARLES PETER MOK",
+          "moverch": "周浩鼎",
+          "moveren": "Holden CHOW",
+          "movertype": "Member",
+          "voteseparatemechanism": "Yes",
+          "votesummary": {
+            "functionalconstituency": {
+              "presentcount": "28",
+              "votecount": "27",
+              "yescount": "12",
+              "nocount": "7",
+              "abstaincount": "8",
+              "result": "Negatived"
+            },
+            "geographicalconstituency": {
+              "presentcount": "28",
+              "votecount": "28",
+              "yescount": "15",
+              "nocount": "13",
+              "abstaincount": "0",
+              "result": "Passed"
+            },
+            "overall": { "result": "Negatived" }
+          },
+          "individualvotes": {
+            "member": [
+              {
+                "namech": "梁君彥",
+                "nameen": "Andrew LEUNG",
+                "constituency": "Functional",
+                "vote": "Present"
+              },
+              {
+                "namech": "涂謹申",
+                "nameen": "James TO",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "梁耀忠",
+                "nameen": "LEUNG Yiuchung",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "石禮謙",
+                "nameen": "Abraham SHEK",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "張宇人",
+                "nameen": "Tommy CHEUNG",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "李國麟",
+                "nameen": "Prof Joseph LEE",
+                "constituency": "Functional",
+                "vote": "No"
+              },
+              {
+                "namech": "林健鋒",
+                "nameen": "Jeffrey LAM",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "黃定光",
+                "nameen": "WONG Tingkwong",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "李慧琼",
+                "nameen": "Starry LEE",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "陳克勤",
+                "nameen": "CHAN Hakkan",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "陳健波",
+                "nameen": "CHAN Kinpor",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "梁美芬",
+                "nameen": "Dr Priscilla LEUNG",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "黃國健",
+                "nameen": "WONG Kwokkin",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "葉劉淑儀",
+                "nameen": "Mrs Regina IP",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "謝偉俊",
+                "nameen": "Paul TSE",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "毛孟靜",
+                "nameen": "Claudia MO",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "田北辰",
+                "nameen": "Michael TIEN",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "何俊賢",
+                "nameen": "Steven HO",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "易志明",
+                "nameen": "Frankie YICK",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "胡志偉",
+                "nameen": "WU Chiwai",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "姚思榮",
+                "nameen": "YIU Siwing",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "馬逢國",
+                "nameen": "MA Fungkwok",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "莫乃光",
+                "nameen": "Charles Peter MOK",
+                "constituency": "Functional",
+                "vote": "No"
+              },
+              {
+                "namech": "陳志全",
+                "nameen": "CHAN Chichuen",
+                "constituency": "Geographical",
+                "vote": "No"
+              },
+              {
+                "namech": "陳恒鑌",
+                "nameen": "CHAN Hanpan",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "梁志祥",
+                "nameen": "LEUNG Checheung",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "梁繼昌",
+                "nameen": "Kenneth LEUNG",
+                "constituency": "Functional",
+                "vote": "No"
+              },
+              {
+                "namech": "麥美娟",
+                "nameen": "Alice MAK",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "郭家麒",
+                "nameen": "Dr KWOK Kaki",
+                "constituency": "Geographical",
+                "vote": "No"
+              },
+              {
+                "namech": "郭偉强",
+                "nameen": "KWOK Waikeung",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "郭榮鏗",
+                "nameen": "Dennis KWOK",
+                "constituency": "Functional",
+                "vote": "No"
+              },
+              {
+                "namech": "張華峰",
+                "nameen": "Christopher CHEUNG",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "張超雄",
+                "nameen": "Dr Fernando CHEUNG",
+                "constituency": "Geographical",
+                "vote": "No"
+              },
+              {
+                "namech": "黃碧雲",
+                "nameen": "Dr Helena WONG",
+                "constituency": "Geographical",
+                "vote": "No"
+              },
+              {
+                "namech": "葉建源",
+                "nameen": "IP Kinyuen",
+                "constituency": "Functional",
+                "vote": "No"
+              },
+              {
+                "namech": "葛珮帆",
+                "nameen": "Dr Elizabeth QUAT",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "廖長江",
+                "nameen": "Martin LIAO",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "潘兆平",
+                "nameen": "POON Siuping",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "蔣麗芸",
+                "nameen": "Dr CHIANG Laiwan",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "盧偉國",
+                "nameen": "Ir Dr LO Waikwok",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "鍾國斌",
+                "nameen": "CHUNG Kwokpan",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "楊岳橋",
+                "nameen": "Alvin YEUNG",
+                "constituency": "Geographical",
+                "vote": "No"
+              },
+              {
+                "namech": "尹兆堅",
+                "nameen": "Andrew WAN",
+                "constituency": "Geographical",
+                "vote": "No"
+              },
+              {
+                "namech": "朱凱廸",
+                "nameen": "CHU Hoidick",
+                "constituency": "Geographical",
+                "vote": "No"
+              },
+              {
+                "namech": "吳永嘉",
+                "nameen": "Jimmy NG",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "何君堯",
+                "nameen": "Dr Junius HO",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "何啟明",
+                "nameen": "HO Kaiming",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "林卓廷",
+                "nameen": "LAM Cheukting",
+                "constituency": "Geographical",
+                "vote": "No"
+              },
+              {
+                "namech": "周浩鼎",
+                "nameen": "Holden CHOW",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "邵家輝",
+                "nameen": "SHIU Kafai",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "邵家臻",
+                "nameen": "SHIU Kachun",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "柯創盛",
+                "nameen": "Wilson OR",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "容海恩",
+                "nameen": "YUNG Hoiyan",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "陳沛然",
+                "nameen": "Dr Pierre CHAN",
+                "constituency": "Functional",
+                "vote": "No"
+              },
+              {
+                "namech": "陳振英",
+                "nameen": "CHAN Chunying",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "陳淑莊",
+                "nameen": "Tanya CHAN",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "張國鈞",
+                "nameen": "CHEUNG Kwokkwan",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "許智峯",
+                "nameen": "HUI Chifung",
+                "constituency": "Geographical",
+                "vote": "No"
+              },
+              {
+                "namech": "陸頌雄",
+                "nameen": "LUK Chunghung",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "劉國勳",
+                "nameen": "LAU Kwokfan",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "劉業強",
+                "nameen": "Kenneth LAU",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "鄭松泰",
+                "nameen": "Dr CHENG Chungtai",
+                "constituency": "Geographical",
+                "vote": "No"
+              },
+              {
+                "namech": "鄺俊宇",
+                "nameen": "KWONG Chunyu",
+                "constituency": "Functional",
+                "vote": "No"
+              },
+              {
+                "namech": "譚文豪",
+                "nameen": "Jeremy TAM",
+                "constituency": "Geographical",
+                "vote": "No"
+              },
+              {
+                "namech": "范國威",
+                "nameen": "Gary FAN",
+                "constituency": "Geographical",
+                "vote": "No"
+              },
+              {
+                "namech": "區諾軒",
+                "nameen": "AU Nokhin",
+                "constituency": "Geographical",
+                "vote": "No"
+              },
+              {
+                "namech": "鄭泳舜",
+                "nameen": "Vincent CHENG",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "謝偉銓",
+                "nameen": "Tony TSE",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "陳凱欣",
+                "nameen": "CHAN Hoiyan",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              }
+            ]
+          }
+        },
+        {
+          "number": "4",
+          "votedate": "05/06/2019",
+          "votetime": "19:22:24",
+          "motionch": "謝偉銓議員動議，經何啟明議員及莫乃光議員修正的「改善公務員待遇，提升施政效率及推動創意與創新」議案",
+          "motionen": "MOTION MOVED BY HON TONY TSE ON “IMPROVING THE EMPLOYMENT TERMS OF CIVIL SERVANTS, ENHANCING THE EFFICIENCY OF POLICY IMPLEMENTATION AND PROMOTING CREATIVITY AND INNOVATION” AS AMENDED BY HON HO KAIMING AND HON CHARLES PETER MOK",
+          "moverch": "謝偉銓",
+          "moveren": "Tony TSE",
+          "movertype": "Member",
+          "voteseparatemechanism": "Yes",
+          "votesummary": {
+            "functionalconstituency": {
+              "presentcount": "28",
+              "votecount": "27",
+              "yescount": "27",
+              "nocount": "0",
+              "abstaincount": "0",
+              "result": "Passed"
+            },
+            "geographicalconstituency": {
+              "presentcount": "28",
+              "votecount": "28",
+              "yescount": "27",
+              "nocount": "0",
+              "abstaincount": "1",
+              "result": "Passed"
+            },
+            "overall": { "result": "Passed" }
+          },
+          "individualvotes": {
+            "member": [
+              {
+                "namech": "梁君彥",
+                "nameen": "Andrew LEUNG",
+                "constituency": "Functional",
+                "vote": "Present"
+              },
+              {
+                "namech": "涂謹申",
+                "nameen": "James TO",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "梁耀忠",
+                "nameen": "LEUNG Yiuchung",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "石禮謙",
+                "nameen": "Abraham SHEK",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "張宇人",
+                "nameen": "Tommy CHEUNG",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "李國麟",
+                "nameen": "Prof Joseph LEE",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "林健鋒",
+                "nameen": "Jeffrey LAM",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "黃定光",
+                "nameen": "WONG Tingkwong",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "李慧琼",
+                "nameen": "Starry LEE",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "陳克勤",
+                "nameen": "CHAN Hakkan",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "陳健波",
+                "nameen": "CHAN Kinpor",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "梁美芬",
+                "nameen": "Dr Priscilla LEUNG",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "黃國健",
+                "nameen": "WONG Kwokkin",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "葉劉淑儀",
+                "nameen": "Mrs Regina IP",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "謝偉俊",
+                "nameen": "Paul TSE",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "毛孟靜",
+                "nameen": "Claudia MO",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "田北辰",
+                "nameen": "Michael TIEN",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "何俊賢",
+                "nameen": "Steven HO",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "易志明",
+                "nameen": "Frankie YICK",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "胡志偉",
+                "nameen": "WU Chiwai",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "姚思榮",
+                "nameen": "YIU Siwing",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "馬逢國",
+                "nameen": "MA Fungkwok",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "莫乃光",
+                "nameen": "Charles Peter MOK",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "陳志全",
+                "nameen": "CHAN Chichuen",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "陳恒鑌",
+                "nameen": "CHAN Hanpan",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "梁志祥",
+                "nameen": "LEUNG Checheung",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "梁繼昌",
+                "nameen": "Kenneth LEUNG",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "麥美娟",
+                "nameen": "Alice MAK",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "郭家麒",
+                "nameen": "Dr KWOK Kaki",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "郭偉强",
+                "nameen": "KWOK Waikeung",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "郭榮鏗",
+                "nameen": "Dennis KWOK",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "張華峰",
+                "nameen": "Christopher CHEUNG",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "張超雄",
+                "nameen": "Dr Fernando CHEUNG",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "黃碧雲",
+                "nameen": "Dr Helena WONG",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "葉建源",
+                "nameen": "IP Kinyuen",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "葛珮帆",
+                "nameen": "Dr Elizabeth QUAT",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "廖長江",
+                "nameen": "Martin LIAO",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "潘兆平",
+                "nameen": "POON Siuping",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "蔣麗芸",
+                "nameen": "Dr CHIANG Laiwan",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "盧偉國",
+                "nameen": "Ir Dr LO Waikwok",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "鍾國斌",
+                "nameen": "CHUNG Kwokpan",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "楊岳橋",
+                "nameen": "Alvin YEUNG",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "尹兆堅",
+                "nameen": "Andrew WAN",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "朱凱廸",
+                "nameen": "CHU Hoidick",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "吳永嘉",
+                "nameen": "Jimmy NG",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "何君堯",
+                "nameen": "Dr Junius HO",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "何啟明",
+                "nameen": "HO Kaiming",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "林卓廷",
+                "nameen": "LAM Cheukting",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "周浩鼎",
+                "nameen": "Holden CHOW",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "邵家輝",
+                "nameen": "SHIU Kafai",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "邵家臻",
+                "nameen": "SHIU Kachun",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "柯創盛",
+                "nameen": "Wilson OR",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "容海恩",
+                "nameen": "YUNG Hoiyan",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "陳沛然",
+                "nameen": "Dr Pierre CHAN",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "陳振英",
+                "nameen": "CHAN Chunying",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "陳淑莊",
+                "nameen": "Tanya CHAN",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "張國鈞",
+                "nameen": "CHEUNG Kwokkwan",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "許智峯",
+                "nameen": "HUI Chifung",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "陸頌雄",
+                "nameen": "LUK Chunghung",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "劉國勳",
+                "nameen": "LAU Kwokfan",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "劉業強",
+                "nameen": "Kenneth LAU",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "鄭松泰",
+                "nameen": "Dr CHENG Chungtai",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "鄺俊宇",
+                "nameen": "KWONG Chunyu",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "譚文豪",
+                "nameen": "Jeremy TAM",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "范國威",
+                "nameen": "Gary FAN",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "區諾軒",
+                "nameen": "AU Nokhin",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "鄭泳舜",
+                "nameen": "Vincent CHENG",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "謝偉銓",
+                "nameen": "Tony TSE",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "陳凱欣",
+                "nameen": "CHAN Hoiyan",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              }
+            ]
+          }
+        },
+        {
+          "number": "5",
+          "votedate": "06/06/2019",
+          "votetime": "14:28:45",
+          "motionch": "麥美娟議員對陳恒鑌議員的「推動醫療改革」議案作出的修正案",
+          "motionen": "AMENDMENT BY HON ALICE MAK TO HON CHAN HANPAN'S MOTION ON “PROMOTING HEALTHCARE REFORM”",
+          "moverch": "麥美娟",
+          "moveren": "Alice MAK",
+          "movertype": "Member",
+          "voteseparatemechanism": "Yes",
+          "votesummary": {
+            "functionalconstituency": {
+              "presentcount": "31",
+              "votecount": "30",
+              "yescount": "28",
+              "nocount": "0",
+              "abstaincount": "2",
+              "result": "Passed"
+            },
+            "geographicalconstituency": {
+              "presentcount": "27",
+              "votecount": "27",
+              "yescount": "20",
+              "nocount": "0",
+              "abstaincount": "7",
+              "result": "Passed"
+            },
+            "overall": { "result": "Passed" }
+          },
+          "individualvotes": {
+            "member": [
+              {
+                "namech": "梁君彥",
+                "nameen": "Andrew LEUNG",
+                "constituency": "Functional",
+                "vote": "Present"
+              },
+              {
+                "namech": "涂謹申",
+                "nameen": "James TO",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "梁耀忠",
+                "nameen": "LEUNG Yiuchung",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "石禮謙",
+                "nameen": "Abraham SHEK",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "張宇人",
+                "nameen": "Tommy CHEUNG",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "李國麟",
+                "nameen": "Prof Joseph LEE",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "林健鋒",
+                "nameen": "Jeffrey LAM",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "黃定光",
+                "nameen": "WONG Tingkwong",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "李慧琼",
+                "nameen": "Starry LEE",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "陳克勤",
+                "nameen": "CHAN Hakkan",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "陳健波",
+                "nameen": "CHAN Kinpor",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "梁美芬",
+                "nameen": "Dr Priscilla LEUNG",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "黃國健",
+                "nameen": "WONG Kwokkin",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "葉劉淑儀",
+                "nameen": "Mrs Regina IP",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "謝偉俊",
+                "nameen": "Paul TSE",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "毛孟靜",
+                "nameen": "Claudia MO",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "田北辰",
+                "nameen": "Michael TIEN",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "何俊賢",
+                "nameen": "Steven HO",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "易志明",
+                "nameen": "Frankie YICK",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "胡志偉",
+                "nameen": "WU Chiwai",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "姚思榮",
+                "nameen": "YIU Siwing",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "馬逢國",
+                "nameen": "MA Fungkwok",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "莫乃光",
+                "nameen": "Charles Peter MOK",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "陳志全",
+                "nameen": "CHAN Chichuen",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "陳恒鑌",
+                "nameen": "CHAN Hanpan",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "梁志祥",
+                "nameen": "LEUNG Checheung",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "梁繼昌",
+                "nameen": "Kenneth LEUNG",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "麥美娟",
+                "nameen": "Alice MAK",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "郭家麒",
+                "nameen": "Dr KWOK Kaki",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "郭偉强",
+                "nameen": "KWOK Waikeung",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "郭榮鏗",
+                "nameen": "Dennis KWOK",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "張華峰",
+                "nameen": "Christopher CHEUNG",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "張超雄",
+                "nameen": "Dr Fernando CHEUNG",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "黃碧雲",
+                "nameen": "Dr Helena WONG",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "葉建源",
+                "nameen": "IP Kinyuen",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "葛珮帆",
+                "nameen": "Dr Elizabeth QUAT",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "廖長江",
+                "nameen": "Martin LIAO",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "潘兆平",
+                "nameen": "POON Siuping",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "蔣麗芸",
+                "nameen": "Dr CHIANG Laiwan",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "盧偉國",
+                "nameen": "Ir Dr LO Waikwok",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "鍾國斌",
+                "nameen": "CHUNG Kwokpan",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "楊岳橋",
+                "nameen": "Alvin YEUNG",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "尹兆堅",
+                "nameen": "Andrew WAN",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "朱凱廸",
+                "nameen": "CHU Hoidick",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "吳永嘉",
+                "nameen": "Jimmy NG",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "何君堯",
+                "nameen": "Dr Junius HO",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "何啟明",
+                "nameen": "HO Kaiming",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "林卓廷",
+                "nameen": "LAM Cheukting",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "周浩鼎",
+                "nameen": "Holden CHOW",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "邵家輝",
+                "nameen": "SHIU Kafai",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "邵家臻",
+                "nameen": "SHIU Kachun",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "柯創盛",
+                "nameen": "Wilson OR",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "容海恩",
+                "nameen": "YUNG Hoiyan",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "陳沛然",
+                "nameen": "Dr Pierre CHAN",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "陳振英",
+                "nameen": "CHAN Chunying",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "陳淑莊",
+                "nameen": "Tanya CHAN",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "張國鈞",
+                "nameen": "CHEUNG Kwokkwan",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "許智峯",
+                "nameen": "HUI Chifung",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "陸頌雄",
+                "nameen": "LUK Chunghung",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "劉國勳",
+                "nameen": "LAU Kwokfan",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "劉業強",
+                "nameen": "Kenneth LAU",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "鄭松泰",
+                "nameen": "Dr CHENG Chungtai",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "鄺俊宇",
+                "nameen": "KWONG Chunyu",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "譚文豪",
+                "nameen": "Jeremy TAM",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "范國威",
+                "nameen": "Gary FAN",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "區諾軒",
+                "nameen": "AU Nokhin",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "鄭泳舜",
+                "nameen": "Vincent CHENG",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "謝偉銓",
+                "nameen": "Tony TSE",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "陳凱欣",
+                "nameen": "CHAN Hoiyan",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              }
+            ]
+          }
+        },
+        {
+          "number": "6",
+          "votedate": "06/06/2019",
+          "votetime": "14:31:28",
+          "motionch": "李國麟議員對陳恒鑌議員就「推動醫療改革」所提，經麥美娟議員修正的議案，作出的修正案",
+          "motionen": "AMENDMENT BY PROF HON JOSEPH LEE TO HON CHAN HANPAN'S MOTION ON “PROMOTING HEALTHCARE REFORM” AS AMENDED BY HON ALICE MAK",
+          "moverch": "李國麟",
+          "moveren": "Prof Joseph LEE",
+          "movertype": "Member",
+          "voteseparatemechanism": "Yes",
+          "votesummary": {
+            "functionalconstituency": {
+              "presentcount": "31",
+              "votecount": "30",
+              "yescount": "13",
+              "nocount": "1",
+              "abstaincount": "16",
+              "result": "Negatived"
+            },
+            "geographicalconstituency": {
+              "presentcount": "27",
+              "votecount": "27",
+              "yescount": "3",
+              "nocount": "0",
+              "abstaincount": "24",
+              "result": "Negatived"
+            },
+            "overall": { "result": "Negatived" }
+          },
+          "individualvotes": {
+            "member": [
+              {
+                "namech": "梁君彥",
+                "nameen": "Andrew LEUNG",
+                "constituency": "Functional",
+                "vote": "Present"
+              },
+              {
+                "namech": "涂謹申",
+                "nameen": "James TO",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "梁耀忠",
+                "nameen": "LEUNG Yiuchung",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "石禮謙",
+                "nameen": "Abraham SHEK",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "張宇人",
+                "nameen": "Tommy CHEUNG",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "李國麟",
+                "nameen": "Prof Joseph LEE",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "林健鋒",
+                "nameen": "Jeffrey LAM",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "黃定光",
+                "nameen": "WONG Tingkwong",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "李慧琼",
+                "nameen": "Starry LEE",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "陳克勤",
+                "nameen": "CHAN Hakkan",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "陳健波",
+                "nameen": "CHAN Kinpor",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "梁美芬",
+                "nameen": "Dr Priscilla LEUNG",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "黃國健",
+                "nameen": "WONG Kwokkin",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "葉劉淑儀",
+                "nameen": "Mrs Regina IP",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "謝偉俊",
+                "nameen": "Paul TSE",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "毛孟靜",
+                "nameen": "Claudia MO",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "田北辰",
+                "nameen": "Michael TIEN",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "何俊賢",
+                "nameen": "Steven HO",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "易志明",
+                "nameen": "Frankie YICK",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "胡志偉",
+                "nameen": "WU Chiwai",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "姚思榮",
+                "nameen": "YIU Siwing",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "馬逢國",
+                "nameen": "MA Fungkwok",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "莫乃光",
+                "nameen": "Charles Peter MOK",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "陳志全",
+                "nameen": "CHAN Chichuen",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "陳恒鑌",
+                "nameen": "CHAN Hanpan",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "梁志祥",
+                "nameen": "LEUNG Checheung",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "梁繼昌",
+                "nameen": "Kenneth LEUNG",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "麥美娟",
+                "nameen": "Alice MAK",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "郭家麒",
+                "nameen": "Dr KWOK Kaki",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "郭偉强",
+                "nameen": "KWOK Waikeung",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "郭榮鏗",
+                "nameen": "Dennis KWOK",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "張華峰",
+                "nameen": "Christopher CHEUNG",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "張超雄",
+                "nameen": "Dr Fernando CHEUNG",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "黃碧雲",
+                "nameen": "Dr Helena WONG",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "葉建源",
+                "nameen": "IP Kinyuen",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "葛珮帆",
+                "nameen": "Dr Elizabeth QUAT",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "廖長江",
+                "nameen": "Martin LIAO",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "潘兆平",
+                "nameen": "POON Siuping",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "蔣麗芸",
+                "nameen": "Dr CHIANG Laiwan",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "盧偉國",
+                "nameen": "Ir Dr LO Waikwok",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "鍾國斌",
+                "nameen": "CHUNG Kwokpan",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "楊岳橋",
+                "nameen": "Alvin YEUNG",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "尹兆堅",
+                "nameen": "Andrew WAN",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "朱凱廸",
+                "nameen": "CHU Hoidick",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "吳永嘉",
+                "nameen": "Jimmy NG",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "何君堯",
+                "nameen": "Dr Junius HO",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "何啟明",
+                "nameen": "HO Kaiming",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "林卓廷",
+                "nameen": "LAM Cheukting",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "周浩鼎",
+                "nameen": "Holden CHOW",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "邵家輝",
+                "nameen": "SHIU Kafai",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "邵家臻",
+                "nameen": "SHIU Kachun",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "柯創盛",
+                "nameen": "Wilson OR",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "容海恩",
+                "nameen": "YUNG Hoiyan",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "陳沛然",
+                "nameen": "Dr Pierre CHAN",
+                "constituency": "Functional",
+                "vote": "No"
+              },
+              {
+                "namech": "陳振英",
+                "nameen": "CHAN Chunying",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "陳淑莊",
+                "nameen": "Tanya CHAN",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "張國鈞",
+                "nameen": "CHEUNG Kwokkwan",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "許智峯",
+                "nameen": "HUI Chifung",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "陸頌雄",
+                "nameen": "LUK Chunghung",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "劉國勳",
+                "nameen": "LAU Kwokfan",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "劉業強",
+                "nameen": "Kenneth LAU",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "鄭松泰",
+                "nameen": "Dr CHENG Chungtai",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "鄺俊宇",
+                "nameen": "KWONG Chunyu",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "譚文豪",
+                "nameen": "Jeremy TAM",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "范國威",
+                "nameen": "Gary FAN",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "區諾軒",
+                "nameen": "AU Nokhin",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "鄭泳舜",
+                "nameen": "Vincent CHENG",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "謝偉銓",
+                "nameen": "Tony TSE",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "陳凱欣",
+                "nameen": "CHAN Hoiyan",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              }
+            ]
+          }
+        },
+        {
+          "number": "7",
+          "votedate": "06/06/2019",
+          "votetime": "14:34:29",
+          "motionch": "陳沛然議員對陳恒鑌議員就「推動醫療改革」所提，經麥美娟議員修正的議案，作出的修正案",
+          "motionen": "AMENDMENT BY DR HON PIERRE CHAN TO HON CHAN HANPAN'S MOTION ON “PROMOTING HEALTHCARE REFORM” AS AMENDED BY HON ALICE MAK",
+          "moverch": "陳沛然",
+          "moveren": "Dr Pierre CHAN",
+          "movertype": "Member",
+          "voteseparatemechanism": "Yes",
+          "votesummary": {
+            "functionalconstituency": {
+              "presentcount": "31",
+              "votecount": "30",
+              "yescount": "20",
+              "nocount": "0",
+              "abstaincount": "10",
+              "result": "Passed"
+            },
+            "geographicalconstituency": {
+              "presentcount": "28",
+              "votecount": "28",
+              "yescount": "20",
+              "nocount": "1",
+              "abstaincount": "7",
+              "result": "Passed"
+            },
+            "overall": { "result": "Passed" }
+          },
+          "individualvotes": {
+            "member": [
+              {
+                "namech": "梁君彥",
+                "nameen": "Andrew LEUNG",
+                "constituency": "Functional",
+                "vote": "Present"
+              },
+              {
+                "namech": "涂謹申",
+                "nameen": "James TO",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "梁耀忠",
+                "nameen": "LEUNG Yiuchung",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "石禮謙",
+                "nameen": "Abraham SHEK",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "張宇人",
+                "nameen": "Tommy CHEUNG",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "李國麟",
+                "nameen": "Prof Joseph LEE",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "林健鋒",
+                "nameen": "Jeffrey LAM",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "黃定光",
+                "nameen": "WONG Tingkwong",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "李慧琼",
+                "nameen": "Starry LEE",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "陳克勤",
+                "nameen": "CHAN Hakkan",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "陳健波",
+                "nameen": "CHAN Kinpor",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "梁美芬",
+                "nameen": "Dr Priscilla LEUNG",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "黃國健",
+                "nameen": "WONG Kwokkin",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "葉劉淑儀",
+                "nameen": "Mrs Regina IP",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "謝偉俊",
+                "nameen": "Paul TSE",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "毛孟靜",
+                "nameen": "Claudia MO",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "田北辰",
+                "nameen": "Michael TIEN",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "何俊賢",
+                "nameen": "Steven HO",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "易志明",
+                "nameen": "Frankie YICK",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "胡志偉",
+                "nameen": "WU Chiwai",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "姚思榮",
+                "nameen": "YIU Siwing",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "馬逢國",
+                "nameen": "MA Fungkwok",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "莫乃光",
+                "nameen": "Charles Peter MOK",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "陳志全",
+                "nameen": "CHAN Chichuen",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "陳恒鑌",
+                "nameen": "CHAN Hanpan",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "梁志祥",
+                "nameen": "LEUNG Checheung",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "梁繼昌",
+                "nameen": "Kenneth LEUNG",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "麥美娟",
+                "nameen": "Alice MAK",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "郭家麒",
+                "nameen": "Dr KWOK Kaki",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "郭偉强",
+                "nameen": "KWOK Waikeung",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "郭榮鏗",
+                "nameen": "Dennis KWOK",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "張華峰",
+                "nameen": "Christopher CHEUNG",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "張超雄",
+                "nameen": "Dr Fernando CHEUNG",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "黃碧雲",
+                "nameen": "Dr Helena WONG",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "葉建源",
+                "nameen": "IP Kinyuen",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "葛珮帆",
+                "nameen": "Dr Elizabeth QUAT",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "廖長江",
+                "nameen": "Martin LIAO",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "潘兆平",
+                "nameen": "POON Siuping",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "蔣麗芸",
+                "nameen": "Dr CHIANG Laiwan",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "盧偉國",
+                "nameen": "Ir Dr LO Waikwok",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "鍾國斌",
+                "nameen": "CHUNG Kwokpan",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "楊岳橋",
+                "nameen": "Alvin YEUNG",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "尹兆堅",
+                "nameen": "Andrew WAN",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "朱凱廸",
+                "nameen": "CHU Hoidick",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "吳永嘉",
+                "nameen": "Jimmy NG",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "何君堯",
+                "nameen": "Dr Junius HO",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "何啟明",
+                "nameen": "HO Kaiming",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "林卓廷",
+                "nameen": "LAM Cheukting",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "周浩鼎",
+                "nameen": "Holden CHOW",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "邵家輝",
+                "nameen": "SHIU Kafai",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "邵家臻",
+                "nameen": "SHIU Kachun",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "柯創盛",
+                "nameen": "Wilson OR",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "容海恩",
+                "nameen": "YUNG Hoiyan",
+                "constituency": "Geographical",
+                "vote": "No"
+              },
+              {
+                "namech": "陳沛然",
+                "nameen": "Dr Pierre CHAN",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "陳振英",
+                "nameen": "CHAN Chunying",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "陳淑莊",
+                "nameen": "Tanya CHAN",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "張國鈞",
+                "nameen": "CHEUNG Kwokkwan",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "許智峯",
+                "nameen": "HUI Chifung",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "陸頌雄",
+                "nameen": "LUK Chunghung",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "劉國勳",
+                "nameen": "LAU Kwokfan",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "劉業強",
+                "nameen": "Kenneth LAU",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "鄭松泰",
+                "nameen": "Dr CHENG Chungtai",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "鄺俊宇",
+                "nameen": "KWONG Chunyu",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "譚文豪",
+                "nameen": "Jeremy TAM",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "范國威",
+                "nameen": "Gary FAN",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "區諾軒",
+                "nameen": "AU Nokhin",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "鄭泳舜",
+                "nameen": "Vincent CHENG",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "謝偉銓",
+                "nameen": "Tony TSE",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "陳凱欣",
+                "nameen": "CHAN Hoiyan",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              }
+            ]
+          }
+        },
+        {
+          "number": "8",
+          "votedate": "06/06/2019",
+          "votetime": "14:36:19",
+          "motionch": "郭家麒議員對陳恒鑌議員就「推動醫療改革」所提，經麥美娟議員及陳沛然議員修正的議案，作出的修正案",
+          "motionen": "AMENDMENT BY DR HON KWOK KAKI TO HON CHAN HANPAN'S MOTION ON “PROMOTING HEALTHCARE REFORM” AS AMENDED BY HON ALICE MAK AND DR HON PIERRE CHAN",
+          "moverch": "郭家麒",
+          "moveren": "Dr KWOK Kaki",
+          "movertype": "Member",
+          "voteseparatemechanism": "Yes",
+          "votesummary": {
+            "functionalconstituency": {
+              "presentcount": "31",
+              "votecount": "30",
+              "yescount": "4",
+              "nocount": "10",
+              "abstaincount": "16",
+              "result": "Negatived"
+            },
+            "geographicalconstituency": {
+              "presentcount": "28",
+              "votecount": "28",
+              "yescount": "9",
+              "nocount": "1",
+              "abstaincount": "18",
+              "result": "Negatived"
+            },
+            "overall": { "result": "Negatived" }
+          },
+          "individualvotes": {
+            "member": [
+              {
+                "namech": "梁君彥",
+                "nameen": "Andrew LEUNG",
+                "constituency": "Functional",
+                "vote": "Present"
+              },
+              {
+                "namech": "涂謹申",
+                "nameen": "James TO",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "梁耀忠",
+                "nameen": "LEUNG Yiuchung",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "石禮謙",
+                "nameen": "Abraham SHEK",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "張宇人",
+                "nameen": "Tommy CHEUNG",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "李國麟",
+                "nameen": "Prof Joseph LEE",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "林健鋒",
+                "nameen": "Jeffrey LAM",
+                "constituency": "Functional",
+                "vote": "No"
+              },
+              {
+                "namech": "黃定光",
+                "nameen": "WONG Tingkwong",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "李慧琼",
+                "nameen": "Starry LEE",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "陳克勤",
+                "nameen": "CHAN Hakkan",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "陳健波",
+                "nameen": "CHAN Kinpor",
+                "constituency": "Functional",
+                "vote": "No"
+              },
+              {
+                "namech": "梁美芬",
+                "nameen": "Dr Priscilla LEUNG",
+                "constituency": "Geographical",
+                "vote": "No"
+              },
+              {
+                "namech": "黃國健",
+                "nameen": "WONG Kwokkin",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "葉劉淑儀",
+                "nameen": "Mrs Regina IP",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "謝偉俊",
+                "nameen": "Paul TSE",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "毛孟靜",
+                "nameen": "Claudia MO",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "田北辰",
+                "nameen": "Michael TIEN",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "何俊賢",
+                "nameen": "Steven HO",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "易志明",
+                "nameen": "Frankie YICK",
+                "constituency": "Functional",
+                "vote": "No"
+              },
+              {
+                "namech": "胡志偉",
+                "nameen": "WU Chiwai",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "姚思榮",
+                "nameen": "YIU Siwing",
+                "constituency": "Functional",
+                "vote": "No"
+              },
+              {
+                "namech": "馬逢國",
+                "nameen": "MA Fungkwok",
+                "constituency": "Functional",
+                "vote": "No"
+              },
+              {
+                "namech": "莫乃光",
+                "nameen": "Charles Peter MOK",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "陳志全",
+                "nameen": "CHAN Chichuen",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "陳恒鑌",
+                "nameen": "CHAN Hanpan",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "梁志祥",
+                "nameen": "LEUNG Checheung",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "梁繼昌",
+                "nameen": "Kenneth LEUNG",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "麥美娟",
+                "nameen": "Alice MAK",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "郭家麒",
+                "nameen": "Dr KWOK Kaki",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "郭偉强",
+                "nameen": "KWOK Waikeung",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "郭榮鏗",
+                "nameen": "Dennis KWOK",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "張華峰",
+                "nameen": "Christopher CHEUNG",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "張超雄",
+                "nameen": "Dr Fernando CHEUNG",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "黃碧雲",
+                "nameen": "Dr Helena WONG",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "葉建源",
+                "nameen": "IP Kinyuen",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "葛珮帆",
+                "nameen": "Dr Elizabeth QUAT",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "廖長江",
+                "nameen": "Martin LIAO",
+                "constituency": "Functional",
+                "vote": "No"
+              },
+              {
+                "namech": "潘兆平",
+                "nameen": "POON Siuping",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "蔣麗芸",
+                "nameen": "Dr CHIANG Laiwan",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "盧偉國",
+                "nameen": "Ir Dr LO Waikwok",
+                "constituency": "Functional",
+                "vote": "No"
+              },
+              {
+                "namech": "鍾國斌",
+                "nameen": "CHUNG Kwokpan",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "楊岳橋",
+                "nameen": "Alvin YEUNG",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "尹兆堅",
+                "nameen": "Andrew WAN",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "朱凱廸",
+                "nameen": "CHU Hoidick",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "吳永嘉",
+                "nameen": "Jimmy NG",
+                "constituency": "Functional",
+                "vote": "No"
+              },
+              {
+                "namech": "何君堯",
+                "nameen": "Dr Junius HO",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "何啟明",
+                "nameen": "HO Kaiming",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "林卓廷",
+                "nameen": "LAM Cheukting",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "周浩鼎",
+                "nameen": "Holden CHOW",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "邵家輝",
+                "nameen": "SHIU Kafai",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "邵家臻",
+                "nameen": "SHIU Kachun",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "柯創盛",
+                "nameen": "Wilson OR",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "容海恩",
+                "nameen": "YUNG Hoiyan",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "陳沛然",
+                "nameen": "Dr Pierre CHAN",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "陳振英",
+                "nameen": "CHAN Chunying",
+                "constituency": "Functional",
+                "vote": "No"
+              },
+              {
+                "namech": "陳淑莊",
+                "nameen": "Tanya CHAN",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "張國鈞",
+                "nameen": "CHEUNG Kwokkwan",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "許智峯",
+                "nameen": "HUI Chifung",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "陸頌雄",
+                "nameen": "LUK Chunghung",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "劉國勳",
+                "nameen": "LAU Kwokfan",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "劉業強",
+                "nameen": "Kenneth LAU",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "鄭松泰",
+                "nameen": "Dr CHENG Chungtai",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "鄺俊宇",
+                "nameen": "KWONG Chunyu",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "譚文豪",
+                "nameen": "Jeremy TAM",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "范國威",
+                "nameen": "Gary FAN",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "區諾軒",
+                "nameen": "AU Nokhin",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "鄭泳舜",
+                "nameen": "Vincent CHENG",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "謝偉銓",
+                "nameen": "Tony TSE",
+                "constituency": "Functional",
+                "vote": "No"
+              },
+              {
+                "namech": "陳凱欣",
+                "nameen": "CHAN Hoiyan",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              }
+            ]
+          }
+        },
+        {
+          "number": "9",
+          "votedate": "06/06/2019",
+          "votetime": "14:38:16",
+          "motionch": "黃碧雲議員對陳恒鑌議員就「推動醫療改革」所提，經麥美娟議員及陳沛然議員修正的議案，作出的修正案",
+          "motionen": "AMENDMENT BY DR HON HELENA WONG TO HON CHAN HANPAN'S MOTION ON “PROMOTING HEALTHCARE REFORM” AS AMENDED BY HON ALICE MAK AND DR HON PIERRE CHAN",
+          "moverch": "黃碧雲",
+          "moveren": "Dr Helena WONG",
+          "movertype": "Member",
+          "voteseparatemechanism": "Yes",
+          "votesummary": {
+            "functionalconstituency": {
+              "presentcount": "30",
+              "votecount": "29",
+              "yescount": "26",
+              "nocount": "1",
+              "abstaincount": "2",
+              "result": "Passed"
+            },
+            "geographicalconstituency": {
+              "presentcount": "28",
+              "votecount": "28",
+              "yescount": "21",
+              "nocount": "1",
+              "abstaincount": "6",
+              "result": "Passed"
+            },
+            "overall": { "result": "Passed" }
+          },
+          "individualvotes": {
+            "member": [
+              {
+                "namech": "梁君彥",
+                "nameen": "Andrew LEUNG",
+                "constituency": "Functional",
+                "vote": "Present"
+              },
+              {
+                "namech": "涂謹申",
+                "nameen": "James TO",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "梁耀忠",
+                "nameen": "LEUNG Yiuchung",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "石禮謙",
+                "nameen": "Abraham SHEK",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "張宇人",
+                "nameen": "Tommy CHEUNG",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "李國麟",
+                "nameen": "Prof Joseph LEE",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "林健鋒",
+                "nameen": "Jeffrey LAM",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "黃定光",
+                "nameen": "WONG Tingkwong",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "李慧琼",
+                "nameen": "Starry LEE",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "陳克勤",
+                "nameen": "CHAN Hakkan",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "陳健波",
+                "nameen": "CHAN Kinpor",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "梁美芬",
+                "nameen": "Dr Priscilla LEUNG",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "黃國健",
+                "nameen": "WONG Kwokkin",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "葉劉淑儀",
+                "nameen": "Mrs Regina IP",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "謝偉俊",
+                "nameen": "Paul TSE",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "毛孟靜",
+                "nameen": "Claudia MO",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "田北辰",
+                "nameen": "Michael TIEN",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "何俊賢",
+                "nameen": "Steven HO",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "易志明",
+                "nameen": "Frankie YICK",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "胡志偉",
+                "nameen": "WU Chiwai",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "姚思榮",
+                "nameen": "YIU Siwing",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "馬逢國",
+                "nameen": "MA Fungkwok",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "莫乃光",
+                "nameen": "Charles Peter MOK",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "陳志全",
+                "nameen": "CHAN Chichuen",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "陳恒鑌",
+                "nameen": "CHAN Hanpan",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "梁志祥",
+                "nameen": "LEUNG Checheung",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "梁繼昌",
+                "nameen": "Kenneth LEUNG",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "麥美娟",
+                "nameen": "Alice MAK",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "郭家麒",
+                "nameen": "Dr KWOK Kaki",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "郭偉强",
+                "nameen": "KWOK Waikeung",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "郭榮鏗",
+                "nameen": "Dennis KWOK",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "張華峰",
+                "nameen": "Christopher CHEUNG",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "張超雄",
+                "nameen": "Dr Fernando CHEUNG",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "黃碧雲",
+                "nameen": "Dr Helena WONG",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "葉建源",
+                "nameen": "IP Kinyuen",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "葛珮帆",
+                "nameen": "Dr Elizabeth QUAT",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "廖長江",
+                "nameen": "Martin LIAO",
+                "constituency": "Functional",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "潘兆平",
+                "nameen": "POON Siuping",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "蔣麗芸",
+                "nameen": "Dr CHIANG Laiwan",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "盧偉國",
+                "nameen": "Ir Dr LO Waikwok",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "鍾國斌",
+                "nameen": "CHUNG Kwokpan",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "楊岳橋",
+                "nameen": "Alvin YEUNG",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "尹兆堅",
+                "nameen": "Andrew WAN",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "朱凱廸",
+                "nameen": "CHU Hoidick",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "吳永嘉",
+                "nameen": "Jimmy NG",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "何君堯",
+                "nameen": "Dr Junius HO",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "何啟明",
+                "nameen": "HO Kaiming",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "林卓廷",
+                "nameen": "LAM Cheukting",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "周浩鼎",
+                "nameen": "Holden CHOW",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "邵家輝",
+                "nameen": "SHIU Kafai",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "邵家臻",
+                "nameen": "SHIU Kachun",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "柯創盛",
+                "nameen": "Wilson OR",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "容海恩",
+                "nameen": "YUNG Hoiyan",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "陳沛然",
+                "nameen": "Dr Pierre CHAN",
+                "constituency": "Functional",
+                "vote": "No"
+              },
+              {
+                "namech": "陳振英",
+                "nameen": "CHAN Chunying",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "陳淑莊",
+                "nameen": "Tanya CHAN",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "張國鈞",
+                "nameen": "CHEUNG Kwokkwan",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "許智峯",
+                "nameen": "HUI Chifung",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "陸頌雄",
+                "nameen": "LUK Chunghung",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "劉國勳",
+                "nameen": "LAU Kwokfan",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "劉業強",
+                "nameen": "Kenneth LAU",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "鄭松泰",
+                "nameen": "Dr CHENG Chungtai",
+                "constituency": "Geographical",
+                "vote": "No"
+              },
+              {
+                "namech": "鄺俊宇",
+                "nameen": "KWONG Chunyu",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "譚文豪",
+                "nameen": "Jeremy TAM",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "范國威",
+                "nameen": "Gary FAN",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "區諾軒",
+                "nameen": "AU Nokhin",
+                "constituency": "Geographical",
+                "vote": "Abstain"
+              },
+              {
+                "namech": "鄭泳舜",
+                "nameen": "Vincent CHENG",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "謝偉銓",
+                "nameen": "Tony TSE",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "陳凱欣",
+                "nameen": "CHAN Hoiyan",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              }
+            ]
+          }
+        },
+        {
+          "number": "10",
+          "votedate": "06/06/2019",
+          "votetime": "14:44:45",
+          "motionch": "陳恒鑌議員動議，經麥美娟議員、陳沛然議員及黃碧雲議員修正的「推動醫療改革」議案",
+          "motionen": "MOTION MOVED BY HON CHAN HANPAN ON “PROMOTING HEALTHCARE REFORM” AS AMENDED BY HON ALICE MAK, DR HON PIERRE CHAN AND DR HON HELENA WONG",
+          "moverch": "陳恒鑌",
+          "moveren": "CHAN Hanpan",
+          "movertype": "Member",
+          "voteseparatemechanism": "Yes",
+          "votesummary": {
+            "functionalconstituency": {
+              "presentcount": "28",
+              "votecount": "27",
+              "yescount": "19",
+              "nocount": "8",
+              "abstaincount": "0",
+              "result": "Passed"
+            },
+            "geographicalconstituency": {
+              "presentcount": "28",
+              "votecount": "28",
+              "yescount": "14",
+              "nocount": "14",
+              "abstaincount": "0",
+              "result": "Negatived"
+            },
+            "overall": { "result": "Negatived" }
+          },
+          "individualvotes": {
+            "member": [
+              {
+                "namech": "梁君彥",
+                "nameen": "Andrew LEUNG",
+                "constituency": "Functional",
+                "vote": "Present"
+              },
+              {
+                "namech": "涂謹申",
+                "nameen": "James TO",
+                "constituency": "Functional",
+                "vote": "No"
+              },
+              {
+                "namech": "梁耀忠",
+                "nameen": "LEUNG Yiuchung",
+                "constituency": "Functional",
+                "vote": "No"
+              },
+              {
+                "namech": "石禮謙",
+                "nameen": "Abraham SHEK",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "張宇人",
+                "nameen": "Tommy CHEUNG",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "李國麟",
+                "nameen": "Prof Joseph LEE",
+                "constituency": "Functional",
+                "vote": "No"
+              },
+              {
+                "namech": "林健鋒",
+                "nameen": "Jeffrey LAM",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "黃定光",
+                "nameen": "WONG Tingkwong",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "李慧琼",
+                "nameen": "Starry LEE",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "陳克勤",
+                "nameen": "CHAN Hakkan",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "陳健波",
+                "nameen": "CHAN Kinpor",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "梁美芬",
+                "nameen": "Dr Priscilla LEUNG",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "黃國健",
+                "nameen": "WONG Kwokkin",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "葉劉淑儀",
+                "nameen": "Mrs Regina IP",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "謝偉俊",
+                "nameen": "Paul TSE",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "毛孟靜",
+                "nameen": "Claudia MO",
+                "constituency": "Geographical",
+                "vote": "No"
+              },
+              {
+                "namech": "田北辰",
+                "nameen": "Michael TIEN",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "何俊賢",
+                "nameen": "Steven HO",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "易志明",
+                "nameen": "Frankie YICK",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "胡志偉",
+                "nameen": "WU Chiwai",
+                "constituency": "Geographical",
+                "vote": "No"
+              },
+              {
+                "namech": "姚思榮",
+                "nameen": "YIU Siwing",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "馬逢國",
+                "nameen": "MA Fungkwok",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "莫乃光",
+                "nameen": "Charles Peter MOK",
+                "constituency": "Functional",
+                "vote": "No"
+              },
+              {
+                "namech": "陳志全",
+                "nameen": "CHAN Chichuen",
+                "constituency": "Geographical",
+                "vote": "No"
+              },
+              {
+                "namech": "陳恒鑌",
+                "nameen": "CHAN Hanpan",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "梁志祥",
+                "nameen": "LEUNG Checheung",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "梁繼昌",
+                "nameen": "Kenneth LEUNG",
+                "constituency": "Functional",
+                "vote": "No"
+              },
+              {
+                "namech": "麥美娟",
+                "nameen": "Alice MAK",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "郭家麒",
+                "nameen": "Dr KWOK Kaki",
+                "constituency": "Geographical",
+                "vote": "No"
+              },
+              {
+                "namech": "郭偉强",
+                "nameen": "KWOK Waikeung",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "郭榮鏗",
+                "nameen": "Dennis KWOK",
+                "constituency": "Functional",
+                "vote": "No"
+              },
+              {
+                "namech": "張華峰",
+                "nameen": "Christopher CHEUNG",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "張超雄",
+                "nameen": "Dr Fernando CHEUNG",
+                "constituency": "Geographical",
+                "vote": "No"
+              },
+              {
+                "namech": "黃碧雲",
+                "nameen": "Dr Helena WONG",
+                "constituency": "Geographical",
+                "vote": "No"
+              },
+              {
+                "namech": "葉建源",
+                "nameen": "IP Kinyuen",
+                "constituency": "Functional",
+                "vote": "No"
+              },
+              {
+                "namech": "葛珮帆",
+                "nameen": "Dr Elizabeth QUAT",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "廖長江",
+                "nameen": "Martin LIAO",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "潘兆平",
+                "nameen": "POON Siuping",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "蔣麗芸",
+                "nameen": "Dr CHIANG Laiwan",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "盧偉國",
+                "nameen": "Ir Dr LO Waikwok",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "鍾國斌",
+                "nameen": "CHUNG Kwokpan",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "楊岳橋",
+                "nameen": "Alvin YEUNG",
+                "constituency": "Geographical",
+                "vote": "No"
+              },
+              {
+                "namech": "尹兆堅",
+                "nameen": "Andrew WAN",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "朱凱廸",
+                "nameen": "CHU Hoidick",
+                "constituency": "Geographical",
+                "vote": "No"
+              },
+              {
+                "namech": "吳永嘉",
+                "nameen": "Jimmy NG",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "何君堯",
+                "nameen": "Dr Junius HO",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "何啟明",
+                "nameen": "HO Kaiming",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "林卓廷",
+                "nameen": "LAM Cheukting",
+                "constituency": "Geographical",
+                "vote": "No"
+              },
+              {
+                "namech": "周浩鼎",
+                "nameen": "Holden CHOW",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "邵家輝",
+                "nameen": "SHIU Kafai",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "邵家臻",
+                "nameen": "SHIU Kachun",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "柯創盛",
+                "nameen": "Wilson OR",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "容海恩",
+                "nameen": "YUNG Hoiyan",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "陳沛然",
+                "nameen": "Dr Pierre CHAN",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "陳振英",
+                "nameen": "CHAN Chunying",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "陳淑莊",
+                "nameen": "Tanya CHAN",
+                "constituency": "Geographical",
+                "vote": "Absent"
+              },
+              {
+                "namech": "張國鈞",
+                "nameen": "CHEUNG Kwokkwan",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "許智峯",
+                "nameen": "HUI Chifung",
+                "constituency": "Geographical",
+                "vote": "No"
+              },
+              {
+                "namech": "陸頌雄",
+                "nameen": "LUK Chunghung",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "劉國勳",
+                "nameen": "LAU Kwokfan",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "劉業強",
+                "nameen": "Kenneth LAU",
+                "constituency": "Functional",
+                "vote": "Absent"
+              },
+              {
+                "namech": "鄭松泰",
+                "nameen": "Dr CHENG Chungtai",
+                "constituency": "Geographical",
+                "vote": "No"
+              },
+              {
+                "namech": "鄺俊宇",
+                "nameen": "KWONG Chunyu",
+                "constituency": "Functional",
+                "vote": "No"
+              },
+              {
+                "namech": "譚文豪",
+                "nameen": "Jeremy TAM",
+                "constituency": "Geographical",
+                "vote": "No"
+              },
+              {
+                "namech": "范國威",
+                "nameen": "Gary FAN",
+                "constituency": "Geographical",
+                "vote": "No"
+              },
+              {
+                "namech": "區諾軒",
+                "nameen": "AU Nokhin",
+                "constituency": "Geographical",
+                "vote": "No"
+              },
+              {
+                "namech": "鄭泳舜",
+                "nameen": "Vincent CHENG",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              },
+              {
+                "namech": "謝偉銓",
+                "nameen": "Tony TSE",
+                "constituency": "Functional",
+                "vote": "Yes"
+              },
+              {
+                "namech": "陳凱欣",
+                "nameen": "CHAN Hoiyan",
+                "constituency": "Geographical",
+                "vote": "Yes"
+              }
+            ]
+          }
+        }
+      ]
+}
+]
+}

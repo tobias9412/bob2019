@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	html {white-space: pre;}
+</style>
+</head>
+
+<body>
+<session id="demo"></session>
+	<script>
+		var requestURL = 'data.json';
+		var request = new XMLHttpRequest();
+		request.open('GET', requestURL);
+		request.responseType = 'text';
+		request.send();
+
+		request.onload = function() {
+			var Text = request.response;
+			var data = JSON.parse(Text);
+			//document.getElementById("demo").innerHTML = data.meeting[0].vote[0].motionch
+			
+			for(var i = 0; i < data.meeting.length; i++) {
+				for(var j = 0; j < data.meeting[i].vote.length; j++) {
+					var myArticle = document.createElement('article')
+					
+					var myh1 = document.createElement('h1');
+					myh1.textContent = data.meeting[i].vote[j].votedate + "\r\n" + data.meeting[i].vote[j].motionch;
+
+					var myp = document.createElement('p');
+					myp.textContent = data.meeting[i].vote[j].votetime + "\r\n" + data.meeting[i].vote[j].votesummary.overall.result;
+
+					var tPresent = document.createTextNode("Present");
+					var myListPresent = document.createElement('ul');
+					var tYes = document.createTextNode("Yes");
+					var myListYes = document.createElement('ul');
+					var tNo = document.createTextNode("No");
+					var myListNo = document.createElement('ul');
+					var tAbsent = document.createTextNode("Absent");
+					var myListAbsent = document.createElement('ul');
+
+					for(var k = 0; k < data.meeting[i].vote[j].individualvotes.member.length; k++) {
+						var myLi = document.createElement('li');
+						if (data.meeting[i].vote[j].individualvotes.member[k].vote === "Present") {
+							myLi.textContent = data.meeting[i].vote[j].individualvotes.member[k].namech;
+							myListPresent.appendChild(myLi);
+						} else if (data.meeting[i].vote[j].individualvotes.member[k].vote === "Yes") {
+							myLi.textContent = data.meeting[i].vote[j].individualvotes.member[k].namech;
+							myListYes.appendChild(myLi);
+						}else if (data.meeting[i].vote[j].individualvotes.member[k].vote === "No") {
+							myLi.textContent = data.meeting[i].vote[j].individualvotes.member[k].namech;
+							myListNo.appendChild(myLi);
+						}else if (data.meeting[i].vote[j].individualvotes.member[k].vote === "Absent") {
+							myLi.textContent = data.meeting[i].vote[j].individualvotes.member[k].namech;
+							myListAbsent.appendChild(myLi);
+						}
+					}
+
+					myArticle.appendChild(myh1);
+					myArticle.appendChild(myp);
+					myArticle.appendChild(tPresent);
+					myArticle.appendChild(myListPresent);
+					myArticle.appendChild(tYes);
+					myArticle.appendChild(myListYes);
+					myArticle.appendChild(tNo);
+					myArticle.appendChild(myListNo);
+					myArticle.appendChild(tAbsent);
+					myArticle.appendChild(myListAbsent);
+
+					document.getElementById("demo").appendChild(myArticle);
+				}
+			}
+		}
+
+	</script>
+</body>
+</html>
