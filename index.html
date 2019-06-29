@@ -3,6 +3,14 @@
 <head>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<style>
+		.rect {
+			float: left;
+			width:20px;
+			height:20px;
+			margin-right: 5px;
+		}
+	</style>
 </head>
 
 <body>
@@ -17,7 +25,7 @@
 
 					$("session").append("<article class='" + articleClass + "'>");
 					$("." + articleClass).append("<h1>" + vote.motionch+ "</h1>" + 
-												 "<p>" + vote.votedate + vote.votetime + vote.votesummary.overall.result + "</p>");
+						"<p>" + vote.votedate + vote.votetime + vote.votesummary.overall.result + "</p>");
 
 
 					var ListPresent = new Array();
@@ -39,30 +47,91 @@
 
 					$("." + articleClass).append("<h2>Present:</h2><ol class='present'>");
 					$.each(ListPresent, function (index, name){
-						$("." + articleClass +" .present").append("<li id='" + name + "'>" + name + "</li>");
+						$("." + articleClass +" .present").append(
+							"<div class='rect' id='" + name + "'></div><li id='" + name + "'>" + name + "</li>");
 					});
 
 					$("." + articleClass).append("<h2>Yes:</h2><ol class='yes'>");
 					$.each(ListYes, function (index, name){
-						$("." + articleClass +" .yes").append("<li id='" + name + "'>" + name + "</li>");
+						$("." + articleClass +" .yes").append(
+							"<div class='rect' id='" + name + "'></div><li id='" + name + "'>" + name + "</li>");
 					});
 
 					$("." + articleClass).append("<h2>No:</h2><ol class='no'>");
 					$.each(ListNo, function (index, name){
-						$("." + articleClass +" .no").append("<li id='" + name + "'>" + name + "</li>");
+						$("." + articleClass +" .no").append(
+							"<div class='rect' id='" + name + "'></div><li id='" + name + "'>" + name + "</li>");
 					});
 
 					$("." + articleClass).append("<h2>Absent:</h2><ol class='absent'>");
 					$.each(ListAbsent, function (index, name){
-						$("." + articleClass +" .absent").append("<li id='" + name + "'>" + name + "</li>");
+						$("." + articleClass +" .absent").append(
+							"<div class='rect' id='" + name + "'></div><li id='" + name + "'>" + name + "</li>");
 					});
 				});
-				$("#程介南, #蔡素玉, #馬力, #曾鈺成, #鍾樹根, #張國鈞, #曾鈺成, #李慧琼, #蔣麗芸, #鄭泳舜, #陳婉嫻, #陳鑑林, #黃國健, #柯創盛, #譚耀宗, #張學明, #王國興, #梁志祥, #陳恒鑌, #劉江華, #李國英, #陳克勤, #葛珮帆, #黃容根, #何俊賢, #陳榮燦, #陳國強, #王國興, #潘佩璆, #黃定光, #葉國謙, #劉國勳, #李慧琼, #周浩鼎,  #楊耀忠,  #陳鑑林,  #蔡素玉").css({"color": "Blue"});
-				$("#梁美芬, #劉皇發, #劉業強, #盧偉國, #石禮謙, #林健鋒, #梁君彥, #張華峰, #吳永嘉").css({"color": "Aqua"});
+				//民建聯
+				$(" #程介南, #蔡素玉, #馬力, #曾鈺成, #鍾樹根, #張國鈞, #曾鈺成, #蔣麗芸, #鄭泳舜, #陳婉嫻, #陳鑑林, #黃國健, #柯創盛, #譚耀宗, #張學明, #王國興, #梁志祥, #陳恒鑌, #劉江華, #李國英, #陳克勤, #葛珮帆, #黃容根, #何俊賢, #陳榮燦, #陳國強, #王國興, #潘佩璆, #黃定光, #葉國謙, #劉國勳, #李慧琼, #周浩鼎,  #楊耀忠, #陳鑑林, #蔡素玉").filter( ".rect" ).css({"background-color": "Blue"});
 
-			});
+				//經民聯
+				$("#梁美芬, #劉皇發, #劉業強, #盧偉國, #石禮謙, #林健鋒, #梁君彥, #張華峰, #吳永嘉").filter( ".rect" ).css({"background-color": "Aqua"});
+
+				//工聯會
+				$("#王國興, #郭偉强, #陳婉嫻, #黃國健, #王國興, #麥美娟, #鄺志堅, #王國興, #潘佩璆, #葉偉明, #郭偉强, 鄧家彪, #何啟明, #陸頌雄, #陳婉嫻").filter( ".rect" ).css({"background-color": "Red"});
+
+				//自由黨
+				$("#周梁淑怡, #田北俊,#劉皇發, #劉健儀, #易志明, #何承天, #夏佳理, #楊孝華, #田北俊, #林健鋒, #丁午壽, #梁君彥, #梁劉柔芬, #鍾國斌, #周梁淑怡, #方剛, #邵家輝, #張宇人, #劉皇發, #何世柱 ").filter( ".rect" ).css({"background-color": "DarkTurquoise"});
+
+				//新民黨
+				$("#葉劉淑儀, #容海恩").filter( ".rect" ).css({"background-color": "MediumTurquoise "});
+
+				//新世紀論壇
+				$("#何君堯, #馬逢國, #吳清輝, #馬逢國").filter( ".rect" ).css({"background-color": "DarkSlateGray"});
+
+				//創建力量
+				$("#謝偉俊").filter( ".rect" ).css({"background-color": "DeepPink "});
+
+				//實政圓桌
+				$("#田北辰").filter( ".rect" ).css({"background-color": "Navy "});
+
+				//港九勞工社團聯會
+				$("#李啟明, #李鳳英, #潘兆平").filter( ".rect" ).css({"background-color": "Green "});
+
+				//民主黨
+				$("#李柱銘, #楊森, #甘乃威, #單仲偕, #許智峯, #劉千石, #涂謹申, #黃碧雲, #司徒華, #李華明, #胡志偉, #李永達, #何俊仁, #陳偉業, #尹兆堅, #鄭家富, #黃成智, #劉慧卿, #林卓廷, #張文光, #何敏嘉, #羅致光, #單仲偕, #何俊仁, #涂謹申, #鄺俊宇").filter( ".rect" ).css({"background-color": "GreenYellow "});
+
+				//公民黨
+				$("#余若薇, #陳淑莊, #陳家洛, #梁家傑, #譚文豪, #湯家驊, #楊岳橋, #毛孟靜, #郭家麒, #譚香文, #吳靄儀, #郭榮鏗, #張超雄").filter( ".rect" ).css({"background-color": "DarkViolet "});
+
+				//專業議政
+				$("#葉建源, #郭榮鏗, #梁繼昌, #李國麟, #姚松炎, #邵家臻, #莫乃光").filter( ".rect" ).css({"background-color": "Indigo"});
+
+				//工黨
+				$("#何秀蘭, #李卓人, #張超雄, #張國柱").filter( ".rect" ).css({"background-color": "Orange"});
+
+				//人民力量
+				$("#黃毓民, #陳偉業, #陳志全").filter( ".rect" ).css({"background-color": "Yellow"});
+
+				//街坊工友服務處
+				$("#梁耀忠").filter( ".rect" ).css({"background-color": "GoldenRod"});
+
+				//香港本土
+				$("#毛孟靜").filter( ".rect" ).css({"background-color": "Chocolate "});
+
+				//新民主同盟
+				$("#范國威").filter( ".rect" ).css({"background-color": "DarkOrange "});
+
+				//土地正義聯盟
+				$("#朱凱廸").filter( ".rect" ).css({"background-color": "Brown "});
+
+				//熱血公民
+				$("#鄭松泰").filter( ".rect" ).css({"background-color": "Orange"});
+
+				//獨立
+				$("#區諾軒, #陳凱欣, #陳健波, #陳沛然, #李國麟, #謝偉銓, #邵家臻, #姚思榮, #廖長江, #陳振英").filter( ".rect" ).css({"background-color": "Grey"});
+
+
+});
 		});
-
 
 
 
