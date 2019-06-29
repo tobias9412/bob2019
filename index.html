@@ -2,6 +2,7 @@
 <html>
 <head>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="reset.css">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<style>
 		.rect {
@@ -11,24 +12,29 @@
 			margin-right: 5px;
 		}
 
-		#allbutton, #yesbutton, #nobutton, #absentbutton, #abstainbutton {
+		h1 {
+			width:100%;
+			font-size: 3em;
+		}
+
+	#allbutton, #yesbutton, #nobutton, #absentbutton, #abstainbutton {
 			text-align: center;
 			margin: 1em;
 			float:left;
-		}
+			font-size: 2em;
 
-		h1 {
-			width:100%;
 		}
 
 		.namelist {
 			float: left;
 			width: 100%;
 			height: 100%;
-					}
+			margin: 100px 0;
+		}
 
 		ol.yes, ol.no, ol.absent, ol.abstain {
 			float: left;
+			display: block;
 			width:25%;
 		}
 
@@ -37,8 +43,9 @@
 			clear: both;
 			position: relative;
 			float: all;
-			width: 95%;
-			height: 900px;
+			width: 1280px;
+			height: 750px;
+
 		}
 		.circle{
 			position:absolute;
@@ -48,6 +55,11 @@
 		    height: 9%;
 		    background: transparent;
 		    text-align: center
+			}
+
+			.circle li {
+				list-style-type:none;
+				margin: 20px 0;
 			}
 
 			#鄺俊宇 {top: 95%; left: 0%; }
@@ -104,13 +116,13 @@
 			#黃國健{top: 30%; left: 72%; }
 			#何君堯{top: 31%; left: 78%; }
 			#劉國勳{top: 33%; left: 84%; }
-			#陳恒鑌{top: 36%; left: 90%; }
-			#柯創盛{top: 40%; left: 95%; }
+			#陳恒鑌{top: 37%; left: 90%; }
+			#柯創盛{top: 43%; left: 95%; }
 			#葛珮帆{top: 39%; left: 66%; }
 			#梁志祥{top: 40%; left: 72%; }
 			#周浩鼎{top: 41%; left: 78%; }
 			#黃定光{top: 45%; left: 84%; }
-			#何俊賢{top: 51%; left: 90%; }
+			#何俊賢{top: 49%; left: 90%; }
 			#李慧琼{top: 49%; left: 66%; }
 			#陳克勤{top: 50%; left: 72%; }
 			#張國鈞{top: 53%; left: 78%; }
@@ -209,14 +221,13 @@
 					$("session").append("<article class='" + articleClass + "'>");
 					$("." + articleClass).append(
 						"<h1>" + vote.motionch+ "</h1>" + 
-						"<p>" + vote.votedate + vote.votetime + vote.votesummary.overall.result + "</p>" +
-						"<h2 id='allbutton'>ALL</h2>" +
-						"<h2 id='yesbutton'>YES</h2>" +
-						"<h2 id='nobutton'>NO</h2>" +
-						"<h2 id='absentbutton'>ABSENT</h2>" +
-						"<h2 id='abstainbutton'>ABSTAIN</h2>"
-						);
+						"<p>" + vote.votedate + vote.votetime + vote.votesummary.overall.result + "</p>");
 					$("." + articleClass).append("<div class='container'>" +
+							"<h2 id='allbutton'>ALL</h2>" +
+							"<h2 id='yesbutton'>YES</h2>" +
+							"<h2 id='nobutton'>NO</h2>" +
+							"<h2 id='absentbutton'>ABSENT</h2>" +
+							"<h2 id='abstainbutton'>ABSTAIN</h2>" +
 							"<div class='circle' id='鄺俊宇'><li>鄺俊宇</li></div>" +
 							"<div class='circle' id='涂謹申'><li>涂謹申</li></div>" +
 							"<div class='circle' id='許智峯'><li>許智峯</li></div>" +
@@ -310,7 +321,7 @@
 						};
 					});
 
-					$("." + articleClass).children().filter("#allbutton").click(function(){
+					$("." + articleClass + " .container").children().filter("#allbutton").click(function(){
 						$("." + articleClass + " .container").children().each(function(){
 						var myId = this.id;
 						$.each(ListNo, function (index, name){
@@ -336,7 +347,7 @@
 						});
 					});
 
-					$("." + articleClass).children().filter("#nobutton").click(function(){
+					$("." + articleClass + " .container").children().filter("#nobutton").click(function(){
 						$("." + articleClass + " .container").children().each(function(){
 						var myId = this.id;
 						$.each(ListNo, function (index, name){
@@ -362,7 +373,7 @@
 						});
 					});
 
-					$("." + articleClass).children().filter("#yesbutton").click(function(){
+					$("." + articleClass + " .container").children().filter("#yesbutton").click(function(){
 						$("." + articleClass + " .container").children().each(function(){
 						var myId = this.id;
 												$.each(ListNo, function (index, name){
@@ -389,7 +400,7 @@
 					});
 
 
-					$("." + articleClass).children().filter("#absentbutton").click(function(){
+					$("." + articleClass + " .container").children().filter("#absentbutton").click(function(){
 						$("." + articleClass + " .container").children().each(function(){
 						var myId = this.id;
 												$.each(ListNo, function (index, name){
@@ -416,7 +427,7 @@
 					});
 
 
-					$("." + articleClass).children().filter("#abstainbutton").click(function(){
+					$("." + articleClass + " .container").children().filter("#abstainbutton").click(function(){
 						$("." + articleClass + " .container").children().each(function(){
 						var myId = this.id;
 												$.each(ListNo, function (index, name){
@@ -441,11 +452,6 @@
 							});
 						});
 					});
-
-				
-					
-					
-
 
 					//var myId = $("." + articleClass + " .container").children().attr('id');
 					//$.each(ListYes, function (index, name){
@@ -459,24 +465,24 @@
 					$("." + articleClass + " .namelist").append("<h2>Yes:</h2><ol class='yes'>");
 					$.each(ListYes, function (index, name){
 						$("." + articleClass + " .namelist" + " .yes").append(
-							"<div class='rect' id='" + name + "'></div><li id='" + name + "'>" + name + "</li>");
+							"<li id='" + name + "'>" + name + "</li>");
 					});
 
 					$("." + articleClass + " .namelist").append("<h2>No:</h2><ol class='no'>");
 					$.each(ListNo, function (index, name){
 						$("." + articleClass + " .namelist" + " .no").append(
-							"<div class='rect' id='" + name + "'></div><li id='" + name + "'>" + name + "</li>");
+							"<li id='" + name + "'>" + name + "</li>");
 					});
 
 					$("." + articleClass + " .namelist").append("<h2>Absent:</h2><ol class='absent'>");
 					$.each(ListAbsent, function (index, name){
 						$("." + articleClass + " .namelist" + " .absent").append(
-							"<div class='rect' id='" + name + "'></div><li id='" + name + "'>" + name + "</li>");
+							"<li id='" + name + "'>" + name + "</li>");
 					});
 					$("." + articleClass + " .namelist").append("<h2>Abstain:</h2><ol class='abstain'>");
 					$.each(ListAbstain, function (index, name){
 						$("." + articleClass + " .namelist" + " .abstain").append(
-							"<div class='rect' id='" + name + "'></div><li id='" + name + "'>" + name + "</li>");
+							"<li id='" + name + "'>" + name + "</li>");
 					});
 
 				});
