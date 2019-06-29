@@ -2,7 +2,6 @@
 <html>
 <head>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script src="https://gist.githubusercontent.com/DavidWells/18e73022e723037a50d6/raw/ead7e72d11c847ad9b81f094686543522101c278/reset.css"></script>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<style>
 		.rect {
@@ -11,12 +10,195 @@
 			height:20px;
 			margin-right: 5px;
 		}
+
+		#allbutton, #yesbutton, #nobutton, #absentbutton, #abstainbutton {
+			text-align: center;
+			margin: 1em;
+			float:left;
+		}
+
+		h1 {
+			width:100%;
+		}
+
+		.namelist {
+			float: left;
+			width: 100%;
+			height: 100%;
+					}
+
+		ol.yes, ol.no, ol.absent, ol.abstain {
+			float: left;
+			width:25%;
+		}
+
+		.container{
+			margin: auto;
+			clear: both;
+			position: relative;
+			float: all;
+			width: 95%;
+			height: 900px;
+		}
+		.circle{
+			position:absolute;
+			border-radius: 50%;
+			behavior: url(PIE.htc); /* remove if you don't care about IE8 */			
+			width: 5%;
+		    height: 9%;
+		    background: transparent;
+		    text-align: center
+			}
+
+			#鄺俊宇 {top: 95%; left: 0%; }
+			#涂謹申{top: 85%; left: 1%; }
+			#c3{top: 75%; left: 3%; }
+			#許智峯{top: 65%; left: 6%; }
+			#邵家臻{top: 57.5%; left: 10.5%; }
+			#梁耀忠{top: 50%; left: 15%; }
+			#林卓廷{top: 95%; left: 8%; }
+			#尹兆堅{top: 85%; left: 9%; }
+			#黃碧雲{top: 75%; left: 11%; }
+			#葉建源{top: 67.5%; left: 16%; }
+			#李國麟{top: 60%; left: 21%; }
+			#胡志偉{top: 95%; left: 16%; }
+			#莫乃光{top: 85%; left: 17%; }
+			#梁繼昌{top: 75%; left: 21%; }
+			#郭榮鏗{top: 70%; left: 27%; }
+			#譚文豪{top: 95%; left: 24%; }
+			#郭家麒{top: 85%; left: 27%; }
+			#毛孟靜{top: 80%; left: 33%; }
+			#陳淑莊{top: 95%; left: 32%; }
+			#楊岳橋{top: 87.5%; left: 39%; }
+			#c21{top: 26%; left: 30%; }
+			#鄭松泰{top: 23%; left: 36%; }
+			#陳凱欣{top: 21%; left: 42%; }
+			#馬逢國{top: 20%; left: 48%; }
+			#廖長江{top: 19%; left: 54%; }
+			#張超雄{top: 40%; left: 24%; }
+			#朱凱廸{top: 36%; left: 30%; }
+			#區諾軒{top: 33%; left: 36%; }
+			#謝偉銓{top: 31%; left: 42%; }
+			#陳振英{top: 30%; left: 48%; }
+			#姚思榮{top: 29%; left: 54%; }
+			#范國威{top: 51%; left: 30%; }
+			#陳志全{top: 45%; left: 36%; }
+			#陳沛然{top: 41%; left: 42%; }
+			#陳健波{top: 40%; left: 48%; }
+			#吳永嘉{top: 39%; left: 54%; }
+			#田北辰{top: 58%; left: 36%; }
+			#容海恩{top: 53%; left: 42%; }
+			#葉劉淑儀{top: 50%; left: 48%; }
+			#易志明{top: 49%; left: 54%; }
+			#邵家輝{top: 65%; left: 42%; }
+			#鍾國斌{top: 61%; left: 48%; }
+			#張宇人{top: 60%; left: 54%; }
+			#謝偉俊{top: 73%; left: 48%; }
+			#石禮謙{top: 71%; left: 54%; }
+			#郭偉强{top: 19%; left: 66%; }
+			#麥美娟{top: 20%; left: 72%; }
+			#陸頌雄{top: 21%; left: 78%; }
+			#潘兆平{top: 23%; left: 84%; }
+			#鄭泳舜{top: 26%; left: 90%; }
+			#何啟明{top: 29%; left: 66%; }
+			#黃國健{top: 30%; left: 72%; }
+			#何君堯{top: 31%; left: 78%; }
+			#劉國勳{top: 33%; left: 84%; }
+			#陳恒鑌{top: 36%; left: 90%; }
+			#柯創盛{top: 40%; left: 95%; }
+			#葛珮帆{top: 39%; left: 66%; }
+			#梁志祥{top: 40%; left: 72%; }
+			#周浩鼎{top: 41%; left: 78%; }
+			#黃定光{top: 45%; left: 84%; }
+			#何俊賢{top: 51%; left: 90%; }
+			#李慧琼{top: 49%; left: 66%; }
+			#陳克勤{top: 50%; left: 72%; }
+			#張國鈞{top: 53%; left: 78%; }
+			#蔣麗芸{top: 58%; left: 84%; }
+			#梁美芬{top: 60%; left: 66%; }
+			#林健鋒{top: 61%; left: 72%; }
+			#劉業強{top: 65%; left: 78%; }
+			#盧偉國{top: 71%; left: 66%; }
+			#張華峰{top: 73%; left: 72%; }
+
+			/*
+			#c1{top: 95%; left: 0%; }
+			#c2{top: 85%; left: 1%; }
+			#c3{top: 75%; left: 3%; }
+			#c4{top: 65%; left: 6%; }
+			#c5{top: 57.5%; left: 10.5%; }
+			#c6{top: 50%; left: 15%; }
+			#c7{top: 95%; left: 8%; }
+			#c8{top: 85%; left: 9%; }
+			#c9{top: 75%; left: 11%; }
+			#c10{top: 67.5%; left: 16%; }
+			#c11{top: 60%; left: 21%; }
+			#c12{top: 95%; left: 16%; }
+			#c13{top: 85%; left: 17%; }
+			#c14{top: 75%; left: 21%; }
+			#c15{top: 70%; left: 27%; }
+			#c16{top: 95%; left: 24%; }
+			#c17{top: 85%; left: 27%; }
+			#c18{top: 80%; left: 33%; }
+			#c19{top: 95%; left: 32%; }
+			#c20{top: 87.5%; left: 39%; }
+			#c21{top: 26%; left: 30%; }
+			#c22{top: 23%; left: 36%; }
+			#c23{top: 21%; left: 42%; }
+			#c24{top: 20%; left: 48%; }
+			#c25{top: 19%; left: 54%; }
+			#c26{top: 40%; left: 24%; }
+			#c27{top: 36%; left: 30%; }
+			#c28{top: 33%; left: 36%; }
+			#c29{top: 31%; left: 42%; }
+			#c30{top: 30%; left: 48%; }
+			#c31{top: 29%; left: 54%; }
+			#c32{top: 51%; left: 30%; }
+			#c33{top: 45%; left: 36%; }
+			#c34{top: 41%; left: 42%; }
+			#c35{top: 40%; left: 48%; }
+			#c36{top: 39%; left: 54%; }
+			#c37{top: 58%; left: 36%; }
+			#c38{top: 53%; left: 42%; }
+			#c39{top: 50%; left: 48%; }
+			#c40{top: 49%; left: 54%; }
+			#c41{top: 65%; left: 42%; }
+			#c42{top: 61%; left: 48%; }
+			#c43{top: 60%; left: 54%; }
+			#c44{top: 73%; left: 48%; }
+			#c45{top: 71%; left: 54%; }
+			#c46{top: 19%; left: 66%; }
+			#c47{top: 20%; left: 72%; }
+			#c48{top: 21%; left: 78%; }
+			#c49{top: 23%; left: 84%; }
+			#c50{top: 26%; left: 90%; }
+			#c51{top: 29%; left: 66%; }
+			#c52{top: 30%; left: 72%; }
+			#c53{top: 31%; left: 78%; }
+			#c54{top: 33%; left: 84%; }
+			#c55{top: 36%; left: 90%; }
+			#c56{top: 40%; left: 95%; }
+			#c57{top: 39%; left: 66%; }
+			#c58{top: 40%; left: 72%; }
+			#c59{top: 41%; left: 78%; }
+			#c60{top: 45%; left: 84%; }
+			#c61{top: 51%; left: 90%; }
+			#c62{top: 49%; left: 66%; }
+			#c63{top: 50%; left: 72%; }
+			#c64{top: 53%; left: 78%; }
+			#c65{top: 58%; left: 84%; }
+			#c66{top: 60%; left: 66%; }
+			#c67{top: 61%; left: 72%; }
+			#c68{top: 65%; left: 78%; }
+			#c69{top: 71%; left: 66%; }
+			#c70{top: 73%; left: 72%; }
+			*/
+		}
 	</style>
 </head>
 
 <body>
 	<session></session>
-
 	<script>
 		$.getJSON( "data.json", function(record){
 			$.each(record.meeting, function(key, meeting){
@@ -25,14 +207,94 @@
 					var articleClass = vote.votedate.split("/")[2]+vote.votedate.split("/")[1]+vote.votedate.split("/")[0]+vote.votetime.split(":")[0]+vote.votetime.split(":")[1]+vote.votetime.split(":")[2];
 
 					$("session").append("<article class='" + articleClass + "'>");
-					$("." + articleClass).append("<h1>" + vote.motionch+ "</h1>" + 
-						"<p>" + vote.votedate + vote.votetime + vote.votesummary.overall.result + "</p>");
+					$("." + articleClass).append(
+						"<h1>" + vote.motionch+ "</h1>" + 
+						"<p>" + vote.votedate + vote.votetime + vote.votesummary.overall.result + "</p>" +
+						"<h2 id='allbutton'>ALL</h2>" +
+						"<h2 id='yesbutton'>YES</h2>" +
+						"<h2 id='nobutton'>NO</h2>" +
+						"<h2 id='absentbutton'>ABSENT</h2>" +
+						"<h2 id='abstainbutton'>ABSTAIN</h2>"
+						);
+					$("." + articleClass).append("<div class='container'>" +
+							"<div class='circle' id='鄺俊宇'><li>鄺俊宇</li></div>" +
+							"<div class='circle' id='涂謹申'><li>涂謹申</li></div>" +
+							"<div class='circle' id='許智峯'><li>許智峯</li></div>" +
+							"<div class='circle' id='邵家臻'><li>邵家臻</li></div>" +
+							"<div class='circle' id='梁耀忠'><li>梁耀忠</li></div>" +
+							"<div class='circle' id='林卓廷'><li>林卓廷</li></div>" +
+							"<div class='circle' id='尹兆堅'><li>尹兆堅</li></div>" +
+							"<div class='circle' id='黃碧雲'><li>黃碧雲</li></div>" +
+							"<div class='circle' id='葉建源'><li>葉建源</li></div>" +
+							"<div class='circle' id='李國麟'><li>李國麟</li></div>" +
+							"<div class='circle' id='胡志偉'><li>胡志偉</li></div>" +
+							"<div class='circle' id='莫乃光'><li>莫乃光</li></div>" +
+							"<div class='circle' id='梁繼昌'><li>梁繼昌</li></div>" +
+							"<div class='circle' id='郭榮鏗'><li>郭榮鏗</li></div>" +
+							"<div class='circle' id='譚文豪'><li>譚文豪</li></div>" +
+							"<div class='circle' id='郭家麒'><li>郭家麒</li></div>" +
+							"<div class='circle' id='毛孟靜'><li>毛孟靜</li></div>" +
+							"<div class='circle' id='陳淑莊'><li>陳淑莊</li></div>" +
+							"<div class='circle' id='楊岳橋'><li>楊岳橋</li></div>" +
+							"<div class='circle' id='鄭松泰'><li>鄭松泰</li></div>" +
+							"<div class='circle' id='陳凱欣'><li>陳凱欣</li></div>" +
+							"<div class='circle' id='馬逢國'><li>馬逢國</li></div>" +
+							"<div class='circle' id='廖長江'><li>廖長江</li></div>" +
+							"<div class='circle' id='張超雄'><li>張超雄</li></div>" +
+							"<div class='circle' id='朱凱廸'><li>朱凱廸</li></div>" +
+							"<div class='circle' id='區諾軒'><li>區諾軒</li></div>" +
+							"<div class='circle' id='謝偉銓'><li>謝偉銓</li></div>" +
+							"<div class='circle' id='陳振英'><li>陳振英</li></div>" +
+							"<div class='circle' id='姚思榮'><li>姚思榮</li></div>" +
+							"<div class='circle' id='范國威'><li>范國威</li></div>" +
+							"<div class='circle' id='陳志全'><li>陳志全</li></div>" +
+							"<div class='circle' id='陳沛然'><li>陳沛然</li></div>" +
+							"<div class='circle' id='陳健波'><li>陳健波</li></div>" +
+							"<div class='circle' id='吳永嘉'><li>吳永嘉</li></div>" +
+							"<div class='circle' id='田北辰'><li>田北辰</li></div>" +
+							"<div class='circle' id='容海恩'><li>容海恩</li></div>" +
+							"<div class='circle' id='葉劉淑儀'><li>葉劉淑儀</li></div>" +
+							"<div class='circle' id='易志明'><li>易志明</li></div>" +
+							"<div class='circle' id='邵家輝'><li>邵家輝</li></div>" +
+							"<div class='circle' id='鍾國斌'><li>鍾國斌</li></div>" +
+							"<div class='circle' id='張宇人'><li>張宇人</li></div>" +
+							"<div class='circle' id='謝偉俊'><li>謝偉俊</li></div>" +
+							"<div class='circle' id='石禮謙'><li>石禮謙</li></div>" +
+							"<div class='circle' id='郭偉强'><li>郭偉强</li></div>" +
+							"<div class='circle' id='麥美娟'><li>麥美娟</li></div>" +
+							"<div class='circle' id='陸頌雄'><li>陸頌雄</li></div>" +
+							"<div class='circle' id='潘兆平'><li>潘兆平</li></div>" +
+							"<div class='circle' id='鄭泳舜'><li>鄭泳舜</li></div>" +
+							"<div class='circle' id='何啟明'><li>何啟明</li></div>" +
+							"<div class='circle' id='黃國健'><li>黃國健</li></div>" +
+							"<div class='circle' id='何君堯'><li>何君堯</li></div>" +
+							"<div class='circle' id='劉國勳'><li>劉國勳</li></div>" +
+							"<div class='circle' id='陳恒鑌'><li>陳恒鑌</li></div>" +
+							"<div class='circle' id='柯創盛'><li>柯創盛</li></div>" +
+							"<div class='circle' id='葛珮帆'><li>葛珮帆</li></div>" +
+							"<div class='circle' id='梁志祥'><li>梁志祥</li></div>" +
+							"<div class='circle' id='周浩鼎'><li>周浩鼎</li></div>" +
+							"<div class='circle' id='黃定光'><li>黃定光</li></div>" +
+							"<div class='circle' id='何俊賢'><li>何俊賢</li></div>" +
+							"<div class='circle' id='李慧琼'><li>李慧琼</li></div>" +
+							"<div class='circle' id='陳克勤'><li>陳克勤</li></div>" +
+							"<div class='circle' id='張國鈞'><li>張國鈞</li></div>" +
+							"<div class='circle' id='蔣麗芸'><li>蔣麗芸</li></div>" +
+							"<div class='circle' id='梁美芬'><li>梁美芬</li></div>" +
+							"<div class='circle' id='林健鋒'><li>林健鋒</li></div>" +
+							"<div class='circle' id='劉業強'><li>劉業強</li></div>" +
+							"<div class='circle' id='盧偉國'><li>盧偉國</li></div>" +
+							"<div class='circle' id='張華峰'><li>張華峰</li></div>" +
+							"</div>");
 
+					/*for (var s = 1; s <= 70; s++) {
+						$("." + articleClass + " .container").append("<div class='circle' id='c" + s + "'></div>");};*/
 
 					var ListPresent = new Array();
 					var ListYes = new Array();
 					var ListNo = new Array();
 					var ListAbsent = new Array();
+					var ListAbstain = new Array();
 
 					$.each(vote.individualvotes.member, function(key, member){
 						if (member.vote === "Present") {
@@ -43,101 +305,246 @@
 							ListNo.push(member.namech);
 						} else if (member.vote === "Absent") {
 							ListAbsent.push(member.namech);
+						} else if (member.vote === "Abstain") {
+							ListAbstain.push(member.namech);
 						};
 					});
 
-					$("." + articleClass).append("<h2>Present:</h2><ol class='present'>");
-					$.each(ListPresent, function (index, name){
-						$("." + articleClass +" .present").append(
-							"<div class='rect' id='" + name + "'></div><li id='" + name + "'>" + name + "</li>");
+					$("." + articleClass).children().filter("#allbutton").click(function(){
+						$("." + articleClass + " .container").children().each(function(){
+						var myId = this.id;
+						$.each(ListNo, function (index, name){
+							if (myId === name) {
+									$("." + articleClass + " .container").children().filter("#"+name).animate({"opacity": "1"});
+								};
+							});
+						$.each(ListYes, function (index, name){
+							if (myId === name) {
+									$("." + articleClass + " .container").children().filter("#"+name).animate({"opacity": "1"});
+								};
+							});
+						$.each(ListAbsent, function (index, name){
+							if (myId === name) {
+									$("." + articleClass + " .container").children().filter("#"+name).animate({"opacity": "1"});
+								};
+							});
+						$.each(ListAbstain, function (index, name){
+							if (myId === name) {
+									$("." + articleClass + " .container").children().filter("#"+name).animate({"opacity": "1"});
+								};
+							});
+						});
 					});
 
-					$("." + articleClass).append("<h2>Yes:</h2><ol class='yes'>");
+					$("." + articleClass).children().filter("#nobutton").click(function(){
+						$("." + articleClass + " .container").children().each(function(){
+						var myId = this.id;
+						$.each(ListNo, function (index, name){
+							if (myId === name) {
+									$("." + articleClass + " .container").children().filter("#"+name).animate({"opacity": "1"});
+								};
+							});
+						$.each(ListYes, function (index, name){
+							if (myId === name) {
+									$("." + articleClass + " .container").children().filter("#"+name).animate({"opacity": "0.1"});
+								};
+							});
+						$.each(ListAbsent, function (index, name){
+							if (myId === name) {
+									$("." + articleClass + " .container").children().filter("#"+name).animate({"opacity": "0.1"});
+								};
+							});
+						$.each(ListAbstain, function (index, name){
+							if (myId === name) {
+									$("." + articleClass + " .container").children().filter("#"+name).animate({"opacity": "0.1"});
+								};
+							});
+						});
+					});
+
+					$("." + articleClass).children().filter("#yesbutton").click(function(){
+						$("." + articleClass + " .container").children().each(function(){
+						var myId = this.id;
+												$.each(ListNo, function (index, name){
+							if (myId === name) {
+									$("." + articleClass + " .container").children().filter("#"+name).animate({"opacity": "0.1"});
+								};
+							});
+						$.each(ListYes, function (index, name){
+							if (myId === name) {
+									$("." + articleClass + " .container").children().filter("#"+name).animate({"opacity": "1"});
+								};
+							});
+						$.each(ListAbsent, function (index, name){
+							if (myId === name) {
+									$("." + articleClass + " .container").children().filter("#"+name).animate({"opacity": "0.1"});
+								};
+							});
+						$.each(ListAbstain, function (index, name){
+							if (myId === name) {
+									$("." + articleClass + " .container").children().filter("#"+name).animate({"opacity": "0.1"});
+								};
+							});
+						});
+					});
+
+
+					$("." + articleClass).children().filter("#absentbutton").click(function(){
+						$("." + articleClass + " .container").children().each(function(){
+						var myId = this.id;
+												$.each(ListNo, function (index, name){
+							if (myId === name) {
+									$("." + articleClass + " .container").children().filter("#"+name).animate({"opacity": "0.1"});
+								};
+							});
+						$.each(ListYes, function (index, name){
+							if (myId === name) {
+									$("." + articleClass + " .container").children().filter("#"+name).animate({"opacity": "0.1"});
+								};
+							});
+						$.each(ListAbsent, function (index, name){
+							if (myId === name) {
+									$("." + articleClass + " .container").children().filter("#"+name).animate({"opacity": "1"});
+								};
+							});
+						$.each(ListAbstain, function (index, name){
+							if (myId === name) {
+									$("." + articleClass + " .container").children().filter("#"+name).animate({"opacity": "0.1"});
+								};
+							});
+						});
+					});
+
+
+					$("." + articleClass).children().filter("#abstainbutton").click(function(){
+						$("." + articleClass + " .container").children().each(function(){
+						var myId = this.id;
+												$.each(ListNo, function (index, name){
+							if (myId === name) {
+									$("." + articleClass + " .container").children().filter("#"+name).animate({"opacity": "0.1"});
+								};
+							});
+						$.each(ListYes, function (index, name){
+							if (myId === name) {
+									$("." + articleClass + " .container").children().filter("#"+name).animate({"opacity": "0.1"});
+								};
+							});
+						$.each(ListAbsent, function (index, name){
+							if (myId === name) {
+									$("." + articleClass + " .container").children().filter("#"+name).animate({"opacity": "0.1"});
+								};
+							});
+						$.each(ListAbstain, function (index, name){
+							if (myId === name) {
+									$("." + articleClass + " .container").children().filter("#"+name).animate({"opacity": "1"});
+								};
+							});
+						});
+					});
+
+				
+					
+					
+
+
+					//var myId = $("." + articleClass + " .container").children().attr('id');
+					//$.each(ListYes, function (index, name){
+						//if (myId === name) {
+						//	$("." + articleClass + " .container" > "#" + name).hide();
+						//};
+					//});
+					
+
+					$("." + articleClass).append ("<div class='namelist'></div>");
+					$("." + articleClass + " .namelist").append("<h2>Yes:</h2><ol class='yes'>");
 					$.each(ListYes, function (index, name){
-						$("." + articleClass +" .yes").append(
+						$("." + articleClass + " .namelist" + " .yes").append(
 							"<div class='rect' id='" + name + "'></div><li id='" + name + "'>" + name + "</li>");
 					});
 
-					$("." + articleClass).append("<h2>No:</h2><ol class='no'>");
+					$("." + articleClass + " .namelist").append("<h2>No:</h2><ol class='no'>");
 					$.each(ListNo, function (index, name){
-						$("." + articleClass +" .no").append(
+						$("." + articleClass + " .namelist" + " .no").append(
 							"<div class='rect' id='" + name + "'></div><li id='" + name + "'>" + name + "</li>");
 					});
 
-					$("." + articleClass).append("<h2>Absent:</h2><ol class='absent'>");
+					$("." + articleClass + " .namelist").append("<h2>Absent:</h2><ol class='absent'>");
 					$.each(ListAbsent, function (index, name){
-						$("." + articleClass +" .absent").append(
+						$("." + articleClass + " .namelist" + " .absent").append(
 							"<div class='rect' id='" + name + "'></div><li id='" + name + "'>" + name + "</li>");
 					});
+					$("." + articleClass + " .namelist").append("<h2>Abstain:</h2><ol class='abstain'>");
+					$.each(ListAbstain, function (index, name){
+						$("." + articleClass + " .namelist" + " .abstain").append(
+							"<div class='rect' id='" + name + "'></div><li id='" + name + "'>" + name + "</li>");
+					});
+
 				});
+
+				
+
+
 				//民建聯
-				$(" #程介南, #蔡素玉, #馬力, #曾鈺成, #鍾樹根, #張國鈞, #曾鈺成, #蔣麗芸, #鄭泳舜, #陳婉嫻, #陳鑑林, #黃國健, #柯創盛, #譚耀宗, #張學明, #王國興, #梁志祥, #陳恒鑌, #劉江華, #李國英, #陳克勤, #葛珮帆, #黃容根, #何俊賢, #陳榮燦, #陳國強, #王國興, #潘佩璆, #黃定光, #葉國謙, #劉國勳, #李慧琼, #周浩鼎,  #楊耀忠, #陳鑑林, #蔡素玉").filter( ".rect" ).css({"background-color": "Blue"});
+				$(" #程介南, #蔡素玉, #馬力, #曾鈺成, #鍾樹根, #張國鈞, #曾鈺成, #蔣麗芸, #鄭泳舜, #陳婉嫻, #陳鑑林, #黃國健, #柯創盛, #譚耀宗, #張學明, #王國興, #梁志祥, #陳恒鑌, #劉江華, #李國英, #陳克勤, #葛珮帆, #黃容根, #何俊賢, #陳榮燦, #陳國強, #王國興, #潘佩璆, #黃定光, #葉國謙, #劉國勳, #李慧琼, #周浩鼎,  #楊耀忠, #陳鑑林, #蔡素玉").filter( ".circle" ).css({"background-color": "Blue"});
 
 				//經民聯
-				$("#梁美芬, #劉皇發, #劉業強, #盧偉國, #石禮謙, #林健鋒, #梁君彥, #張華峰, #吳永嘉").filter( ".rect" ).css({"background-color": "Aqua"});
+				$("#梁美芬, #劉皇發, #劉業強, #盧偉國, #石禮謙, #林健鋒, #梁君彥, #張華峰, #吳永嘉").filter( ".circle" ).css({"background-color": "Aqua"});
 
 				//工聯會
-				$("#王國興, #郭偉强, #陳婉嫻, #黃國健, #王國興, #麥美娟, #鄺志堅, #王國興, #潘佩璆, #葉偉明, #郭偉强, 鄧家彪, #何啟明, #陸頌雄, #陳婉嫻").filter( ".rect" ).css({"background-color": "Red"});
+				$("#王國興, #郭偉强, #陳婉嫻, #黃國健, #王國興, #麥美娟, #鄺志堅, #王國興, #潘佩璆, #葉偉明, #郭偉强, 鄧家彪, #何啟明, #陸頌雄, #陳婉嫻").filter( ".circle" ).css({"background-color": "Red"});
 
 				//自由黨
-				$("#周梁淑怡, #田北俊,#劉皇發, #劉健儀, #易志明, #何承天, #夏佳理, #楊孝華, #田北俊, #林健鋒, #丁午壽, #梁君彥, #梁劉柔芬, #鍾國斌, #周梁淑怡, #方剛, #邵家輝, #張宇人, #劉皇發, #何世柱 ").filter( ".rect" ).css({"background-color": "DarkTurquoise"});
+				$("#周梁淑怡, #田北俊,#劉皇發, #劉健儀, #易志明, #何承天, #夏佳理, #楊孝華, #田北俊, #林健鋒, #丁午壽, #梁君彥, #梁劉柔芬, #鍾國斌, #周梁淑怡, #方剛, #邵家輝, #張宇人, #劉皇發, #何世柱 ").filter( ".circle" ).css({"background-color": "DarkTurquoise"});
 
 				//新民黨
-				$("#葉劉淑儀, #容海恩").filter( ".rect" ).css({"background-color": "MediumTurquoise "});
+				$("#葉劉淑儀, #容海恩").filter( ".circle" ).css({"background-color": "MediumTurquoise "});
 
 				//新世紀論壇
-				$("#何君堯, #馬逢國, #吳清輝, #馬逢國").filter( ".rect" ).css({"background-color": "DarkSlateGray"});
+				$("#何君堯, #馬逢國, #吳清輝, #馬逢國").filter( ".circle" ).css({"background-color": "DarkSlateGray"});
 
 				//創建力量
-				$("#謝偉俊").filter( ".rect" ).css({"background-color": "DeepPink "});
+				$("#謝偉俊").filter( ".circle" ).css({"background-color": "DeepPink "});
 
 				//實政圓桌
-				$("#田北辰").filter( ".rect" ).css({"background-color": "Navy "});
+				$("#田北辰").filter( ".circle" ).css({"background-color": "Navy "});
 
 				//港九勞工社團聯會
-				$("#李啟明, #李鳳英, #潘兆平").filter( ".rect" ).css({"background-color": "Green "});
+				$("#李啟明, #李鳳英, #潘兆平").filter( ".circle" ).css({"background-color": "Green "});
 
 				//民主黨
-				$("#李柱銘, #楊森, #甘乃威, #單仲偕, #許智峯, #劉千石, #涂謹申, #黃碧雲, #司徒華, #李華明, #胡志偉, #李永達, #何俊仁, #陳偉業, #尹兆堅, #鄭家富, #黃成智, #劉慧卿, #林卓廷, #張文光, #何敏嘉, #羅致光, #單仲偕, #何俊仁, #涂謹申, #鄺俊宇").filter( ".rect" ).css({"background-color": "GreenYellow "});
+				$("#李柱銘, #楊森, #甘乃威, #單仲偕, #許智峯, #劉千石, #涂謹申, #黃碧雲, #司徒華, #李華明, #胡志偉, #李永達, #何俊仁, #陳偉業, #尹兆堅, #鄭家富, #黃成智, #劉慧卿, #林卓廷, #張文光, #何敏嘉, #羅致光, #單仲偕, #何俊仁, #涂謹申, #鄺俊宇").filter( ".circle" ).css({"background-color": "GreenYellow "});
 
 				//公民黨
-				$("#余若薇, #陳淑莊, #陳家洛, #梁家傑, #譚文豪, #湯家驊, #楊岳橋, #毛孟靜, #郭家麒, #譚香文, #吳靄儀, #郭榮鏗, #張超雄").filter( ".rect" ).css({"background-color": "DarkViolet "});
+				$("#余若薇, #陳淑莊, #陳家洛, #梁家傑, #譚文豪, #湯家驊, #楊岳橋, #毛孟靜, #郭家麒, #譚香文, #吳靄儀, #郭榮鏗, #張超雄").filter( ".circle" ).css({"background-color": "DarkViolet "});
 
 				//專業議政
-				$("#葉建源, #郭榮鏗, #梁繼昌, #李國麟, #姚松炎, #邵家臻, #莫乃光").filter( ".rect" ).css({"background-color": "Indigo"});
+				$("#葉建源, #郭榮鏗, #梁繼昌, #李國麟, #姚松炎, #邵家臻, #莫乃光").filter( ".circle" ).css({"background-color": "Indigo"});
 
 				//工黨
-				$("#何秀蘭, #李卓人, #張超雄, #張國柱").filter( ".rect" ).css({"background-color": "Orange"});
+				$("#何秀蘭, #李卓人, #張超雄, #張國柱").filter( ".circle" ).css({"background-color": "Orange"});
 
 				//人民力量
-				$("#黃毓民, #陳偉業, #陳志全").filter( ".rect" ).css({"background-color": "Yellow"});
+				$("#黃毓民, #陳偉業, #陳志全").filter( ".circle" ).css({"background-color": "Yellow"});
 
 				//街坊工友服務處
-				$("#梁耀忠").filter( ".rect" ).css({"background-color": "GoldenRod"});
+				$("#梁耀忠").filter( ".circle" ).css({"background-color": "GoldenRod"});
 
 				//香港本土
-				$("#毛孟靜").filter( ".rect" ).css({"background-color": "Chocolate "});
+				$("#毛孟靜").filter( ".circle" ).css({"background-color": "Chocolate "});
 
 				//新民主同盟
-				$("#范國威").filter( ".rect" ).css({"background-color": "DarkOrange "});
+				$("#范國威").filter( ".circle" ).css({"background-color": "DarkOrange "});
 
 				//土地正義聯盟
-				$("#朱凱廸").filter( ".rect" ).css({"background-color": "Brown "});
+				$("#朱凱廸").filter( ".circle" ).css({"background-color": "Brown "});
 
 				//熱血公民
-				$("#鄭松泰").filter( ".rect" ).css({"background-color": "Orange"});
+				$("#鄭松泰").filter( ".circle" ).css({"background-color": "Orange"});
 
 				//獨立
-				$("#區諾軒, #陳凱欣, #陳健波, #陳沛然, #李國麟, #謝偉銓, #邵家臻, #姚思榮, #廖長江, #陳振英").filter( ".rect" ).css({"background-color": "Grey"});
-
-
-});
+				$("#區諾軒, #陳凱欣, #陳健波, #陳沛然, #李國麟, #謝偉銓, #邵家臻, #姚思榮, #廖長江, #陳振英").filter( ".circle" ).css({"background-color": "Grey"});
+			});
 		});
-
-
-
-
-
 
 		/*var requestURL = 'data.json';
 		var request = new XMLHttpRequest();
