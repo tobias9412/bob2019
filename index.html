@@ -5,24 +5,34 @@
 	<link rel="stylesheet" type="text/css" href="reset.css">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<style>
-		.rect {
+		body {
+			overflow-x: hidden;
+			overflow-y: scroll;
+		}
+
+		session {
 			float: left;
-			width:20px;
-			height:20px;
-			margin-right: 5px;
+			overflow-x: scroll;
+			overflow-y: hidden;
+			-webkit-overflow-scrolling: touch;
+			white-space: nowrap;
+			width: 100%;
+			max-width: 100vw;
+			height: 1024px;
+		}
+
+		article {
+			//border: 5px solid red;
+			width: 90%;
+			height: 90%;
+			display: inline-block;
+			margin: 10px;
 		}
 
 		h1 {
-			width:100%;
+    		display:block;
+    		white-space: normal;
 			font-size: 3em;
-		}
-
-	#allbutton, #yesbutton, #nobutton, #absentbutton, #abstainbutton {
-			text-align: center;
-			margin: 1em;
-			float:left;
-			font-size: 2em;
-
 		}
 
 		.namelist {
@@ -42,11 +52,17 @@
 			margin: auto;
 			clear: both;
 			position: relative;
-			float: all;
-			width: 1280px;
-			height: 750px;
-
+			width: 90%;
+			height: 90%;
 		}
+
+		#allbutton, #yesbutton, #nobutton, #absentbutton, #abstainbutton {
+			text-align: center;
+			margin: 1em;
+			float:left;
+			font-size: 2em;
+		}
+
 		.circle{
 			position:absolute;
 			border-radius: 50%;
@@ -210,19 +226,21 @@
 </head>
 
 <body>
-	<session></session>
+	<main></main>
 	<script>
 		$.getJSON( "data.json", function(record){
 			$.each(record.meeting, function(key, meeting){
+				$("main").append("<session class='" + meeting.type + "'>");
+
 				$.each(meeting.vote, function(key, vote){
+					var articleID = vote.votedate.split("/")[2]+vote.votedate.split("/")[1]+vote.votedate.split("/")[0]+vote.votetime.split(":")[0]+vote.votetime.split(":")[1]+vote.votetime.split(":")[2];
 
-					var articleClass = vote.votedate.split("/")[2]+vote.votedate.split("/")[1]+vote.votedate.split("/")[0]+vote.votetime.split(":")[0]+vote.votetime.split(":")[1]+vote.votetime.split(":")[2];
-
-					$("session").append("<article class='" + articleClass + "'>");
-					$("." + articleClass).append(
+					$("." + meeting.type).append("<article id='" + articleID + "'>");
+					$("." + meeting.type + " #" + articleID).append(
 						"<h1>" + vote.motionch+ "</h1>" + 
 						"<p>" + vote.votedate + vote.votetime + vote.votesummary.overall.result + "</p>");
-					$("." + articleClass).append("<div class='container'>" +
+					$("." + meeting.type + " #" + articleID).append(
+							"<div class='container'>" +
 							"<h2 id='allbutton'>ALL</h2>" +
 							"<h2 id='yesbutton'>YES</h2>" +
 							"<h2 id='nobutton'>NO</h2>" +
@@ -321,137 +339,143 @@
 						};
 					});
 
-					$("." + articleClass + " .container").children().filter("#allbutton").click(function(){
-						$("." + articleClass + " .container").children().each(function(){
+					var containerPath = "." + meeting.type + " #" + articleID + " .container"
+
+					$(containerPath).children().filter("#allbutton").click(function(){
+						$(containerPath).children().each(function(){
 						var myId = this.id;
 						$.each(ListNo, function (index, name){
 							if (myId === name) {
-									$("." + articleClass + " .container").children().filter("#"+name).animate({"opacity": "1"});
+									$(containerPath).children().filter("#"+name).animate({"opacity": "1"});
 								};
 							});
 						$.each(ListYes, function (index, name){
 							if (myId === name) {
-									$("." + articleClass + " .container").children().filter("#"+name).animate({"opacity": "1"});
+									$(containerPath).children().filter("#"+name).animate({"opacity": "1"});
 								};
 							});
 						$.each(ListAbsent, function (index, name){
 							if (myId === name) {
-									$("." + articleClass + " .container").children().filter("#"+name).animate({"opacity": "1"});
+									$(containerPath).children().filter("#"+name).animate({"opacity": "1"});
 								};
 							});
 						$.each(ListAbstain, function (index, name){
 							if (myId === name) {
-									$("." + articleClass + " .container").children().filter("#"+name).animate({"opacity": "1"});
+									$(containerPath).children().filter("#"+name).animate({"opacity": "1"});
 								};
 							});
 						});
 					});
 
-					$("." + articleClass + " .container").children().filter("#nobutton").click(function(){
-						$("." + articleClass + " .container").children().each(function(){
+					$(containerPath).children().filter("#nobutton").click(function(){
+						$(containerPath).children().each(function(){
 						var myId = this.id;
 						$.each(ListNo, function (index, name){
 							if (myId === name) {
-									$("." + articleClass + " .container").children().filter("#"+name).animate({"opacity": "1"});
+									$(containerPath).children().filter("#"+name).animate({"opacity": "1"});
 								};
 							});
 						$.each(ListYes, function (index, name){
 							if (myId === name) {
-									$("." + articleClass + " .container").children().filter("#"+name).animate({"opacity": "0.1"});
+									$(containerPath).children().filter("#"+name).animate({"opacity": "0.1"});
 								};
 							});
 						$.each(ListAbsent, function (index, name){
 							if (myId === name) {
-									$("." + articleClass + " .container").children().filter("#"+name).animate({"opacity": "0.1"});
+									$(containerPath).children().filter("#"+name).animate({"opacity": "0.1"});
 								};
 							});
 						$.each(ListAbstain, function (index, name){
 							if (myId === name) {
-									$("." + articleClass + " .container").children().filter("#"+name).animate({"opacity": "0.1"});
+									$(containerPath).children().filter("#"+name).animate({"opacity": "0.1"});
 								};
 							});
 						});
 					});
 
-					$("." + articleClass + " .container").children().filter("#yesbutton").click(function(){
-						$("." + articleClass + " .container").children().each(function(){
+					$(containerPath).children().filter("#yesbutton").click(function(){
+						$(containerPath).children().each(function(){
 						var myId = this.id;
 												$.each(ListNo, function (index, name){
 							if (myId === name) {
-									$("." + articleClass + " .container").children().filter("#"+name).animate({"opacity": "0.1"});
+									$(containerPath).children().filter("#"+name).animate({"opacity": "0.1"});
 								};
 							});
 						$.each(ListYes, function (index, name){
 							if (myId === name) {
-									$("." + articleClass + " .container").children().filter("#"+name).animate({"opacity": "1"});
+									$(containerPath).children().filter("#"+name).animate({"opacity": "1"});
 								};
 							});
 						$.each(ListAbsent, function (index, name){
 							if (myId === name) {
-									$("." + articleClass + " .container").children().filter("#"+name).animate({"opacity": "0.1"});
+									$(containerPath).children().filter("#"+name).animate({"opacity": "0.1"});
 								};
 							});
 						$.each(ListAbstain, function (index, name){
 							if (myId === name) {
-									$("." + articleClass + " .container").children().filter("#"+name).animate({"opacity": "0.1"});
+									$(containerPath).children().filter("#"+name).animate({"opacity": "0.1"});
 								};
 							});
 						});
 					});
 
 
-					$("." + articleClass + " .container").children().filter("#absentbutton").click(function(){
-						$("." + articleClass + " .container").children().each(function(){
+					$(containerPath).children().filter("#absentbutton").click(function(){
+						$(containerPath).children().each(function(){
+						var myId = this.id;
+						$.each(ListNo, function (index, name){
+							if (myId === name) {
+									$(containerPath).children().filter("#"+name).animate({"opacity": "0.1"});
+								};
+							});
+						$.each(ListYes, function (index, name){
+							if (myId === name) {
+									$(containerPath).children().filter("#"+name).animate({"opacity": "0.1"});
+								};
+							});
+						$.each(ListAbsent, function (index, name){
+							if (myId === name) {
+									$(containerPath).children().filter("#"+name).animate({"opacity": "1"});
+								};
+							});
+						$.each(ListAbstain, function (index, name){
+							if (myId === name) {
+									$(containerPath).children().filter("#"+name).animate({"opacity": "0.1"});
+								};
+							});
+						});
+					});
+
+
+					$(containerPath).children().filter("#abstainbutton").click(function(){
+						$(containerPath).children().each(function(){
 						var myId = this.id;
 												$.each(ListNo, function (index, name){
 							if (myId === name) {
-									$("." + articleClass + " .container").children().filter("#"+name).animate({"opacity": "0.1"});
+									$(containerPath).children().filter("#"+name).animate({"opacity": "0.1"});
 								};
 							});
 						$.each(ListYes, function (index, name){
 							if (myId === name) {
-									$("." + articleClass + " .container").children().filter("#"+name).animate({"opacity": "0.1"});
+									$(containerPath).children().filter("#"+name).animate({"opacity": "0.1"});
 								};
 							});
 						$.each(ListAbsent, function (index, name){
 							if (myId === name) {
-									$("." + articleClass + " .container").children().filter("#"+name).animate({"opacity": "1"});
+									$(containerPath).children().filter("#"+name).animate({"opacity": "0.1"});
 								};
 							});
 						$.each(ListAbstain, function (index, name){
 							if (myId === name) {
-									$("." + articleClass + " .container").children().filter("#"+name).animate({"opacity": "0.1"});
+									$(containerPath).children().filter("#"+name).animate({"opacity": "1"});
 								};
 							});
 						});
 					});
 
 
-					$("." + articleClass + " .container").children().filter("#abstainbutton").click(function(){
-						$("." + articleClass + " .container").children().each(function(){
-						var myId = this.id;
-												$.each(ListNo, function (index, name){
-							if (myId === name) {
-									$("." + articleClass + " .container").children().filter("#"+name).animate({"opacity": "0.1"});
-								};
-							});
-						$.each(ListYes, function (index, name){
-							if (myId === name) {
-									$("." + articleClass + " .container").children().filter("#"+name).animate({"opacity": "0.1"});
-								};
-							});
-						$.each(ListAbsent, function (index, name){
-							if (myId === name) {
-									$("." + articleClass + " .container").children().filter("#"+name).animate({"opacity": "0.1"});
-								};
-							});
-						$.each(ListAbstain, function (index, name){
-							if (myId === name) {
-									$("." + articleClass + " .container").children().filter("#"+name).animate({"opacity": "1"});
-								};
-							});
-						});
-					});
+
+					
 
 					//var myId = $("." + articleClass + " .container").children().attr('id');
 					//$.each(ListYes, function (index, name){
@@ -460,7 +484,7 @@
 						//};
 					//});
 					
-
+					/*
 					$("." + articleClass).append ("<div class='namelist'></div>");
 					$("." + articleClass + " .namelist").append("<h2>Yes:</h2><ol class='yes'>");
 					$.each(ListYes, function (index, name){
@@ -484,7 +508,7 @@
 						$("." + articleClass + " .namelist" + " .abstain").append(
 							"<li id='" + name + "'>" + name + "</li>");
 					});
-
+					*/
 				});
 
 				
