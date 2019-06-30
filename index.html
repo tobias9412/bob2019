@@ -36,12 +36,12 @@
 		}
 
 		.seperator {
-			vertical-align: top;
 			width: 1px;
-			height: 90%;
+			height: 1000px;
 			display: inline-block;
+			position: absolute;
+			top: 100px;
 			border-left: solid grey 1px;
-			margin-top: 3%;
 		}
 
 		article {
@@ -109,8 +109,28 @@
 
 			.circle li {
 				list-style-type:none;
-				margin: 20px 0;
-				font-size: .8em;
+				margin: 15px 0;
+    			font-weight: 900;
+				font-size: .7em;
+			}
+
+			.popup {
+				position: absolute;
+				overflow: visible;
+				width: 250px;
+				height: 80px;
+				z-index: 100;
+			}
+
+			.popup ul {
+				position: absolute;
+				display: block;
+				line-height: 1.5em;
+			}
+
+			.popup span {
+				font-weight: 900;
+				font-size: 1.3em;
 			}
 
 			.namelist {
@@ -275,6 +295,13 @@
 
 <body>
 	<main></main>
+	<div class='popup'>
+		<ul>
+			<li><mark><span>鄺俊宇議員</span></mark></li>
+			<li>&emsp;<mark>功能界別 – 區議會(第二) </mark></li>
+			<li>&emsp;<mark>民主黨</mark></li>
+		</ul>
+	</div>
 	<script>
 		$.getJSON( "data.json", function(record){
 			$.each(record.meeting, function(key, meeting){
@@ -331,7 +358,7 @@
 							"<div class='circle' id='吳永嘉'><li>吳永嘉</li></div>" +
 							"<div class='circle' id='田北辰'><li>田北辰</li></div>" +
 							"<div class='circle' id='容海恩'><li>容海恩</li></div>" +
-							"<div class='circle' id='葉劉淑儀'><li>葉劉淑儀</li></div>" +
+							"<div class='circle' id='葉劉淑儀'><li>葉劉<br>淑儀</li></div>" +
 							"<div class='circle' id='易志明'><li>易志明</li></div>" +
 							"<div class='circle' id='邵家輝'><li>邵家輝</li></div>" +
 							"<div class='circle' id='鍾國斌'><li>鍾國斌</li></div>" +
@@ -554,8 +581,15 @@
 					});
 
 					$("." + meeting.type + " #" + articleID).append("<div class='wording'><p>" + vote.wording + "</p></div>");
-
-
+					$(".popup").hide();
+					$(".circle").hover(
+						function(){
+							$(".popup").fadeIn(100);
+							$(".popup").css({"top": event.pageY+10, "left": event.pageX+10})
+						},
+						function(){
+							$(".popup").fadeOut(100);
+						});
 					
 
 					//var myId = $("." + articleClass + " .container").children().attr('id');
