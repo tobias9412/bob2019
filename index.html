@@ -20,37 +20,56 @@
 			background: #CCFF00;
 		}
 
+		.bar {
+			position: fixed;
+			float: left;
+			display: block;
+			overflow: hidden;
+			width: 40px;
+			height: 100%;
+			background-color: rgba(204,255,0,0.9);
+			z-index: 15;
+		}
+
+		.bar li {
+			width: 40px;
+			margin: 50px 5px;
+			font-weight: 900;
+			font-size: 1.8em;
+			line-height: 1.2em;
+		}
+
 		menu {
 			position: fixed;
 			float: left;
 			display: block;
 			overflow: auto;
-			width: 200px;
-			height: 90%;
-			margin-top: 50px;
-			padding: 25px;
+			width: 100%;
+			height: 100%;
+			background-color: rgba(0,0,0,0.9);
+			z-index: 10;
 		}
 
 		menu ul {
-			position: relative;
-    		display:inline-block;
-    		width: 200px;
-			height: 90%;
+			padding: 25px 25px 25px 65px;
 		}
 
 		menu li {
 			margin: 10px;
-			font-size: .9em;
+			color: white;
+			font-weight: 900;
+			font-size: 1.5em;
 		}
 
 		menu li span {
-			font-size: .8em;
+			color: white;
+			font-size: .5em;
 		}
 
 		main {
 			float: right;
 			overflow: hidden;
-			width: calc(100% - 250px);
+			width: 100%;
 		}
 
 		session {
@@ -324,7 +343,10 @@
 </head>
 
 <body>
-	<menu><ul></ul></menu>
+	<div class="bar"><li>目錄</li></div>
+	<menu>
+		<ul></ul>
+	</menu>
 	<main></main>
 	<!--<div class='popup'>
 		<ul>
@@ -689,8 +711,14 @@ $(".circle").hover(
 });
 </script>
 <script>
+	$("menu").hide();
+
 	$(document).ready(function() {
-		$('.navigation').click(function(event) {
+		$(".bar").click(function(event) {
+			$("menu").fadeToggle();
+		});
+
+		$(".navigation").click(function(event) {
 
 		    var target = $(this.getAttribute('href'));
 		    console.log(target);
