@@ -8,10 +8,11 @@
           "number": "1",
           "votedate": "27/06/2019",
           "votetime": "20:02:31",
-          "motionch": "根據《議事規則》第16(2)條動議的休會待續議案",
+          "motionch": "根據《議事規則》第16(2)條動議的<mark>休會待續議案</mark>",
           "motionen": "ADJOURNMENT MOTION UNDER RULE 16(2) OF THE RULES OF PROCEDURE",
           "moverch": "張華峰",
           "moveren": "Christopher CHEUNG",
+          "wording": "張華峰議員根據《議事規則》第 16(2)條動議的休會待續議案<br><br>議案措辭<br><br>本會現即休會待續，以就下述事項進行辯論：社會就如何處理《逃犯條例》的修訂產生嚴重分歧，引致社會持續撕裂，大型示威衝突隨時一觸即發，政府對盡快恢復社會秩序、穩定營商環境採取的即時應對措施，讓市民回復正常生活。<br><br>＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊<br><br>政府於五月三日在憲報刊登五項附屬法例，以給予中區軍用碼頭適當的法律保護，及確保航行及船隻在海上的安全。該五項附屬法例分別為：<br>（一）《2019年受保護地方（修訂）令》；<br>（二）《2019年受保護地方（保安）（特派守衞）（修訂）令》；<br>（三）《2019‍年軍事設施禁區（修訂）令》；<br>（四）《2019年船舶及港口管制（修訂）規例》；及<br>（五）《2019年商船（本地船隻）（一般）（修訂）規例》。<br><br>其中《2019年商船（本地船隻）（一般）（修訂）規例》由運輸及房屋局局長訂立，其餘四項命令及規例則由行政長官在徵詢行政會議的意見後分別作出及訂立。<br><br>五項附屬法例將於二○一九年五月八日提交立法會進行先訂立後審議的程序，視乎立法會的審議結果，<mark>它們將於二○一九年六月二十九日生效。</mark> ",
           "movertype": "Member",
           "voteseparatemechanism": "Yes",
           "votesummary": {
@@ -21,7 +22,7 @@
               "yescount": "0",
               "nocount": "4",
               "abstaincount": "17",
-              "result": "Negatived"
+              "result": "否決"
             },
             "geographicalconstituency": {
               "presentcount": "24",
@@ -29,10 +30,10 @@
               "yescount": "0",
               "nocount": "13",
               "abstaincount": "11",
-              "result": "Negatived"
+              "result": "否決"
             },
             "overall": {
-              "result": "Negatived"
+              "result": "否決"
             }
           },
           "individualvotes": {
@@ -464,7 +465,7 @@
           "number": "1",
           "votedate": "05/06/2019",
           "votetime": "19:15:55",
-          "motionch": "何啟明議員對謝偉銓議員的「改善公務員待遇，提升施政效率及推動創意與創新」議案作出的修正案",
+          "motionch": "何啟明議員對謝偉銓議員的<br><mark>「改善公務員待遇，提升施政效率及推動創意與創新」</mark><br>議案作出的修正案",
           "motionen": "AMENDMENT BY HON HO KAIMING TO HON TONY TSE'S MOTION ON “IMPROVING THE EMPLOYMENT TERMS OF CIVIL SERVANTS, ENHANCING THE EFFICIENCY OF POLICY IMPLEMENTATION AND PROMOTING CREATIVITY AND INNOVATION”",
           "moverch": "何啟明",
           "moveren": "HO Kaiming",
@@ -477,7 +478,7 @@
               "yescount": "18",
               "nocount": "0",
               "abstaincount": "9",
-              "result": "Passed"
+              "result": "通過"
             },
             "geographicalconstituency": {
               "presentcount": "28",
@@ -485,10 +486,10 @@
               "yescount": "28",
               "nocount": "0",
               "abstaincount": "0",
-              "result": "Passed"
+              "result": "通過"
             },
             "overall": {
-              "result": "Passed"
+              "result": "通過"
             }
           },
           "individualvotes": {
@@ -914,7 +915,7 @@
           "number": "2",
           "votedate": "05/06/2019",
           "votetime": "19:18:52",
-          "motionch": "譚文豪議員對謝偉銓議員就「改善公務員待遇，提升施政效率及推動創意與創新」所提，經何啟明議員及莫乃光議員修正的議案，作出的修正案",
+          "motionch": "譚文豪議員對謝偉銓議員就<br><mark>「改善公務員待遇，提升施政效率及推動創意與創新」<br></mark>所提，經何啟明議員及莫乃光議員修正的議案，作出的修正案",
           "motionen": "AMENDMENT BY HON JEREMY TAM TO HON TONY TSE'S MOTION ON “IMPROVING THE EMPLOYMENT TERMS OF CIVIL SERVANTS, ENHANCING THE EFFICIENCY OF POLICY IMPLEMENTATION AND PROMOTING CREATIVITY AND INNOVATION” AS AMENDED BY HON HO KAIMING AND HON CHARLES PETER MOK",
           "moverch": "譚文豪",
           "moveren": "Jeremy TAM",
@@ -927,7 +928,7 @@
               "yescount": "6",
               "nocount": "20",
               "abstaincount": "1",
-              "result": "Negatived"
+              "result": "否決"
             },
             "geographicalconstituency": {
               "presentcount": "28",
@@ -935,10 +936,10 @@
               "yescount": "9",
               "nocount": "15",
               "abstaincount": "4",
-              "result": "Negatived"
+              "result": "否決"
             },
             "overall": {
-              "result": "Negatived"
+              "result": "否決"
             }
           },
           "individualvotes": {
@@ -1364,7 +1365,7 @@
           "number": "3",
           "votedate": "05/06/2019",
           "votetime": "19:20:40",
-          "motionch": "周浩鼎議員對謝偉銓議員就「改善公務員待遇，提升施政效率及推動創意與創新」所提，經何啟明議員及莫乃光議員修正的議案，作出的修正案",
+          "motionch": "周浩鼎議員對謝偉銓議員就<br><mark>「改善公務員待遇，提升施政效率及推動創意與創新」<br></mark>所提，經何啟明議員及莫乃光議員修正的議案，作出的修正案",
           "motionen": "AMENDMENT BY HON HOLDEN CHOW TO HON TONY TSE'S MOTION ON “IMPROVING THE EMPLOYMENT TERMS OF CIVIL SERVANTS, ENHANCING THE EFFICIENCY OF POLICY IMPLEMENTATION AND PROMOTING CREATIVITY AND INNOVATION” AS AMENDED BY HON HO KAIMING AND HON CHARLES PETER MOK",
           "moverch": "周浩鼎",
           "moveren": "Holden CHOW",
@@ -1377,7 +1378,7 @@
               "yescount": "12",
               "nocount": "7",
               "abstaincount": "8",
-              "result": "Negatived"
+              "result": "否決"
             },
             "geographicalconstituency": {
               "presentcount": "28",
@@ -1385,10 +1386,10 @@
               "yescount": "15",
               "nocount": "13",
               "abstaincount": "0",
-              "result": "Passed"
+              "result": "通過"
             },
             "overall": {
-              "result": "Negatived"
+              "result": "否決"
             }
           },
           "individualvotes": {
@@ -1814,7 +1815,7 @@
           "number": "4",
           "votedate": "05/06/2019",
           "votetime": "19:22:24",
-          "motionch": "謝偉銓議員動議，經何啟明議員及莫乃光議員修正的「改善公務員待遇，提升施政效率及推動創意與創新」議案",
+          "motionch": "謝偉銓議員動議，經何啟明議員及莫乃光議員修正的<br><mark>「改善公務員待遇，提升施政效率及推動創意與創新」<br></mark>議案",
           "motionen": "MOTION MOVED BY HON TONY TSE ON “IMPROVING THE EMPLOYMENT TERMS OF CIVIL SERVANTS, ENHANCING THE EFFICIENCY OF POLICY IMPLEMENTATION AND PROMOTING CREATIVITY AND INNOVATION” AS AMENDED BY HON HO KAIMING AND HON CHARLES PETER MOK",
           "moverch": "謝偉銓",
           "moveren": "Tony TSE",
@@ -1827,7 +1828,7 @@
               "yescount": "27",
               "nocount": "0",
               "abstaincount": "0",
-              "result": "Passed"
+              "result": "通過"
             },
             "geographicalconstituency": {
               "presentcount": "28",
@@ -1835,10 +1836,10 @@
               "yescount": "27",
               "nocount": "0",
               "abstaincount": "1",
-              "result": "Passed"
+              "result": "通過"
             },
             "overall": {
-              "result": "Passed"
+              "result": "通過"
             }
           },
           "individualvotes": {
@@ -2270,7 +2271,7 @@
           "number": "5",
           "votedate": "06/06/2019",
           "votetime": "14:28:45",
-          "motionch": "麥美娟議員對陳恒鑌議員的「推動醫療改革」議案作出的修正案",
+          "motionch": "麥美娟議員對陳恒鑌議員的<br><mark>「推動醫療改革」</mark>議案作出的修正案",
           "motionen": "AMENDMENT BY HON ALICE MAK TO HON CHAN HANPAN'S MOTION ON “PROMOTING HEALTHCARE REFORM”",
           "moverch": "麥美娟",
           "moveren": "Alice MAK",
@@ -2283,7 +2284,7 @@
               "yescount": "28",
               "nocount": "0",
               "abstaincount": "2",
-              "result": "Passed"
+              "result": "通過"
             },
             "geographicalconstituency": {
               "presentcount": "27",
@@ -2291,10 +2292,10 @@
               "yescount": "20",
               "nocount": "0",
               "abstaincount": "7",
-              "result": "Passed"
+              "result": "通過"
             },
             "overall": {
-              "result": "Passed"
+              "result": "通過"
             }
           },
           "individualvotes": {
@@ -2720,7 +2721,7 @@
           "number": "6",
           "votedate": "06/06/2019",
           "votetime": "14:31:28",
-          "motionch": "李國麟議員對陳恒鑌議員就「推動醫療改革」所提，經麥美娟議員修正的議案，作出的修正案",
+          "motionch": "李國麟議員對陳恒鑌議員就<br><mark>「推動醫療改革」</mark>所提，經麥美娟議員修正的議案，作出的修正案",
           "motionen": "AMENDMENT BY PROF HON JOSEPH LEE TO HON CHAN HANPAN'S MOTION ON “PROMOTING HEALTHCARE REFORM” AS AMENDED BY HON ALICE MAK",
           "moverch": "李國麟",
           "moveren": "Prof Joseph LEE",
@@ -2733,7 +2734,7 @@
               "yescount": "13",
               "nocount": "1",
               "abstaincount": "16",
-              "result": "Negatived"
+              "result": "否決"
             },
             "geographicalconstituency": {
               "presentcount": "27",
@@ -2741,10 +2742,10 @@
               "yescount": "3",
               "nocount": "0",
               "abstaincount": "24",
-              "result": "Negatived"
+              "result": "否決"
             },
             "overall": {
-              "result": "Negatived"
+              "result": "否決"
             }
           },
           "individualvotes": {
@@ -3170,7 +3171,7 @@
           "number": "7",
           "votedate": "06/06/2019",
           "votetime": "14:34:29",
-          "motionch": "陳沛然議員對陳恒鑌議員就「推動醫療改革」所提，經麥美娟議員修正的議案，作出的修正案",
+          "motionch": "陳沛然議員對陳恒鑌議員就<br><mark>「推動醫療改革」</mark>所提，經麥美娟議員修正的議案，作出的修正案",
           "motionen": "AMENDMENT BY DR HON PIERRE CHAN TO HON CHAN HANPAN'S MOTION ON “PROMOTING HEALTHCARE REFORM” AS AMENDED BY HON ALICE MAK",
           "moverch": "陳沛然",
           "moveren": "Dr Pierre CHAN",
@@ -3183,7 +3184,7 @@
               "yescount": "20",
               "nocount": "0",
               "abstaincount": "10",
-              "result": "Passed"
+              "result": "通過"
             },
             "geographicalconstituency": {
               "presentcount": "28",
@@ -3191,10 +3192,10 @@
               "yescount": "20",
               "nocount": "1",
               "abstaincount": "7",
-              "result": "Passed"
+              "result": "通過"
             },
             "overall": {
-              "result": "Passed"
+              "result": "通過"
             }
           },
           "individualvotes": {
@@ -3620,7 +3621,7 @@
           "number": "8",
           "votedate": "06/06/2019",
           "votetime": "14:36:19",
-          "motionch": "郭家麒議員對陳恒鑌議員就「推動醫療改革」所提，經麥美娟議員及陳沛然議員修正的議案，作出的修正案",
+          "motionch": "郭家麒議員對陳恒鑌議員就<br><mark>「推動醫療改革」</mark>所提，經麥美娟議員及陳沛然議員修正的議案，作出的修正案",
           "motionen": "AMENDMENT BY DR HON KWOK KAKI TO HON CHAN HANPAN'S MOTION ON “PROMOTING HEALTHCARE REFORM” AS AMENDED BY HON ALICE MAK AND DR HON PIERRE CHAN",
           "moverch": "郭家麒",
           "moveren": "Dr KWOK Kaki",
@@ -3633,7 +3634,7 @@
               "yescount": "4",
               "nocount": "10",
               "abstaincount": "16",
-              "result": "Negatived"
+              "result": "否決"
             },
             "geographicalconstituency": {
               "presentcount": "28",
@@ -3641,10 +3642,10 @@
               "yescount": "9",
               "nocount": "1",
               "abstaincount": "18",
-              "result": "Negatived"
+              "result": "否決"
             },
             "overall": {
-              "result": "Negatived"
+              "result": "否決"
             }
           },
           "individualvotes": {
@@ -4070,7 +4071,7 @@
           "number": "9",
           "votedate": "06/06/2019",
           "votetime": "14:38:16",
-          "motionch": "黃碧雲議員對陳恒鑌議員就「推動醫療改革」所提，經麥美娟議員及陳沛然議員修正的議案，作出的修正案",
+          "motionch": "黃碧雲議員對陳恒鑌議員就<br><mark>「推動醫療改革」</mark>所提，經麥美娟議員及陳沛然議員修正的議案，作出的修正案",
           "motionen": "AMENDMENT BY DR HON HELENA WONG TO HON CHAN HANPAN'S MOTION ON “PROMOTING HEALTHCARE REFORM” AS AMENDED BY HON ALICE MAK AND DR HON PIERRE CHAN",
           "moverch": "黃碧雲",
           "moveren": "Dr Helena WONG",
@@ -4083,7 +4084,7 @@
               "yescount": "26",
               "nocount": "1",
               "abstaincount": "2",
-              "result": "Passed"
+              "result": "通過"
             },
             "geographicalconstituency": {
               "presentcount": "28",
@@ -4091,10 +4092,10 @@
               "yescount": "21",
               "nocount": "1",
               "abstaincount": "6",
-              "result": "Passed"
+              "result": "通過"
             },
             "overall": {
-              "result": "Passed"
+              "result": "通過"
             }
           },
           "individualvotes": {
@@ -4520,7 +4521,7 @@
           "number": "10",
           "votedate": "06/06/2019",
           "votetime": "14:44:45",
-          "motionch": "陳恒鑌議員動議，經麥美娟議員、陳沛然議員及黃碧雲議員修正的「推動醫療改革」議案",
+          "motionch": "陳恒鑌議員動議，經麥美娟議員、陳沛然議員及黃碧雲議員修正的<mark>「推動醫療改革」</mark>議案",
           "motionen": "MOTION MOVED BY HON CHAN HANPAN ON “PROMOTING HEALTHCARE REFORM” AS AMENDED BY HON ALICE MAK, DR HON PIERRE CHAN AND DR HON HELENA WONG",
           "moverch": "陳恒鑌",
           "moveren": "CHAN Hanpan",
@@ -4533,7 +4534,7 @@
               "yescount": "19",
               "nocount": "8",
               "abstaincount": "0",
-              "result": "Passed"
+              "result": "通過"
             },
             "geographicalconstituency": {
               "presentcount": "28",
@@ -4541,10 +4542,10 @@
               "yescount": "14",
               "nocount": "14",
               "abstaincount": "0",
-              "result": "Negatived"
+              "result": "否決"
             },
             "overall": {
-              "result": "Negatived"
+              "result": "否決"
             }
           },
           "individualvotes": {
@@ -4976,7 +4977,7 @@
           "number": "1",
           "votedate": "29/05/2019",
           "votetime": "19:05:22",
-          "motionch": "毛孟靜議員對尹兆堅議員的「對行政長官投不信任票」議案作出的修正案",
+          "motionch": "毛孟靜議員對尹兆堅議員的<br><mark>「對行政長官投不信任票」</mark>議案作出的修正案",
           "motionen": "AMENDMENT BY HON CLAUDIA MO TO HON ANDREW WAN'S MOTION ON “VOTE OF NO CONFIDENCE IN THE CHIEF EXECUTIVE”",
           "moverch": "毛孟靜",
           "moveren": "Claudia MO",
@@ -4989,7 +4990,7 @@
               "yescount": "7",
               "nocount": "24",
               "abstaincount": "0",
-              "result": "Negatived"
+              "result": "否決"
             },
             "geographicalconstituency": {
               "presentcount": "33",
@@ -4997,10 +4998,10 @@
               "yescount": "15",
               "nocount": "18",
               "abstaincount": "0",
-              "result": "Negatived"
+              "result": "否決"
             },
             "overall": {
-              "result": "Negatived"
+              "result": "否決"
             }
           },
           "individualvotes": {
@@ -5426,7 +5427,7 @@
           "number": "2",
           "votedate": "29/05/2019",
           "votetime": "19:11:04",
-          "motionch": "尹兆堅議員「對行政長官投不信任票」議案",
+          "motionch": "尹兆堅議員<mark>「對行政長官投不信任票」</mark>議案",
           "motionen": "HON ANDREW WAN'S “VOTE OF NO CONFIDENCE IN THE CHIEF EXECUTIVE”",
           "moverch": "尹兆堅",
           "moveren": "Andrew WAN",
@@ -5439,7 +5440,7 @@
               "yescount": "8",
               "nocount": "22",
               "abstaincount": "0",
-              "result": "Negatived"
+              "result": "否決"
             },
             "geographicalconstituency": {
               "presentcount": "33",
@@ -5447,10 +5448,10 @@
               "yescount": "15",
               "nocount": "18",
               "abstaincount": "0",
-              "result": "Negatived"
+              "result": "否決"
             },
             "overall": {
-              "result": "Negatived"
+              "result": "否決"
             }
           },
           "individualvotes": {
@@ -5895,7 +5896,7 @@
               "yescount": "21",
               "nocount": "0",
               "abstaincount": "4",
-              "result": "Passed"
+              "result": "通過"
             },
             "geographicalconstituency": {
               "presentcount": "24",
@@ -5903,10 +5904,10 @@
               "yescount": "24",
               "nocount": "0",
               "abstaincount": "0",
-              "result": "Passed"
+              "result": "通過"
             },
             "overall": {
-              "result": "Passed"
+              "result": "通過"
             }
           },
           "individualvotes": {
@@ -6345,7 +6346,7 @@
               "yescount": "17",
               "nocount": "2",
               "abstaincount": "6",
-              "result": "Passed"
+              "result": "通過"
             },
             "geographicalconstituency": {
               "presentcount": "24",
@@ -6353,10 +6354,10 @@
               "yescount": "14",
               "nocount": "7",
               "abstaincount": "3",
-              "result": "Passed"
+              "result": "通過"
             },
             "overall": {
-              "result": "Passed"
+              "result": "通過"
             }
           },
           "individualvotes": {
@@ -6795,7 +6796,7 @@
               "yescount": "13",
               "nocount": "1",
               "abstaincount": "11",
-              "result": "Negatived"
+              "result": "否決"
             },
             "geographicalconstituency": {
               "presentcount": "24",
@@ -6803,10 +6804,10 @@
               "yescount": "14",
               "nocount": "5",
               "abstaincount": "5",
-              "result": "Passed"
+              "result": "通過"
             },
             "overall": {
-              "result": "Negatived"
+              "result": "否決"
             }
           },
           "individualvotes": {
@@ -7245,7 +7246,7 @@
               "yescount": "16",
               "nocount": "0",
               "abstaincount": "7",
-              "result": "Passed"
+              "result": "通過"
             },
             "geographicalconstituency": {
               "presentcount": "23",
@@ -7253,10 +7254,10 @@
               "yescount": "14",
               "nocount": "0",
               "abstaincount": "9",
-              "result": "Passed"
+              "result": "通過"
             },
             "overall": {
-              "result": "Passed"
+              "result": "通過"
             }
           },
           "individualvotes": {
@@ -7701,7 +7702,7 @@
               "yescount": "24",
               "nocount": "6",
               "abstaincount": "0",
-              "result": "Passed"
+              "result": "通過"
             },
             "geographicalconstituency": {
               "presentcount": "27",
@@ -7709,10 +7710,10 @@
               "yescount": "17",
               "nocount": "10",
               "abstaincount": "0",
-              "result": "Passed"
+              "result": "通過"
             },
             "overall": {
-              "result": "Passed"
+              "result": "通過"
             }
           },
           "individualvotes": {
@@ -8157,7 +8158,7 @@
               "yescount": "12",
               "nocount": "3",
               "abstaincount": "10",
-              "result": "Negatived"
+              "result": "否決"
             },
             "geographicalconstituency": {
               "presentcount": "27",
@@ -8165,10 +8166,10 @@
               "yescount": "23",
               "nocount": "2",
               "abstaincount": "2",
-              "result": "Passed"
+              "result": "通過"
             },
             "overall": {
-              "result": "Negatived"
+              "result": "否決"
             }
           },
           "individualvotes": {
@@ -8607,7 +8608,7 @@
               "yescount": "10",
               "nocount": "0",
               "abstaincount": "18",
-              "result": "Negatived"
+              "result": "否決"
             },
             "geographicalconstituency": {
               "presentcount": "27",
@@ -8615,10 +8616,10 @@
               "yescount": "13",
               "nocount": "3",
               "abstaincount": "11",
-              "result": "Negatived"
+              "result": "否決"
             },
             "overall": {
-              "result": "Negatived"
+              "result": "否決"
             }
           },
           "individualvotes": {
@@ -9057,7 +9058,7 @@
               "yescount": "16",
               "nocount": "0",
               "abstaincount": "13",
-              "result": "Passed"
+              "result": "通過"
             },
             "geographicalconstituency": {
               "presentcount": "27",
@@ -9065,10 +9066,10 @@
               "yescount": "16",
               "nocount": "1",
               "abstaincount": "10",
-              "result": "Passed"
+              "result": "通過"
             },
             "overall": {
-              "result": "Passed"
+              "result": "通過"
             }
           },
           "individualvotes": {
@@ -9507,7 +9508,7 @@
               "yescount": "22",
               "nocount": "1",
               "abstaincount": "6",
-              "result": "Passed"
+              "result": "通過"
             },
             "geographicalconstituency": {
               "presentcount": "27",
@@ -9515,10 +9516,10 @@
               "yescount": "21",
               "nocount": "0",
               "abstaincount": "6",
-              "result": "Passed"
+              "result": "通過"
             },
             "overall": {
-              "result": "Passed"
+              "result": "通過"
             }
           },
           "individualvotes": {
@@ -9963,7 +9964,7 @@
               "yescount": "9",
               "nocount": "16",
               "abstaincount": "6",
-              "result": "Negatived"
+              "result": "否決"
             },
             "geographicalconstituency": {
               "presentcount": "29",
@@ -9971,10 +9972,10 @@
               "yescount": "14",
               "nocount": "12",
               "abstaincount": "3",
-              "result": "Negatived"
+              "result": "否決"
             },
             "overall": {
-              "result": "Negatived"
+              "result": "否決"
             }
           },
           "individualvotes": {
@@ -10419,7 +10420,7 @@
               "yescount": "14",
               "nocount": "6",
               "abstaincount": "4",
-              "result": "Passed"
+              "result": "通過"
             },
             "geographicalconstituency": {
               "presentcount": "29",
@@ -10427,10 +10428,10 @@
               "yescount": "26",
               "nocount": "1",
               "abstaincount": "2",
-              "result": "Passed"
+              "result": "通過"
             },
             "overall": {
-              "result": "Passed"
+              "result": "通過"
             }
           },
           "individualvotes": {
@@ -10869,7 +10870,7 @@
               "yescount": "15",
               "nocount": "7",
               "abstaincount": "2",
-              "result": "Passed"
+              "result": "通過"
             },
             "geographicalconstituency": {
               "presentcount": "29",
@@ -10877,10 +10878,10 @@
               "yescount": "28",
               "nocount": "0",
               "abstaincount": "1",
-              "result": "Passed"
+              "result": "通過"
             },
             "overall": {
-              "result": "Passed"
+              "result": "通過"
             }
           },
           "individualvotes": {
@@ -11319,7 +11320,7 @@
               "yescount": "7",
               "nocount": "15",
               "abstaincount": "3",
-              "result": "Negatived"
+              "result": "否決"
             },
             "geographicalconstituency": {
               "presentcount": "29",
@@ -11327,10 +11328,10 @@
               "yescount": "15",
               "nocount": "11",
               "abstaincount": "3",
-              "result": "Passed"
+              "result": "通過"
             },
             "overall": {
-              "result": "Negatived"
+              "result": "否決"
             }
           },
           "individualvotes": {
@@ -11769,7 +11770,7 @@
               "yescount": "7",
               "nocount": "18",
               "abstaincount": "0",
-              "result": "Negatived"
+              "result": "否決"
             },
             "geographicalconstituency": {
               "presentcount": "30",
@@ -11777,10 +11778,10 @@
               "yescount": "15",
               "nocount": "15",
               "abstaincount": "0",
-              "result": "Negatived"
+              "result": "否決"
             },
             "overall": {
-              "result": "Negatived"
+              "result": "否決"
             }
           },
           "individualvotes": {
@@ -12219,7 +12220,7 @@
               "yescount": "15",
               "nocount": "9",
               "abstaincount": "1",
-              "result": "Passed"
+              "result": "通過"
             },
             "geographicalconstituency": {
               "presentcount": "30",
@@ -12227,10 +12228,10 @@
               "yescount": "25",
               "nocount": "4",
               "abstaincount": "1",
-              "result": "Passed"
+              "result": "通過"
             },
             "overall": {
-              "result": "Passed"
+              "result": "通過"
             }
           },
           "individualvotes": {
@@ -12669,7 +12670,7 @@
               "yescount": "18",
               "nocount": "7",
               "abstaincount": "2",
-              "result": "Passed"
+              "result": "通過"
             },
             "geographicalconstituency": {
               "presentcount": "30",
@@ -12677,10 +12678,10 @@
               "yescount": "27",
               "nocount": "0",
               "abstaincount": "3",
-              "result": "Passed"
+              "result": "通過"
             },
             "overall": {
-              "result": "Passed"
+              "result": "通過"
             }
           },
           "individualvotes": {

@@ -2,12 +2,23 @@
 <html>
 <head>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="aos.js"></script>
+	<link rel="stylesheet" href="aos.css" />
 	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Serif+TC:200,900&display=swap&subset=chinese-traditional" rel="stylesheet"> 
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<style>
+		html {
+			font-family: 'Noto Serif TC', serif;
+  			letter-spacing: .1em;
+  		}
 		body {
 			overflow-x: hidden;
 			overflow-y: scroll;
+		}
+
+		mark, .mark {
+			background: gold;
 		}
 
 		session {
@@ -18,22 +29,32 @@
 			white-space: nowrap;
 			width: 100%;
 			height: 1024px;
-
 		}
 
 		article {
-			//border: 5px solid red;
+			vertical-align: top;
 			width: 90%;
 			max-width: 1280px;
 			height: 90%;
 			display: inline-block;
+			padding: 10px;
 			margin: 10px;
+
 		}
 
 		h1 {
     		display:block;
     		white-space: normal;
-			font-size: 3em;
+    		font-weight: 900;
+			font-size: 2.5em;
+  			line-height: 1.2em;
+		}
+
+		h3 {
+			font-weight: 900;
+			font-size: 1em;
+  			line-height: 2em;
+
 		}
 
 		.container{
@@ -52,10 +73,11 @@
 
 		}
 
-		#allbutton, #yesbutton, #nobutton, #absentbutton, #abstainbutton {
+		#presentbutton, #yesbutton, #nobutton, #absentbutton, #abstainbutton {
 			text-align: center;
 			margin: 1em;
 			float:left;
+    		font-weight: 900;
 			font-size: 2em;
 		}
 
@@ -72,6 +94,7 @@
 			.circle li {
 				list-style-type:none;
 				margin: 20px 0;
+				font-size: .8em;
 			}
 
 			.namelist {
@@ -244,17 +267,17 @@
 				$.each(meeting.vote, function(key, vote){
 					var articleID = vote.votedate.split("/")[2]+vote.votedate.split("/")[1]+vote.votedate.split("/")[0]+vote.votetime.split(":")[0]+vote.votetime.split(":")[1]+vote.votetime.split(":")[2];
 
-					$("." + meeting.type).append("<article id='" + articleID + "'>");
+					$("." + meeting.type).append("<article data-aos='fade' id='" + articleID + "'>");
 					$("." + meeting.type + " #" + articleID).append(
 						"<h1>" + vote.motionch+ "</h1>" + 
-						"<p>" + vote.votedate + vote.votetime + vote.votesummary.overall.result + "</p>");
+						"<h3>" + vote.votedate + "   " + vote.votetime + "   " + vote.votesummary.overall.result + "</h3>");
 					$("." + meeting.type + " #" + articleID).append(
 							"<div class='container'>" +
-							"<h2 id='allbutton'>ALL</h2>" +
-							"<h2 id='yesbutton'>YES</h2>" +
-							"<h2 id='nobutton'>NO</h2>" +
-							"<h2 id='absentbutton'>ABSENT</h2>" +
-							"<h2 id='abstainbutton'>ABSTAIN</h2>" +
+							"<h2 id='presentbutton'>出席</h2>" +
+							"<h2 id='yesbutton'>贊成</h2>" +
+							"<h2 id='nobutton'>反對</h2>" +
+							"<h2 id='abstainbutton'>棄權</h2>" +
+							"<h2 id='absentbutton'>缺席</h2>" +
 							"<div class='circle' id='鄺俊宇'><li>鄺俊宇</li></div>" +
 							"<div class='circle' id='涂謹申'><li>涂謹申</li></div>" +
 							"<div class='circle' id='許智峯'><li>許智峯</li></div>" +
@@ -349,8 +372,34 @@
 					});
 
 					var containerPath = "." + meeting.type + " #" + articleID + " .container"
+					$(containerPath).children().filter("#presentbutton").addClass("mark");
+					$(containerPath).children().each(function(){
+						var myId = this.id;
+						$.each(ListNo, function (index, name){
+							if (myId === name) {
+									$(containerPath).children().filter("#"+name).animate({"opacity": "1"});
+								};
+							});
+						$.each(ListYes, function (index, name){
+							if (myId === name) {
+									$(containerPath).children().filter("#"+name).animate({"opacity": "1"});
+								};
+							});
+						$.each(ListAbsent, function (index, name){
+							if (myId === name) {
+									$(containerPath).children().filter("#"+name).animate({"opacity": "0.1"});
+								};
+							});
+						$.each(ListAbstain, function (index, name){
+							if (myId === name) {
+									$(containerPath).children().filter("#"+name).animate({"opacity": "1"});
+								};
+							});
+						});
 
-					$(containerPath).children().filter("#allbutton").click(function(){
+					$(containerPath).children().filter("#presentbutton").click(function(){
+						$(containerPath).children().filter("h2").removeClass("mark");
+						$(this).addClass("mark");
 						$(containerPath).children().each(function(){
 						var myId = this.id;
 						$.each(ListNo, function (index, name){
@@ -365,7 +414,7 @@
 							});
 						$.each(ListAbsent, function (index, name){
 							if (myId === name) {
-									$(containerPath).children().filter("#"+name).animate({"opacity": "1"});
+									$(containerPath).children().filter("#"+name).animate({"opacity": "0.1"});
 								};
 							});
 						$.each(ListAbstain, function (index, name){
@@ -377,6 +426,8 @@
 					});
 
 					$(containerPath).children().filter("#nobutton").click(function(){
+						$(containerPath).children().filter("h2").removeClass("mark");
+						$(this).addClass("mark");
 						$(containerPath).children().each(function(){
 						var myId = this.id;
 						$.each(ListNo, function (index, name){
@@ -403,6 +454,8 @@
 					});
 
 					$(containerPath).children().filter("#yesbutton").click(function(){
+						$(containerPath).children().filter("h2").removeClass("mark");
+						$(this).addClass("mark");
 						$(containerPath).children().each(function(){
 						var myId = this.id;
 												$.each(ListNo, function (index, name){
@@ -430,6 +483,8 @@
 
 
 					$(containerPath).children().filter("#absentbutton").click(function(){
+						$(containerPath).children().filter("h2").removeClass("mark");
+						$(this).addClass("mark");
 						$(containerPath).children().each(function(){
 						var myId = this.id;
 						$.each(ListNo, function (index, name){
@@ -457,6 +512,8 @@
 
 
 					$(containerPath).children().filter("#abstainbutton").click(function(){
+						$(containerPath).children().filter("h2").removeClass("mark");
+						$(this).addClass("mark");
 						$(containerPath).children().each(function(){
 						var myId = this.id;
 												$.each(ListNo, function (index, name){
@@ -652,5 +709,8 @@
 			}
 		}*/
 	</script>
+	<script>
+    AOS.init();
+  </script>
 </body>
 </html>
