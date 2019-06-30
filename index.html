@@ -13,17 +13,18 @@
 		session {
 			float: left;
 			overflow-x: scroll;
-			overflow-y: hidden;
+    		display:block;
 			-webkit-overflow-scrolling: touch;
 			white-space: nowrap;
 			width: 100%;
-			max-width: 100vw;
 			height: 1024px;
+
 		}
 
 		article {
 			//border: 5px solid red;
 			width: 90%;
+			max-width: 1280px;
 			height: 90%;
 			display: inline-block;
 			margin: 10px;
@@ -35,25 +36,20 @@
 			font-size: 3em;
 		}
 
-		.namelist {
-			float: left;
-			width: 100%;
-			height: 100%;
-			margin: 100px 0;
-		}
-
-		ol.yes, ol.no, ol.absent, ol.abstain {
-			float: left;
-			display: block;
-			width:25%;
-		}
-
 		.container{
 			margin: auto;
 			clear: both;
 			position: relative;
 			width: 90%;
-			height: 90%;
+			height: 50%;
+			margin-bottom: 100px;
+		}
+
+		.wording {
+			margin: 10px;
+			display:block;
+    		white-space: normal;
+
 		}
 
 		#allbutton, #yesbutton, #nobutton, #absentbutton, #abstainbutton {
@@ -76,6 +72,19 @@
 			.circle li {
 				list-style-type:none;
 				margin: 20px 0;
+			}
+
+			.namelist {
+				float: left;
+				width: 100%;
+				height: 100%;
+				margin: 100px 0;
+			}
+
+			ol.yes, ol.no, ol.absent, ol.abstain {
+				float: left;
+				display: block;
+				width:25%;
 			}
 
 			#鄺俊宇 {top: 95%; left: 0%; }
@@ -473,6 +482,7 @@
 						});
 					});
 
+					$("." + meeting.type + " #" + articleID).append("<p class='wording'>" + vote.wording + "</p>");
 
 
 					
