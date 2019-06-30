@@ -7,6 +7,8 @@
 	<link rel="stylesheet" type="text/css" href="reset.css">
 	<link href="https://fonts.googleapis.com/css?family=Noto+Serif+TC:200,900&display=swap&subset=chinese-traditional" rel="stylesheet"> 
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+     <link type="text/css" href="OverlayScrollbars.min.css" rel="stylesheet"/>
+	<script type="text/javascript" src="jquery.overlayScrollbars.min.js"></script>
 	<style>
 		html {
 			font-family: 'Noto Serif TC', serif;
@@ -24,22 +26,31 @@
 		session {
 			float: left;
 			overflow-x: scroll;
+			overflow-y: hidden;
     		display:block;
 			-webkit-overflow-scrolling: touch;
 			white-space: nowrap;
 			width: 100%;
-			height: 1024px;
+			height: 100%;
+			border-bottom: solid black 5px;
+		}
+
+		.seperator {
+			vertical-align: top;
+			width: 1px;
+			height: 90%;
+			display: inline-block;
+			border-left: solid grey 1px;
+			margin-top: 3%;
 		}
 
 		article {
 			vertical-align: top;
-			width: 90%;
-			max-width: 1280px;
-			height: 90%;
+			width: 1024px;
+			height: auto;
 			display: inline-block;
 			padding: 10px;
-			margin: 10px;
-
+			margin: 10px 50px;
 		}
 
 		h1 {
@@ -54,23 +65,6 @@
 			font-weight: 900;
 			font-size: 1em;
   			line-height: 2em;
-
-		}
-
-		.container{
-			margin: auto;
-			clear: both;
-			position: relative;
-			width: 90%;
-			height: 50%;
-			margin-bottom: 100px;
-		}
-
-		.wording {
-			margin: 10px;
-			display:block;
-    		white-space: normal;
-
 		}
 
 		#presentbutton, #yesbutton, #nobutton, #absentbutton, #abstainbutton {
@@ -79,6 +73,28 @@
 			float:left;
     		font-weight: 900;
 			font-size: 2em;
+			margin: 5px;
+		}
+
+		.container{
+			margin: auto;
+			clear: both;
+			position: relative;
+			width: 90%;
+			height: 500px;
+		}
+
+		.wording {
+			position: relative;
+			float: left;
+			overflow-x: hidden;
+			overflow-y: scroll;
+			width: 90%;
+			height: 400px;
+			margin: 50px 10px auto;
+			display:block;
+    		white-space: normal;
+
 		}
 
 		.circle{
@@ -267,6 +283,7 @@
 				$.each(meeting.vote, function(key, vote){
 					var articleID = vote.votedate.split("/")[2]+vote.votedate.split("/")[1]+vote.votedate.split("/")[0]+vote.votetime.split(":")[0]+vote.votetime.split(":")[1]+vote.votetime.split(":")[2];
 
+					$("." + meeting.type).append("<div class='seperator'></div>");
 					$("." + meeting.type).append("<article data-aos='fade' id='" + articleID + "'>");
 					$("." + meeting.type + " #" + articleID).append(
 						"<h1>" + vote.motionch+ "</h1>" + 
@@ -347,9 +364,6 @@
 							"<div class='circle' id='盧偉國'><li>盧偉國</li></div>" +
 							"<div class='circle' id='張華峰'><li>張華峰</li></div>" +
 							"</div>");
-
-					/*for (var s = 1; s <= 70; s++) {
-						$("." + articleClass + " .container").append("<div class='circle' id='c" + s + "'></div>");};*/
 
 					var ListPresent = new Array();
 					var ListYes = new Array();
@@ -539,7 +553,7 @@
 						});
 					});
 
-					$("." + meeting.type + " #" + articleID).append("<p class='wording'>" + vote.wording + "</p>");
+					$("." + meeting.type + " #" + articleID).append("<div class='wording'><p>" + vote.wording + "</p></div>");
 
 
 					
@@ -711,6 +725,13 @@
 	</script>
 	<script>
     AOS.init();
+  </script>
+  <script>
+  	$(function() {
+	//The passed argument has to be at least a empty object or a object with your desired options
+	$("session").overlayScrollbars({ });
+	$(".wording").overlayScrollbars({ });
+});
   </script>
 </body>
 </html>
