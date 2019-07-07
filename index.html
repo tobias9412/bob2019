@@ -16,6 +16,21 @@
 			background-color: AliceBlue ;
 		}
 
+		body {
+			overflow-x: hidden;
+			overflow-y: scroll;
+		}
+
+		.loading {
+			position: fixed;
+			left: 0px;
+			top: 0px;
+			width: 100%;
+			height: 100%;
+			background: url("loading.gif") center no-repeat AliceBlue;
+			z-index: 9999;
+		}
+
 		mark, .mark {
 			background: #CCFF00;
 		}
@@ -353,6 +368,7 @@
 	</style>
 </head>
 <body>
+	<div class="loading"></div>
 	<div class="bar"><li>目錄</li></div>
 	<menu>
 		<ul></ul>
@@ -770,7 +786,7 @@
 			$.each(meeting.vote, function(key, vote){
 				var articleID = vote.votedate.split("/")[2]+vote.votedate.split("/")[1]+vote.votedate.split("/")[0]+vote.votetime.split(":")[0]+vote.votetime.split(":")[1]+vote.votetime.split(":")[2];
 				$("." + meeting.type).append("<div class='seperator'></div>");
-				$("." + meeting.type).append("<article id='" + articleID + "'>"); // data-aos='fade'
+				$("." + meeting.type).append("<article data-aos='fade' id='" + articleID + "'>"); // 
 				$("." + meeting.type + " #" + articleID).append(
 					"<h1>" + vote.motionch+ "</h1>" + 
 					"<h3>" + vote.votedate + "   " + vote.votetime + "</h3>"
@@ -1219,6 +1235,8 @@
 		$("html").click(function(){
 			$(".popup").children().fadeOut(100);
 		});
+
+	$(".loading").fadeOut("slow");
 	});
 
 //////////////////////////////
@@ -1227,7 +1245,7 @@
 	$(".wording").overlayScrollbars({ });
 });*/
 
-//AOS.init();
+AOS.init();
 //////////////////////////////
 
 </script>
