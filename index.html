@@ -4,7 +4,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="aos.js"></script>
 	<link rel="stylesheet" href="aos.css" />
-	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" href="reset.css">
 	<link href="https://fonts.googleapis.com/css?family=Noto+Serif+TC:200,900&display=swap&subset=chinese-traditional" rel="stylesheet"> 
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<link type="text/css" href="OverlayScrollbars.min.css" rel="stylesheet"/>
@@ -1133,15 +1133,16 @@
 		$("#區諾軒, #陳凱欣, #陳健波, #陳沛然, #李國麟, #謝偉銓, #邵家臻, #姚思榮, #廖長江, #陳振英").filter( ".circle" ).css({"background-color": "Grey"});
 	});
 
-	$("menu").hide();
-	$(".popup").children().hide();
 
 	$(document).ready(function() {
-		$(".bar").bind('click', function() {
+		$("menu").hide();
+		$(".popup").children().hide();
+
+		$(".bar").on('click', function() {
 			$("menu").fadeToggle();
 		});
 
-		$("menu li").bind('click', function() {
+		$("menu li").on('click', function() {
 			console.log("clicked");
 			var target = $(this.getAttribute('href'));
 			if( target.length ) {
