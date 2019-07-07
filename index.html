@@ -14,12 +14,12 @@
 			font-family: 'Noto Serif TC', serif;
 			letter-spacing: .1em;
 			background-color: AliceBlue ;
-			overflow: hidden;
+			overflow-x: hidden;
+			overflow-y: scroll;
 		}
 
 		body {
-			overflow-x: hidden;
-			overflow-y: scroll;
+			overflow: hidden;
 		}
 
 		.loading {
@@ -65,7 +65,7 @@
 			float: left;
 			display: block;
 			overflow-y: scroll;
-			width: 30%;
+			width: 40px;
 			height: 100%;
 			background-color: rgba(0,0,0,0.9);
 		}
@@ -90,7 +90,7 @@
 			position: relative;
 			float: right;
 			overflow: hidden;
-			width: 70%;
+			width: 100%;
 		}
 
 		session {
@@ -105,15 +105,6 @@
 			border-left: solid black 2px;
 		}
 
-		.seperator {
-			width: 1px;
-			height: 1000px;
-			display: inline-block;
-			position: absolute;
-			top: 50px;
-			border-left: solid grey 1px;
-		}
-
 		article {
 			vertical-align: top;
 			width: 1024px;
@@ -121,6 +112,7 @@
 			display: inline-block;
 			padding: 10px;
 			margin: 10px 50px;
+			border-right: solid lightgrey 1px;
 		}
 
 		h1 {
@@ -138,14 +130,19 @@
 			line-height: １.2em;
 		}
 
-		#presentbutton, #yesbutton, #nobutton, #absentbutton, #abstainbutton {
+		#presentbutton, #yesbutton, #nobutton, #absentbutton, #abstainbutton, #prev, #next {
 			text-align: center;
 			margin: 1em;
-			float:left;
+			float:left; 
 			font-weight: 900;
 			font-size: 2em;
 			margin: 20px 5px 5px 5px;
 		}
+
+		#presentbutton:hover, #yesbutton:hover, #nobutton:hover, #absentbutton:hover, #abstainbutton:hover, #prev:hover, #next:hover {
+			background: #CCFF00;
+		}
+
 
 		.container{
 			margin: auto;
@@ -158,8 +155,7 @@
 		.wording {
 			position: relative;
 			float: left;
-			overflow-x: hidden;
-			overflow-y: scroll;
+			overflow: auto;
 			width: 90%;
 			height: 400px;
 			margin: 50px 10px auto;
@@ -809,14 +805,13 @@
 <script>
 	$.getJSON( "data.json", function(record){
 		$.each(record.meeting, function(key, meeting){
-			//$("menu").append(
-			//	"<ul class='navigation' href=." + meeting.type + "><li>" + 
-			//	"<span>" + meeting.startdate + "</span><br>" + meeting.motion + "</li></ul>");
+			//$("menu ul").append(
+			//	"<li class='navigation' href=." + meeting.type + "><li>" + 
+			//	"<span>" + meeting.startdate + "</span><br>" + meeting.motion + "</li>");
 			$("main").append("<session class='" + meeting.type + "'>");
 
 			$.each(meeting.vote, function(key, vote){
 				var articleID = vote.votedate.split("/")[2]+vote.votedate.split("/")[1]+vote.votedate.split("/")[0]+vote.votetime.split(":")[0]+vote.votetime.split(":")[1]+vote.votetime.split(":")[2];
-				$("." + meeting.type).append("<div class='seperator'></div>");
 				$("." + meeting.type).append("<article data-aos='fade' id='" + articleID + "'>"); // 
 				$("." + meeting.type + " #" + articleID).append(
 					"<h1>" + vote.motionch+ "</h1>" + 
@@ -840,6 +835,8 @@
 					"<h2 id='nobutton'>反對</h2>" +
 					"<h2 id='abstainbutton'>棄權</h2>" +
 					"<h2 id='absentbutton'>缺席</h2>" +
+					"<h2 id='prev'>上一條</h2>" +
+					"<h2 id='next'>下一條</h2>" +
 					"<div class='circle' id='鄺俊宇'><li>鄺俊宇</li></div>" +
 					"<div class='circle' id='涂謹申'><li>涂謹申</li></div>" + 
 					"<div class='circle' id='許智峯'><li>許智峯</li></div>" +
@@ -1099,8 +1096,30 @@
 					});
 				});
 
+				$(containerPath).children().filter("#prev").click(function(){
+					var target = $("#" + $(this).parent().parent().prev().attr("id"));
+					if( target.length ) {
+						event.preventDefault();
+						target.parent().stop().animate({
+							scrollLeft: (target.offset().left + target.parent().scrollLeft()-52)
+						}, 1000);
+					};
+				});
+
+				$(containerPath).children().filter("#next").click(function(){
+					var target = $("#" + $(this).parent().parent().next().attr("id"));
+					if( target.length ) {
+						event.preventDefault();
+						target.parent().stop().animate({
+							scrollLeft: (target.offset().left + target.parent().scrollLeft()-52)
+						}, 1000);
+					};
+				});
+
 				$("." + meeting.type + " #" + articleID).append("<div class='wording'><p>" + vote.wording + "</p></div>");
 			});
+			$("." + meeting.type).find("article").first().find("#prev").hide();
+			$("." + meeting.type).find("article").last().find("#next").hide();
 		});
 
 		//民建聯
@@ -1172,21 +1191,24 @@
 			var menuW = $("menu").width();
 			var mainW = $("main").width();
 			if (menuW/windowW > mainW/windowW) {
-				$("menu").animate({width: "30%"}, 500);
-				$("main").animate({width: "70%"}, 500);
+				$("menu").animate({width: "40px"}, 500);
+				$("main").animate({width: "100%"}, 500);
 			} else {
-				$("menu").animate({width: "70%"}, 500);
-				$("main").animate({width: "30%"}, 500);
+				$("menu").animate({width: "100%"}, 500);
+				$("main").animate({width: "0%"}, 500);
 			};
 		});
 
 		$("menu li").on('click', function() {
 			var target = $(this.getAttribute('href'));
+
 			if( target.length ) {
 				event.preventDefault();
 				$('html, body').stop().animate({
 					scrollTop: target.offset().top
 				}, 1000);
+				$("menu").animate({width: "40px"}, 500);
+				$("main").animate({width: "100%"}, 500);
 			};
 		});
 
