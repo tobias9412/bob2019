@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="jquery-3.4.1.min.js"></script>
 	<script src="aos.js"></script>
 	<link rel="stylesheet" href="aos.css" />
 	<link rel="stylesheet" href="reset.css">
@@ -58,6 +58,7 @@
 			font-weight: 900;
 			font-size: 1.8em;
 			line-height: 1.2em;
+			list-style-type: none;
 		}
 
  		menu {
@@ -375,36 +376,53 @@
 	<div class="bar"><li>目錄</li></div>
 	<menu>
 		<ul>
-			<li class="navigation" href=".26062019A"><span>26/06/2019</span><br>根據《議事規則》第16(2)條動議的休會待續議案</li>
-			<li class="navigation" href=".05062019A"><span>05/06/2019</span><br>推動醫療改革</li>
-			<li class="navigation" href=".05062019B"><span>05/06/2019</span><br>改善公務員待遇，提升施政效率及推動創意與創新</li>
-			<li class="navigation" href=".29052019A"><span>29/05/2019</span><br>全方位支援60歲至64歲長者</li>
-			<li class="navigation" href=".29052019B"><span>29/05/2019</span><br>對行政長官投不信任票</li>
-			<li class="navigation" href=".22052019A"><span>22/05/2019</span><br>追上科技發展，加強保障市民私隱</li>
-			<li class="navigation" href=".22052019B"><span>22/05/2019</span><br>跟進免遣返聲請統一審核機制有關事宜小組委員會的報告</li>
-			<li class="navigation" href=".15052019A"><span>15/05/2019</span><br>2019年撥款條例草案</li>
-			<li class="navigation" href=".03042019A"><span>03/04/2019</span><br>要求政府解決民生‘三座大山’</li>
-			<li class="navigation" href=".03042019B"><span>03/04/2019</span><br>毋忘六四</li>
-			<li class="navigation" href=".27032019A"><span>27/03/2019</span><br>檢討校本管理的推行</li>
-			<li class="navigation" href=".27032019B"><span>27/03/2019</span><br>要求政府擱置設立中港移交逃犯安排</li>
-			<li class="navigation" href=".20032019A"><span>20/03/2019</span><br>改革移民及入境政策</li>
-			<li class="navigation" href=".20032019B"><span>20/03/2019</span><br>積極拓展粵港澳大灣區的發展機遇</li>
-			<li class="navigation" href=".20022019A"><span>20/02/2019</span><br>根據《立法會(權力及特權)條例》動議的議案</li>
-			<li class="navigation" href=".20022019B"><span>20/02/2019</span><br>活化強制性公積金</li>
-			<li class="navigation" href=".30012019A"><span>30/01/2019</span><br>推動金融科技中心發展，鞏固本港的國際金融中心地位</li>
-			<li class="navigation" href=".30012019B"><span>30/01/2019</span><br>落實多元教育 紓緩學生及家長壓力</li>
-			<li class="navigation" href=".30012019C"><span>30/01/2019</span><br>2018年財務匯報局(修訂)條例草案</li>
-			<li class="navigation" href=".30012019D"><span>30/01/2019</span><br>根據《議事規則》第90(2)條，動議拒絕給予許可的議案</li>
-			<li class="navigation" href=".23012019A"><span>23/01/2019</span><br>根據《中華人民共和國香港特別行政區基本法》第七十三條第(五)項及第(十)項動議的議案</li>
-			<li class="navigation" href=".23012019B"><span>23/01/2019</span><br>立法保障罕見疾病的病人權益</li>
-			<li class="navigation" href=".23012019C"><span>23/01/2019</span><br>創造機遇扶助中小型企業及促進青年人向上流動</li>
-			<li class="navigation" href=".16012019A"><span>16/01/2019</span><br>檢討綜合社會保障援助計劃</li>
-			<li class="navigation" href=".16012019B"><span>16/01/2019</span><br>《2018年選舉法例(雜項修訂)條例草案》 本會採納政制及內地事務局局長根據《議事規則》第58(12)條作出報告的議案</li>
-			<li class="navigation" href=".16012019C"><span>16/01/2019</span><br>《2018年選舉法例(雜項修訂)條例草案》  三讀</li>
-			<li class="navigation" href=".16012019D"><span>16/01/2019</span><br>增加短中期房屋供應，改善公營房屋短缺問題</li>
+		<!--
+		    <li class="navigation" href=".14112018C"><span>14/11/2018</span><br>立法會(權力及特權)條例</li>
+		    <li class="navigation" href=".26062019A"><span>26/06/2019</span><br>根據《議事規則》第16(2)條動議的休會待續議案</li>
+		    <li class="navigation" href=".05062019A"><span>05/06/2019</span><br>推動醫療改革</li>
+		    <li class="navigation" href=".05062019B"><span>05/06/2019</span><br>改善公務員待遇，提升施政效率及推動創意與創新</li>
+		    <li class="navigation" href=".29052019A"><span>29/05/2019</span><br>全方位支援60歲至64歲長者</li>
+		    <li class="navigation" href=".29052019B"><span>29/05/2019</span><br>對行政長官投不信任票</li>
+		    <li class="navigation" href=".22052019A"><span>22/05/2019</span><br>追上科技發展，加強保障市民私隱</li>
+		    <li class="navigation" href=".22052019B"><span>22/05/2019</span><br>跟進免遣返聲請統一審核機制有關事宜小組委員會的報告</li>
+		    <li class="navigation" href=".15052019A"><span>15/05/2019</span><br>2019年撥款條例草案</li>
+		    <li class="navigation" href=".03042019A"><span>03/04/2019</span><br>要求政府解決民生‘三座大山’</li>
+		    <li class="navigation" href=".03042019B"><span>03/04/2019</span><br>毋忘六四</li>
+		    <li class="navigation" href=".27032019A"><span>27/03/2019</span><br>檢討校本管理的推行</li>
+		    <li class="navigation" href=".27032019B"><span>27/03/2019</span><br>要求政府擱置設立中港移交逃犯安排</li>
+		    <li class="navigation" href=".20032019A"><span>20/03/2019</span><br>改革移民及入境政策</li>
+		    <li class="navigation" href=".20032019B"><span>20/03/2019</span><br>積極拓展粵港澳大灣區的發展機遇</li>
+		    <li class="navigation" href=".20022019A"><span>20/02/2019</span><br>根據《立法會(權力及特權)條例》動議的議案</li>
+		    <li class="navigation" href=".20022019B"><span>20/02/2019</span><br>活化強制性公積金</li>
+		    <li class="navigation" href=".30012019A"><span>30/01/2019</span><br>推動金融科技中心發展，鞏固本港的國際金融中心地位</li>
+		    <li class="navigation" href=".30012019B"><span>30/01/2019</span><br>落實多元教育 紓緩學生及家長壓力</li>
+		    <li class="navigation" href=".30012019C"><span>30/01/2019</span><br>2018年財務匯報局(修訂)條例草案</li>
+		    <li class="navigation" href=".30012019D"><span>30/01/2019</span><br>根據《議事規則》第90(2)條，動議拒絕給予許可的議案</li>
+		    <li class="navigation" href=".23012019A"><span>23/01/2019</span><br>根據《中華人民共和國香港特別行政區基本法》第七十三條第(五)項及第(十)項動議的議案</li>
+		    <li class="navigation" href=".23012019B"><span>23/01/2019</span><br>立法保障罕見疾病的病人權益</li>
+		    <li class="navigation" href=".23012019C"><span>23/01/2019</span><br>創造機遇扶助中小型企業及促進青年人向上流動</li>
+		    <li class="navigation" href=".16012019A"><span>16/01/2019</span><br>檢討綜合社會保障援助計劃</li>
+		    <li class="navigation" href=".16012019B"><span>16/01/2019</span><br>《2018年選舉法例(雜項修訂)條例草案》 本會採納政制及內地事務局局長根據《議事規則》第58(12)條作出報告的議案</li>
+		    <li class="navigation" href=".16012019C"><span>16/01/2019</span><br>《2018年選舉法例(雜項修訂)條例草案》  三讀</li>
+		    <li class="navigation" href=".16012019D"><span>16/01/2019</span><br>增加短中期房屋供應，改善公營房屋短缺問題</li>
+		    <li class="navigation" href=".12122018A"><span>12/12/2018</span><br>要求政府在公營醫院內增設性暴力受害人及受虐兒童危機支援中心</li>
+		    <li class="navigation" href=".12122018B"><span>12/12/2018</span><br>全力轉型為綠色低碳智慧型社會及經濟　積極紓緩及應對全球氣候變化</li>
+		    <li class="navigation" href=".12122018C"><span>12/12/2018</span><br>經濟發展事務委員會、財經事務委員會、工商事務委員會及資訊科技及廣播事務委員會聯席事務委員會職務訪問團前往粵港澳大灣區職務考察的報告</li>
+		    <li class="navigation" href=".05122018A"><span>05/12/2018</span><br>研究訂立規管分間樓宇單位的條例</li>
+		    <li class="navigation" href=".05122018B"><span>05/12/2018</span><br>毛孟靜議員對譚文豪議員的「立法保護揭弊者」議案作出的修正案</li>
+		    <li class="navigation" href=".28112018A"><span>28/11/2018</span><br>廢除《稅務(關於收入稅項的雙重課稅寬免和防止逃稅)(印度共和國)令》</li>
+		    <li class="navigation" href=".21222018A"><span>21/11/2018</span><br>研究制訂讓同志締結伴侶關係的政策</li>
+		    <li class="navigation" href=".21222018B"><span>21/11/2018</span><br>重整港鐵公司管治</li>
+		    <li class="navigation" href=".14112018A"><span>14/11/2018</span><br>私營醫療機構條例草案</li>
+		    <li class="navigation" href=".14112018B"><span>14/11/2018</span><br>即將根據《借款條例》動議的擬議決議案的辯論中止待續</li>
+		    <li class="navigation" href=".14112018C"><span>14/11/2018</span><br>立法會(權力及特權)條例</li>
+		    <li class="navigation" href=".07112018A"><span>07/11/2018</span><br>致謝案</li>
+		    <li class="navigation" href=".31102018A"><span>31/10/2018</span><br>根據《中華人民共和國香港特別行政區基本法》第七十三條第(五)項及第(十)項動議的議案</li>
+		    <li class="navigation" href=".24102018A"><span>24/10/2018</span><br>2018年僱傭(修訂)條例草案</li>
+		    <li class="navigation" href=".10102018A"><span>10/10/2018</span><br>修訂《2018年食物攙雜(金屬雜質含量)(修訂)規例》</li>    -->
 		</ul>
 	</menu>
-		<main></main>
+	<main></main>
 	<div class='popup'>
 		<ul id='鄺俊宇'>
 			<li><mark><span>鄺俊宇議員</span></mark></li>
@@ -811,11 +829,11 @@
 <script>
 	$.getJSON( "data.json", function(record){
 		$.each(record.meeting, function(key, meeting){
-			//$("menu ul").append(
-			//	"<li class='navigation' href=." + meeting.type + "><li>" + 
-			//	"<span>" + meeting.startdate + "</span><br>" + meeting.motion + "</li>");
+			////////////////////////////////////////
+			$("menu ul").append("<li class='navigation' href=." + meeting.type + "><li><span>" + meeting.startdate + "</span><br>" + meeting.motion + "</li>");
+			////////////////////////////////////////
 			$("main").append("<session class='" + meeting.type + "'>");
-
+			
 			$.each(meeting.vote, function(key, vote){
 				var articleID = vote.votedate.split("/")[2]+vote.votedate.split("/")[1]+vote.votedate.split("/")[0]+vote.votetime.split(":")[0]+vote.votetime.split(":")[1]+vote.votetime.split(":")[2];
 				$("." + meeting.type).append("<article data-aos='fade' id='" + articleID + "'>"); // 
@@ -1126,6 +1144,11 @@
 			});
 			$("." + meeting.type).find("article").first().find("#prev").hide();
 			$("." + meeting.type).find("article").last().find("#next").hide();
+
+			var date = meeting.startdate.split('/');
+			if (date[0] <= 22 && date[1] <= 11 && date[2] <= 2018) {
+				$("." + meeting.type).find("#陳凱欣").hide();	
+			};
 		});
 
 		//民建聯
@@ -1301,14 +1324,7 @@
 		$(".loading").fadeOut("slow");
 	});
 
-//////////////////////////////
-/*$(function() {
-	$("session").overlayScrollbars({ });
-	$(".wording").overlayScrollbars({ });
-});*/
-
 AOS.init();
-//////////////////////////////
 
 </script>
 </body>
