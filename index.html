@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<script src="jquery-3.4.1.min.js"></script>
-	<script src="aos.js"></script>
-	<link rel="stylesheet" href="aos.css" />
-	<link rel="stylesheet" href="reset.css">
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link href="reset.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Noto+Serif+TC:200,900&display=swap&subset=chinese-traditional" rel="stylesheet"> 
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<link type="text/css" href="OverlayScrollbars.min.css" rel="stylesheet"/>
-	<script type="text/javascript" src="jquery.overlayScrollbars.min.js"></script>
 	<style>
 		html {
 			font-family: 'Noto Serif TC', serif;
 			letter-spacing: .1em;
-			background-color: #f8f8ff  ;
+			background-color: darkgrey  ;
 			overflow-x: hidden;
 			overflow-y: scroll;
 		}
 
 		body {
 			overflow: hidden;
+			background-color: #f8f8ff  ;
 		}
 
 		.loading{
@@ -49,7 +49,7 @@
 			width: 40px;
 			height: 100%;
 			background-color: rgb(204,255,0);
-			z-index: 10;
+			z-index: 30;
 		}
 
 		.bar li {
@@ -68,6 +68,7 @@
 			overflow-y: scroll;
 			width: 100%;
 			height: 100%;
+			z-index: 20;
 			background-color: black;
 		}
 
@@ -109,19 +110,21 @@
 
 		article {
 			vertical-align: top;
-			width: 1024px;
+			width: calc(95vw - 40px);
+			max-width: 1300px;
+			min-width: 700px;
 			height: auto;
 			display: inline-block;
 			padding: 10px;
-			margin: 40px 10px 50px 50px;
+			margin: 50px 10px 50px 50px;
 			border-right: solid lightgrey 1px;
 		}
 
-		title, .expand {
-			display:block;
+		heading, .expand {
+			display:inline;
+			white-space: nowrap; 
 			position: absolute;
 			overflow: visible;
-			white-space: normal;
 			margin: 15px 60px;
 			font-weight: 900;
 			font-size: 1.5em;
@@ -129,6 +132,15 @@
 			margin-bottom: 10px;
 			text-decoration: underline;
 		}
+
+		title {
+			display:inline;
+		    margin: 10px 65px;
+			font-weight: 900;
+			font-size: 4vw;
+			color: rgba(0, 0, 0, 0);
+  			-webkit-text-stroke: 1px #CCFF00;
+  		}
 
 		h1 {
 			display:block;
@@ -167,18 +179,20 @@
 
 
 		.container{
-			margin: auto;
-			clear: both;
 			position: relative;
-			width: 90%;
-			height: 500px;
+			width: calc(95vw - 40px);
+			min-width: 700px;
+			max-width: 1280px;
+			height: 45vw;
+			min-height: 350px;
+			max-height: 640px;
 		}
 
 		.wording {
 			position: relative;
-			float: left;
 			overflow: auto;
 			width: 90%;
+			max-width: 1280px;
 			height: 200px;
 			margin: 50px 10px auto;
 			display:block;
@@ -193,7 +207,6 @@
 		.circle{
 			position:absolute;
 			border-radius: 50%;
-			behavior: url(PIE.htc); /* remove if you don't care about IE8 */			
 			width: 5%;
 			height: 9%;
 			background: transparent;
@@ -201,10 +214,25 @@
 		}
 
 		.circle li {
+  			display: inline-block; 
 			list-style-type:none;
-			margin: 15px 0;
 			font-weight: 900;
-			font-size: .7em;
+			font-size: 1.2vw;
+			color: white;
+			text-align: center;
+			margin-top: 20%;
+   		}
+
+		@media screen and (max-width: 700px) {
+		.circle li {
+		     font-size: 8px;
+		  }
+		}
+
+		@media screen and (min-width: 1280px) {
+		.circle li {
+		     font-size: 14px;
+		  }
 		}
 
 		.popup {
@@ -212,7 +240,7 @@
 			overflow: visible;
 			width: 250px;
 			height: 80px;
-			z-index: 100;
+			z-index: 10;
 		}
 
 		.popup ul {
@@ -389,122 +417,135 @@
 			*/
 
 		/*民建聯*/
-		.circle#程介南, .circle#蔡素玉, .circle#馬力, .circle#曾鈺成, .circle#鍾樹根, .circle#張國鈞, .circle#曾鈺成, .circle#蔣麗芸, .circle#鄭泳舜, .circle#陳婉嫻, .circle#陳鑑林, .circle#黃國健, .circle#柯創盛, .circle#譚耀宗, .circle#張學明, .circle#王國興, .circle#梁志祥, .circle#陳恒鑌, .circle#劉江華, .circle#李國英, .circle#陳克勤, .circle#葛珮帆, .circle#黃容根, .circle#何俊賢, .circle#陳榮燦, .circle#陳國強, .circle#王國興, .circle#潘佩璆, .circle#黃定光, .circle#葉國謙, .circle#劉國勳, .circle#李慧琼, .circle#周浩鼎,  .circle#楊耀忠, .circle#陳鑑林, .circle#蔡素玉 {background-color: Blue;
+		.circle#程介南, .circle#蔡素玉, .circle#馬力, .circle#曾鈺成, .circle#鍾樹根, .circle#張國鈞, .circle#曾鈺成, .circle#蔣麗芸, .circle#鄭泳舜, .circle#陳婉嫻, .circle#陳鑑林, .circle#黃國健, .circle#柯創盛, .circle#譚耀宗, .circle#張學明, .circle#王國興, .circle#梁志祥, .circle#陳恒鑌, .circle#劉江華, .circle#李國英, .circle#陳克勤, .circle#葛珮帆, .circle#黃容根, .circle#何俊賢, .circle#陳榮燦, .circle#陳國強, .circle#王國興, .circle#潘佩璆, .circle#黃定光, .circle#葉國謙, .circle#劉國勳, .circle#李慧琼, .circle#周浩鼎,  .circle#楊耀忠, .circle#陳鑑林, .circle#蔡素玉 {
+			background-color: #0437C5;
 		}
 
 		/*經民聯*/
-		.circle#梁美芬, .circle#劉皇發, .circle#劉業強, .circle#盧偉國, .circle#石禮謙, .circle#林健鋒, .circle#梁君彥, .circle#張華峰, .circle#吳永嘉 {background-color:Aqua;
+		.circle#梁美芬, .circle#劉皇發, .circle#劉業強, .circle#盧偉國, .circle#石禮謙, .circle#林健鋒, .circle#梁君彥, .circle#張華峰, .circle#吳永嘉 {
+			background-color:#04BCDE;
 		}
 
 		/*工聯會*/
-		.circle#王國興, .circle#郭偉强, .circle#陳婉嫻, .circle#黃國健, .circle#王國興, .circle#麥美娟, .circle#鄺志堅, .circle#王國興, .circle#潘佩璆, .circle#葉偉明, .circle#郭偉强, 鄧家彪, .circle#何啟明, .circle#陸頌雄, .circle#陳婉嫻{
-			background-color:Red;
+		.circle#王國興, .circle#郭偉强, .circle#陳婉嫻, .circle#黃國健, .circle#王國興, .circle#麥美娟, .circle#鄺志堅, .circle#王國興, .circle#潘佩璆, .circle#葉偉明, .circle#郭偉强, .circle#鄧家彪, .circle#何啟明, .circle#陸頌雄, .circle#陳婉嫻{
+			background-color:#D40D12;
 		}
 
 		/*自由黨*/
-		.circle#周梁淑怡, .circle#田北俊,.circle#劉皇發, .circle#劉健儀, .circle#易志明, .circle#何承天, .circle#夏佳理, .circle#楊孝華, .circle#田北俊, .circle#林健鋒, .circle#丁午壽, .circle#梁君彥, .circle#梁劉柔芬, .circle#鍾國斌, .circle#周梁淑怡, .circle#方剛, .circle#邵家輝, .circle#張宇人, .circle#劉皇發, .circle#何世柱 {
-			background-color:DarkTurquoise;
+		.circle#周梁淑怡, .circle#田北俊,.circle#劉皇發, .circle#劉健儀, .circle#易志明, .circle#何承天, .circle#夏佳理, .circle#楊孝華, .circle#田北俊, .circle#丁午壽, .circle#梁君彥, .circle#梁劉柔芬, .circle#鍾國斌, .circle#周梁淑怡, .circle#方剛, .circle#邵家輝, .circle#張宇人, .circle#劉皇發, .circle#何世柱 {
+			background-color:#1BBF17;
 		}
 
 
 		/*新民黨*/
 		.circle#葉劉淑儀, .circle#容海恩{
-			background-color:MediumTurquoise ;
+			background-color:#36B1BF ;
 		}
 
 		/*新世紀論壇*/
 		.circle#何君堯, .circle#馬逢國, .circle#吳清輝, .circle#馬逢國{
-			background-color:DarkSlateGray;
+			background-color:#206D77 ;
 		}
 
 		/*創建力量*/
 		.circle#謝偉俊{
-			background-color:DeepPink ;
+			background-color:#E500D6 ;
 		}
 
 		/*實政圓桌*/
 		.circle#田北辰{
-			background-color:Navy ;
+			background-color:#66CAF2 ;
 		}
 
 		/*港九勞工社團聯會*/
 		.circle#李啟明, .circle#李鳳英, .circle#潘兆平{
-			background-color:Green ;
+			background-color:#24A560 ;
 		}
 
 		/*民主黨*/
-		.circle#李柱銘, .circle#楊森, .circle#甘乃威, .circle#單仲偕, .circle#許智峯, .circle#劉千石, .circle#涂謹申, .circle#黃碧雲, .circle#司徒華, .circle#李華明, .circle#胡志偉, .circle#李永達, .circle#何俊仁, .circle#陳偉業, .circle#尹兆堅, .circle#鄭家富, .circle#黃成智, .circle#劉慧卿, .circle#林卓廷, .circle#張文光, .circle#何敏嘉, .circle#羅致光, .circle#單仲偕, .circle#何俊仁, .circle#涂謹申, .circle#鄺俊宇{
-			background-color:GreenYellow ;
+		.circle#李柱銘, .circle#楊森, .circle#甘乃威, .circle#單仲偕, .circle#許智峯, .circle#劉千石, .circle#涂謹申, .circle#黃碧雲, .circle#司徒華, .circle#李華明, .circle#胡志偉, .circle#李永達, .circle#何俊仁, .circle#陳偉業, .circle#尹兆堅, .circle#鄭家富, .circle#黃成智, .circle#劉慧卿, .circle#林卓廷, .circle#張文光, .circle#何敏嘉, .circle#羅致光, .circle#單仲偕, .circle#何俊仁, .circle#涂謹申, .circle#鄺俊宇 {
+			background-color:#6BE850 ;
 		}
 
 		/*公民黨*/
-		.circle#余若薇, .circle#陳淑莊, .circle#陳家洛, .circle#梁家傑, .circle#譚文豪, .circle#湯家驊, .circle#楊岳橋, .circle#毛孟靜, .circle#郭家麒, .circle#譚香文, .circle#吳靄儀, .circle#郭榮鏗, .circle#張超雄{
-			background-color:DarkViolet ;
+		.circle#余若薇, .circle#陳淑莊, .circle#陳家洛, .circle#梁家傑, .circle#譚文豪, .circle#湯家驊, .circle#楊岳橋, .circle#毛孟靜, .circle#郭家麒, .circle#譚香文, .circle#吳靄儀, .circle#郭榮鏗 {
+			background-color:#A361C4 ;
+		}
+
+		/*公共專業聯盟*/
+		.circle#梁繼昌, .circle#莫乃光 {
+			background-color:#22A2F2 ;
+		}
+
+		/*香港教育專業人員協會*/
+ 		.circle#葉建源 {
+			background-color:#2A8732;
 		}
 
 		/*專業議政*/
-		.circle#葉建源, .circle#郭榮鏗, .circle#梁繼昌, .circle#李國麟, .circle#姚松炎, .circle#邵家臻, .circle#莫乃光{
-			background-color:Indigo;
+		.circle#姚松炎 {
+			background-color:#69357F;
 		}
 
 		/*工黨*/
 		.circle#何秀蘭, .circle#李卓人, .circle#張超雄, .circle#張國柱{
-			background-color:Orange;
+			background-color:#F29F05;
 		}
 
 		/*人民力量*/
 		.circle#黃毓民, .circle#陳偉業, .circle#陳志全{
-			background-color:Yellow;
+			background-color: #FFD600;
 		}
 
 		/*街坊工友服務處*/
 		.circle#梁耀忠{
-			background-color:GoldenRod;
+			background-color: #E8AE0C;
 		}
 
 		/*香港本土*/
 		.circle#毛孟靜{
-			background-color:Chocolate ;
+			background-color: #BA6C35 ;
 		}
 
 		/*新民主同盟*/
 		.circle#范國威{
-			background-color:DarkOrange ;
+			background-color: ##F2780C ;
 		}
 
 		/*土地正義聯盟*/
 		.circle#朱凱廸{
-			background-color:Brown ;
+			background-color: #83553C ;
 		}
 
 		/*熱血公民*/
 		.circle#鄭松泰{
-			background-color:Orange;
+			background-color: #F2B705;
 		}
 
 		/*青年新政*/
 		.circle#游蕙禎, .circle#梁頌恆{
-			background-color:OrangeRed;
+			background-color: #FF8066;
 		}
 
 		/*社會民主連線*/ 
 		.circle#梁國雄 {
-			background-color: red;
+			background-color: #BF0426;
 		}
 
 		/*香港眾志*/ 
 		.circle#羅冠聰 {
-		background-color: Turquoise;
+		background-color: #43D993;
 		}
 
 		/*小麗民主教室*/
 		.circle#劉小麗 {
-		background-color: Yellow;
+		background-color: #FBE04C;
+		color: white;
 		}
 
 		/*獨立*/
 		.circle#區諾軒, .circle#陳凱欣, .circle#陳健波, .circle#陳沛然, .circle#李國麟, .circle#謝偉銓, .circle#邵家臻, .circle#姚思榮, .circle#廖長江, .circle#陳振英{
-			background-color:Grey;
+		background-color: #BFBFBF;
 		}
 
 	</style>
@@ -512,7 +553,7 @@
 <body>
 	<div class="loading"></div>
 	<div class="bar"><li>目錄</li></div>
-	<menu><ul></ul></menu>
+	<menu><title>第六屆立法會(2016至2020年)投票紀錄</title><ul></ul></menu>
 	<main></main>
 	<div class='popup'>
 		<ul id='鄺俊宇'>
@@ -912,9 +953,9 @@
 		</ul>
 		<ul id = '陳凱欣'>
 			<li><mark><span>陳凱欣議員</span></mark></li>
-			<li><mark>．地方選區 – 九龍西></mark></li>
-			<li><mark>．無所屬政治團體></mark></li>
-			<li><mark>．立法會議員></mark></li>
+			<li><mark>．地方選區 – 九龍西</mark></li>
+			<li><mark>．無所屬政治團體</mark></li>
+			<li><mark>．立法會議員</mark></li>
 		</ul>
 		<ul id = '梁頌恆'>
 			<li><mark><span>梁頌恆議員</span></mark></li>
@@ -957,11 +998,11 @@
 			var menuW = $("menu").width();
 			var mainW = $("main").width();
 			if (menuW/windowW > mainW/windowW) {
-				$("menu").animate({width: "40px"}, 500);
-				$("main").animate({width: "100%"}, 500);
+				$("menu").animate({width: "40px"}, 500, "easeOutCirc");
+				$("main").animate({width: "100%"}, 500, "easeOutCirc");
 			} else {
-				$("menu").animate({width: "100%"}, 500);
-				$("main").animate({width: "0%"}, 500);
+				$("menu").animate({width: "100%"}, 500, "easeOutCirc");
+				$("main").animate({width: "0%"}, 500, "easeOutCirc");
 			};
 		});
 
@@ -1053,12 +1094,12 @@
 
 		$.ajax({
 			type:"GET", 
-			url:"data.json", 
+			url:"https://tobias9412.github.io/bob2019/data.json", 
 			dataType: "json", 
 			success: function(record){
 			$.each(record.meeting, function(key, meeting){
 				$("main").append("<session class='" + meeting.type + "'>");
-				$("." + meeting.type).append("<title>" + meeting.motion + "</title>")
+				$("." + meeting.type).append("<heading>" + meeting.motion + "</heading>")
 				$("menu ul").append("<li class='navigation' href=." + meeting.type + "><span>" + meeting.startdate + "</span><br>" + meeting.motion + "</li>");
 
 				$.each(meeting.vote, function(key, vote){
@@ -1100,8 +1141,8 @@
 						$('html, body').stop().animate({
 							scrollTop:  $(target).offset().top
 						}, 1000);
-						$("menu").animate({width: "40px"}, 500);
-						$("main").animate({width: "100%"}, 500);
+						$("menu").animate({width: "40px"}, 500, "easeOutCirc");
+						$("main").animate({width: "100%"}, 500, "easeOutCirc");
 					};
 				});
 			}
@@ -1114,7 +1155,7 @@
 	function fetch(x){
 		$.ajax({
 		type:"GET", 
-		url:"data.json", 
+		url:"https://tobias9412.github.io/bob2019/data.json", 
 		dataType: "json", 
 		success: function(record){
 			$.each(record.meeting, function(key, meeting){
@@ -1449,7 +1490,7 @@
 							event.preventDefault();
 							target.parent().stop().animate({
 								scrollLeft: (target.offset().left + target.parent().scrollLeft()-52)
-							}, 1000);
+							}, 1000, "easeOutCubic");
 						};
 					});
 
