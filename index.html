@@ -200,7 +200,8 @@
 
 		.container{
 			position: relative;
-			width: calc(95vw - 40px);
+			margin: auto;
+			width: calc(85vw - 40px);
 			min-width: 700px;
 			max-width: 1280px;
 			height: 45vw;
@@ -237,10 +238,10 @@
   			display: inline-block; 
 			list-style-type:none;
 			font-weight: 900;
-			font-size: 1.2vw;
+			font-size: 1vw;
 			color: white;
 			text-align: center;
-			margin-top: 20%;
+			margin-top: 33%;
    		}
 
 		@media screen and (max-width: 700px) {
@@ -1513,10 +1514,7 @@
 							}, 1000, "easeOutCubic");
 						};
 					});
-
-					if (vote.wording.length) {
-						$("." + meeting.type + " #" + articleID).append("<div class='wording'><p>" + vote.wording + "</p></div>");
-					}
+					$("." + meeting.type + " #" + articleID).append("<div class='wording'><p>" + vote.wording + "</p></div>");
 				});
 				$("." + meeting.type).find("article").first().find("#prev").hide();
 				$("." + meeting.type).find("article").last().find("#next").hide();
