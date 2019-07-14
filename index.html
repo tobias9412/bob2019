@@ -1127,7 +1127,7 @@
 					$("." + meeting.type).append("<article data-aos='fade' id='" + articleID + "'>"); // 
 					$("." + meeting.type + " #" + articleID).append(
 						"<h1>" + vote.motionch+ "</h1>" + 
-						"<h3>" + vote.votedate + "   " + vote.votetime + "</h3>"
+						"<h3>投票時間: " + vote.votedate.split("/")[2] + "年" + vote.votedate.split("/")[1] + "月" + vote.votedate.split("/")[0] + "日 " + vote.votetime.split(":")[0] + "時" + vote.votetime.split(":")[1] + "分" + vote.votetime.split(":")[2] + "秒" + "</h3>"
 					);
 				
 					if (vote.voteseparatemechanism === "Yes") {
@@ -1514,7 +1514,9 @@
 						};
 					});
 
-					$("." + meeting.type + " #" + articleID).append("<div class='wording'><p>" + vote.wording + "</p></div>");
+					if (vote.wording.length) {
+						$("." + meeting.type + " #" + articleID).append("<div class='wording'><p>" + vote.wording + "</p></div>");
+					}
 				});
 				$("." + meeting.type).find("article").first().find("#prev").hide();
 				$("." + meeting.type).find("article").last().find("#next").hide();
